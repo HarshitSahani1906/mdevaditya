@@ -1,0 +1,61 @@
+17:33:48.605 [TestNG] INFO  Resources.base - closing browser
+18:09:30.960 [main] INFO  Resources.base - Driver is initialized
+18:09:31.189 [main] INFO  Resources.base - Window is maximised
+18:09:34.707 [main] INFO  Resources.base - Navigated to Url 
+18:09:34.718 [main] INFO  Resources.base - Driver For MyProfile Page is initialized
+18:09:35.974 [main] INFO  Resources.base - Entered Username
+18:09:36.104 [main] INFO  Resources.base - Entered Password
+18:09:36.202 [main] INFO  Resources.base - Clicked on Login Button
+18:09:36.226 [main] INFO  Resources.base - Initiating Method :' validateNewUser '
+18:09:38.249 [main] INFO  Resources.base - Entered complete Profile Page
+18:09:38.519 [main] INFO  Resources.base - First name has been entered
+18:09:38.758 [main] INFO  Resources.base - Last name has been entered
+18:09:39.926 [main] INFO  Resources.base - Clicked on female radio button
+18:09:39.966 [main] INFO  Resources.base - Email field is non-editable
+18:09:41.398 [main] INFO  Resources.base - For Calender Year and Month are choosen
+18:09:41.673 [main] INFO  Resources.base - For Calender date is choosen
+18:09:41.675 [main] INFO  Resources.base - Selecting organisation at option number :3
+18:09:42.072 [main] INFO  Resources.base - Organisation name clicked
+18:09:42.074 [main] INFO  Resources.base - Selecting Job Function at option number :9
+18:09:45.260 [main] INFO  Resources.base -  Country as : 'India ' is selected 
+18:09:46.726 [main] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+18:09:47.743 [main] INFO  Resources.base - Selecting city at option number :49
+18:09:51.307 [main] INFO  Resources.base -  City as : ' Baberu ' is selected
+18:09:51.307 [main] INFO  Resources.base - Selecting country code at option number :98
+18:09:52.051 [main] INFO  Resources.base -  Country code for India Selected 
+18:09:52.803 [main] INFO  Resources.base - Mobile Number is Updated as: ' 1770724644  '
+18:09:53.578 [main] INFO  Resources.base - My Healine message entered
+18:09:55.384 [main] INFO  Resources.base - toast Message Verified
+18:09:56.579 [main] INFO  Resources.base - Tour Exited
+18:09:57.762 [main] INFO  Resources.base - clicked on MyProfile Logo
+18:09:57.943 [main] INFO  Resources.base - clicked on Logout Button
+18:09:57.952 [main] INFO  Resources.base - Login Url matches after Logout 
+18:10:01.334 [main] INFO  Resources.base - Entered Username
+18:10:01.468 [main] INFO  Resources.base - Entered Password
+18:10:01.561 [main] INFO  Resources.base - Clicked on Login Button
+18:10:02.736 [main] INFO  Resources.base - clicked on checkbox
+18:10:03.363 [main] INFO  Resources.base - Entered complete Profile Page
+18:10:03.541 [main] INFO  Resources.base - First name has been entered
+18:10:03.817 [main] INFO  Resources.base - Last name has been entered
+18:10:04.965 [main] INFO  Resources.base - Clicked on female radio button
+18:10:04.996 [main] INFO  Resources.base - Email field is non-editable
+18:10:06.366 [main] INFO  Resources.base - For Calender Year and Month are choosen
+18:10:06.599 [main] INFO  Resources.base - For Calender date is choosen
+18:10:06.600 [main] INFO  Resources.base - Selecting organisation at option number :11
+18:10:06.929 [main] INFO  Resources.base - Organisation name clicked
+18:10:06.929 [main] INFO  Resources.base - Selecting Job Function at option number :14
+18:10:09.853 [main] INFO  Resources.base -  Country as : 'India ' is selected 
+18:10:11.249 [main] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+18:10:12.264 [main] INFO  Resources.base - Selecting city at option number :91
+18:10:15.730 [main] INFO  Resources.base -  City as : ' Begumabad Budhana ' is selected
+18:10:15.730 [main] INFO  Resources.base - Selecting country code at option number :98
+18:10:16.542 [main] INFO  Resources.base -  Country code for India Selected 
+18:10:17.290 [main] INFO  Resources.base - Mobile Number is Updated as: ' 5937605071  '
+18:10:18.057 [main] INFO  Resources.base - My Healine message entered
+18:10:19.978 [main] INFO  Resources.base - toast Message Verified
+18:10:21.145 [main] INFO  Resources.base - Tour Exited
+18:10:22.273 [main] INFO  Resources.base - clicked on MyProfile Logo
+18:10:22.403 [main] INFO  Resources.base - clicked on Logout Button
+18:10:22.408 [main] INFO  Resources.base - Login Url matches after Logout 
+18:10:25.230 [main] INFO  Resources.base - Test Case is successfully executed
+18:10:25.491 [main] INFO  Resources.base - closing browser

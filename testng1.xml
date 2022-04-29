@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" >
+
+<listeners>
+<listener class-name="encollab.Listeners"/>
+</listeners>
+<!-- Test  
+  <test name= "validating user login" thread-count="5" >
+    <classes>
+      <class name="encollab.LoginPage"/>
+    </classes>
+  </test> 
+  -->
+  
+  <!-- Test  
+  
+  <test name= "validating MyProfilePage" thread-count="5" >
+    <classes>
+      <class name="encollab.MyProfile"/>
+    </classes>
+  </test>
+--> 
+<!-- Test 
+  <test name= "validating NewUser" thread-count="5" >
+    <classes>
+      <class name="encollab.CompleteProfile"/>
+    </classes>
+  </test>
+  -->
+  <!-- Test  -->
+  <test name= "validating DummyCode" thread-count="1" >
+    <classes>
+      <class name="encollab.Dummycode"/>
+    </classes>
+  </test>
+  
+  
+  
+  
+  
+</suite> <!-- Suite -->

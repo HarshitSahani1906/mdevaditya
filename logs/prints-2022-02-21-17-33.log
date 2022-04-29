@@ -1,0 +1,820 @@
+16:58:06.272 [TestNG] INFO  Resources.base - closing browser
+16:58:44.129 [TestNG] INFO  Resources.base - Driver is initialized
+16:58:44.297 [TestNG] INFO  Resources.base - Window is maximised
+16:58:50.657 [TestNG] INFO  Resources.base - Navigated to Url 
+16:58:50.672 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+16:58:50.922 [TestNG] INFO  Resources.base - Entered Username
+16:58:51.048 [TestNG] INFO  Resources.base - Entered Password
+16:58:51.147 [TestNG] INFO  Resources.base - Clicked on Login Button
+16:58:51.190 [TestNG] INFO  Resources.base - Initiating Method :' validateNewUser '
+16:58:53.297 [TestNG] INFO  Resources.base - Entered complete Profile Page
+16:58:53.666 [TestNG] INFO  Resources.base - First name has been entered
+16:58:53.899 [TestNG] INFO  Resources.base - Last name has been entered
+16:58:55.064 [TestNG] INFO  Resources.base - Clicked on female radio button
+16:58:55.109 [TestNG] INFO  Resources.base - Email field is non-editable
+16:58:56.489 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+16:58:56.739 [TestNG] INFO  Resources.base - For Calender date is choosen
+16:58:56.740 [TestNG] INFO  Resources.base - Selecting organisation at option number :16
+16:58:57.091 [TestNG] INFO  Resources.base - Organisation name clicked
+16:58:57.091 [TestNG] INFO  Resources.base - Selecting Job Function at option number :13
+16:58:58.510 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+16:58:59.858 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+16:59:00.872 [TestNG] INFO  Resources.base - Selecting city at option number :663
+16:59:04.389 [TestNG] INFO  Resources.base -  City as : ' Titron ' is selected
+16:59:04.389 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+16:59:05.030 [TestNG] INFO  Resources.base -  Country code for India Selected 
+16:59:05.745 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 5717421758  '
+16:59:06.475 [TestNG] INFO  Resources.base - My Healine message entered
+16:59:08.726 [TestNG] INFO  Resources.base - toast Message Verified
+16:59:10.116 [TestNG] INFO  Resources.base - Tour Exited
+16:59:11.230 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+16:59:11.364 [TestNG] INFO  Resources.base - clicked on Logout Button
+16:59:11.383 [TestNG] INFO  Resources.base - Login Url matches after Logout 
+16:59:15.048 [TestNG] INFO  Resources.base - Entered Username
+16:59:15.156 [TestNG] INFO  Resources.base - Entered Password
+16:59:15.249 [TestNG] INFO  Resources.base - Clicked on Login Button
+16:59:16.447 [TestNG] INFO  Resources.base - clicked on checkbox
+16:59:17.058 [TestNG] INFO  Resources.base - Entered complete Profile Page
+16:59:17.906 [TestNG] INFO  Resources.base - First name has been entered
+16:59:18.090 [TestNG] INFO  Resources.base - Last name has been entered
+16:59:19.355 [TestNG] INFO  Resources.base - Clicked on female radio button
+16:59:19.386 [TestNG] INFO  Resources.base - Email field is non-editable
+16:59:20.753 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+16:59:20.973 [TestNG] INFO  Resources.base - For Calender date is choosen
+16:59:20.973 [TestNG] INFO  Resources.base - Selecting organisation at option number :12
+16:59:21.213 [TestNG] INFO  Resources.base - Organisation name clicked
+16:59:21.213 [TestNG] INFO  Resources.base - Selecting Job Function at option number :13
+16:59:22.356 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+16:59:23.696 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+16:59:24.709 [TestNG] INFO  Resources.base - Selecting city at option number :462
+16:59:28.232 [TestNG] INFO  Resources.base -  City as : ' Mukrampur Khema ' is selected
+16:59:28.232 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+16:59:28.932 [TestNG] INFO  Resources.base -  Country code for India Selected 
+16:59:29.714 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 2218852903  '
+16:59:30.521 [TestNG] INFO  Resources.base - My Healine message entered
+16:59:32.583 [TestNG] INFO  Resources.base - toast Message Verified
+16:59:33.755 [TestNG] INFO  Resources.base - Tour Exited
+16:59:34.881 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+16:59:34.997 [TestNG] INFO  Resources.base - clicked on Logout Button
+16:59:35.009 [TestNG] INFO  Resources.base - Login Url matches after Logout 
+16:59:37.843 [TestNG] INFO  Resources.base - Test Case is successfully executed
+16:59:38.017 [TestNG] INFO  Resources.base - closing browser
+17:47:28.717 [TestNG] INFO  Resources.base - Driver is initialized
+17:47:28.956 [TestNG] INFO  Resources.base - Window is maximised
+17:47:35.179 [TestNG] INFO  Resources.base - Navigated to Url 
+17:47:35.192 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+17:47:35.412 [TestNG] INFO  Resources.base - Entered Username
+17:47:35.532 [TestNG] INFO  Resources.base - Entered Password
+17:47:35.624 [TestNG] INFO  Resources.base - Clicked on Login Button
+17:47:35.666 [TestNG] INFO  Resources.base - Initiating Method :' validateNewUser '
+17:47:37.696 [TestNG] INFO  Resources.base - Entered complete Profile Page
+17:47:37.978 [TestNG] INFO  Resources.base - First name has been entered
+17:47:38.198 [TestNG] INFO  Resources.base - Last name has been entered
+17:47:39.354 [TestNG] INFO  Resources.base - Clicked on female radio button
+17:47:39.391 [TestNG] INFO  Resources.base - Email field is non-editable
+17:47:40.829 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+17:47:41.102 [TestNG] INFO  Resources.base - For Calender date is choosen
+17:47:41.103 [TestNG] INFO  Resources.base - Selecting organisation at option number :1
+17:47:41.374 [TestNG] INFO  Resources.base - Organisation name clicked
+17:47:41.374 [TestNG] INFO  Resources.base - Selecting Job Function at option number :9
+17:47:44.208 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+17:47:45.547 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+17:47:46.561 [TestNG] INFO  Resources.base - Selecting city at option number :56
+17:47:49.940 [TestNG] INFO  Resources.base -  City as : ' Badaun ' is selected
+17:47:49.940 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+17:47:50.520 [TestNG] INFO  Resources.base -  Country code for India Selected 
+17:47:51.236 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 5644287093  '
+17:47:51.963 [TestNG] INFO  Resources.base - My Healine message entered
+17:47:54.047 [TestNG] INFO  Resources.base - toast Message Verified
+17:47:55.206 [TestNG] INFO  Resources.base - Tour Exited
+17:47:56.323 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+17:47:56.457 [TestNG] INFO  Resources.base - clicked on Logout Button
+17:47:56.462 [TestNG] INFO  Resources.base - Login Url matches after Logout 
+17:47:59.852 [TestNG] INFO  Resources.base - Entered Username
+17:47:59.958 [TestNG] INFO  Resources.base - Entered Password
+17:48:00.041 [TestNG] INFO  Resources.base - Clicked on Login Button
+17:48:01.247 [TestNG] INFO  Resources.base - clicked on checkbox
+17:48:01.858 [TestNG] INFO  Resources.base - Entered complete Profile Page
+17:48:02.437 [TestNG] INFO  Resources.base - First name has been entered
+17:48:02.595 [TestNG] INFO  Resources.base - Last name has been entered
+17:48:03.870 [TestNG] INFO  Resources.base - Clicked on female radio button
+17:48:03.901 [TestNG] INFO  Resources.base - Email field is non-editable
+17:48:05.258 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+17:48:05.473 [TestNG] INFO  Resources.base - For Calender date is choosen
+17:48:05.473 [TestNG] INFO  Resources.base - Selecting organisation at option number :14
+17:48:05.739 [TestNG] INFO  Resources.base - Organisation name clicked
+17:48:05.739 [TestNG] INFO  Resources.base - Selecting Job Function at option number :2
+17:48:08.589 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+17:48:09.925 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+17:48:10.941 [TestNG] INFO  Resources.base - Selecting city at option number :32
+17:48:14.359 [TestNG] INFO  Resources.base -  City as : ' Armapur Estate ' is selected
+17:48:14.359 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+17:48:14.994 [TestNG] INFO  Resources.base -  Country code for India Selected 
+17:48:15.723 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 4889092857  '
+17:48:16.484 [TestNG] INFO  Resources.base - My Healine message entered
+17:48:18.266 [TestNG] INFO  Resources.base - toast Message Verified
+17:48:19.409 [TestNG] INFO  Resources.base - Tour Exited
+17:48:20.755 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+17:48:20.858 [TestNG] INFO  Resources.base - clicked on Logout Button
+17:48:20.864 [TestNG] INFO  Resources.base - Login Url matches after Logout 
+17:48:23.038 [TestNG] INFO  Resources.base - Test Case is successfully executed
+17:48:23.158 [TestNG] INFO  Resources.base - closing browser
+20:59:31.819 [main] INFO  Resources.base - Intiating Method :' loginPageTestCredentials : with correct user credentials '
+20:59:35.792 [main] INFO  Resources.base - Driver is initialized
+20:59:36.070 [main] INFO  Resources.base - Window is maximised
+20:59:42.388 [main] INFO  Resources.base - Navigated to Url 
+20:59:42.397 [main] INFO  Resources.base - Driver For Login Page is initialized
+20:59:42.405 [main] INFO  Resources.base - Dataset choice has been fetched
+20:59:42.646 [main] INFO  Resources.base - Username entered as  automation
+20:59:42.774 [main] INFO  Resources.base - password  entered as  automation
+20:59:42.864 [main] INFO  Resources.base - Clicked on login
+20:59:44.353 [main] INFO  Resources.base - Navigated to correct url ie. https://dev-adityabirla.emcollab.com/#/hub
+20:59:46.592 [main] INFO  Resources.base - Intiating Method :' loginPageTestCredentials: with correct UserName & wrong Password '
+20:59:48.780 [main] INFO  Resources.base - Driver is initialized
+20:59:48.973 [main] INFO  Resources.base - Window is maximised
+20:59:54.635 [main] INFO  Resources.base - Navigated to Url 
+20:59:54.644 [main] INFO  Resources.base - Driver For Login Page is initialized
+20:59:54.644 [main] INFO  Resources.base - Dataset choice has been fetched
+20:59:54.872 [main] INFO  Resources.base - Username entered as  automation
+20:59:54.996 [main] INFO  Resources.base - password  entered as  1234567
+20:59:55.077 [main] INFO  Resources.base - Clicked on login
+20:59:56.099 [main] INFO  Resources.base - Navigated to correct url ie. https://dev-adityabirla.emcollab.com/#
+20:59:56.100 [main] INFO  Resources.base - Error Message matched 
+20:59:56.100 [main] INFO  Resources.base - Toast message Verified
+20:59:58.354 [main] INFO  Resources.base - Intiating Method :' loginPageTestCredentials: with wrong UserName & correct Password '
+21:00:00.506 [main] INFO  Resources.base - Driver is initialized
+21:00:00.653 [main] INFO  Resources.base - Window is maximised
+21:00:06.937 [main] INFO  Resources.base - Navigated to Url 
+21:00:06.942 [main] INFO  Resources.base - Driver For Login Page is initialized
+21:00:06.942 [main] INFO  Resources.base - Dataset choice has been fetched
+21:00:07.102 [main] INFO  Resources.base - Username entered as  hs001
+21:00:07.217 [main] INFO  Resources.base - password  entered as  automation
+21:00:07.299 [main] INFO  Resources.base - Clicked on login
+21:00:08.256 [main] INFO  Resources.base - Navigated to correct url ie. https://dev-adityabirla.emcollab.com/#
+21:00:08.256 [main] INFO  Resources.base - Error Message matched 
+21:00:08.257 [main] INFO  Resources.base - Toast message Verified
+21:00:10.503 [main] INFO  Resources.base - Intiating Method :' loginPageTestCredentials: with wrong UserName & wrong Password '
+21:00:12.588 [main] INFO  Resources.base - Driver is initialized
+21:00:12.758 [main] INFO  Resources.base - Window is maximised
+21:00:18.226 [main] INFO  Resources.base - Navigated to Url 
+21:00:18.235 [main] INFO  Resources.base - Driver For Login Page is initialized
+21:00:18.235 [main] INFO  Resources.base - Dataset choice has been fetched
+21:00:18.421 [main] INFO  Resources.base - Username entered as  hs001
+21:00:18.536 [main] INFO  Resources.base - password  entered as  1234567
+21:00:18.619 [main] INFO  Resources.base - Clicked on login
+21:00:19.573 [main] INFO  Resources.base - Navigated to correct url ie. https://dev-adityabirla.emcollab.com/#
+21:00:19.573 [main] INFO  Resources.base - Error Message matched 
+21:00:19.573 [main] INFO  Resources.base - Toast message Verified
+21:00:24.607 [main] INFO  Resources.base - Driver is initialized
+21:00:24.774 [main] INFO  Resources.base - Window is maximised
+21:00:28.980 [main] INFO  Resources.base - Navigated to Url 
+21:00:28.986 [main] INFO  Resources.base - Driver For MyProfile Page is initialized
+21:00:29.186 [main] INFO  Resources.base - Entered Username
+21:00:29.298 [main] INFO  Resources.base - Entered Password
+21:00:29.377 [main] INFO  Resources.base - Clicked on Login Button
+21:00:30.806 [main] INFO  Resources.base - clicked on MyProfile Logo
+21:00:31.043 [main] INFO  Resources.base - Clicked on MyProfile button
+21:00:31.055 [main] INFO  Resources.base - Fetching MyProfilePage
+21:00:31.057 [main] INFO  Resources.base - Intiating Method :' updateUsername with user name of 90 charecters '
+21:00:31.058 [main] INFO  Resources.base - Dataset choice has been fetched
+21:00:32.950 [main] INFO  Resources.base - First name has been entered
+21:00:33.656 [main] INFO  Resources.base - Last name has been entered
+21:00:34.688 [main] INFO  Resources.base - toast Message Verified
+21:00:34.688 [main] INFO  Resources.base - Save Button has been clicked 
+21:00:34.691 [main] INFO  Resources.base - Intiating Method :' updateUsername with user name of >90 charecters '
+21:00:34.691 [main] INFO  Resources.base - Dataset choice has been fetched
+21:00:36.252 [main] INFO  Resources.base - First name has been entered as:HarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarry
+21:00:36.826 [main] INFO  Resources.base - Last name has been entered as:SahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahani
+21:00:36.990 [main] INFO  Resources.base - Save Button is disabled 
+21:00:37.660 [main] INFO  Resources.base - toast Message Verified
+21:00:37.660 [main] INFO  Resources.base - Save Button has been clicked 
+21:00:37.666 [main] INFO  Resources.base - Intiating Method :' updateUsername with null charecters '
+21:00:37.666 [main] INFO  Resources.base - Dataset choice has been fetched
+21:00:38.778 [main] INFO  Resources.base - First name has been entered as:
+21:00:38.892 [main] INFO  Resources.base - Last name has been entered as:
+21:00:38.979 [main] INFO  Resources.base - Save Button is disabled 
+21:00:39.388 [main] INFO  Resources.base - toast Message Verified
+21:00:39.388 [main] INFO  Resources.base - Save Button has been clicked 
+21:00:39.391 [main] INFO  Resources.base - Intiating Method :' updateUsername with special case charecters charecters '
+21:00:39.391 [main] INFO  Resources.base - Dataset choice has been fetched
+21:00:40.568 [main] INFO  Resources.base - First name has been entered as:@#$%^
+21:00:40.767 [main] INFO  Resources.base - Last name has been entered as:@#$%^
+21:00:40.860 [main] INFO  Resources.base - Save Button is disabled 
+21:00:40.860 [main] INFO  Resources.base - FirstName and Last name do not support special charecters in respective fields
+21:00:41.313 [main] INFO  Resources.base - toast Message Verified
+21:00:41.313 [main] INFO  Resources.base - Save Button has been clicked 
+21:00:41.317 [main] INFO  Resources.base - Intiating Method :' updateGender '
+21:00:41.447 [main] INFO  Resources.base - Clicked on female radio button
+21:00:41.608 [main] INFO  Resources.base - toast Message Verified
+21:00:42.285 [main] INFO  Resources.base - Clicked on Male radio button
+21:00:42.498 [main] INFO  Resources.base - toast Message Verified
+21:00:43.006 [main] INFO  Resources.base - Intiating Method :' validateCalender '
+21:00:44.585 [main] INFO  Resources.base - For Calender Year and Month are choosen
+21:00:44.799 [main] INFO  Resources.base - For Calender date is choosen
+21:00:44.901 [main] INFO  Resources.base - toast Message Verified
+21:00:44.905 [main] INFO  Resources.base - Intiating Method :' validateEmailField '
+21:00:44.993 [main] INFO  Resources.base - Email field is non-editable
+21:00:44.996 [main] INFO  Resources.base - Intiating Method :' updateJobFunction '
+21:00:45.004 [main] INFO  Resources.base - Selecting Job Function at option number :7
+21:00:45.722 [main] INFO  Resources.base - toast Message Verified
+21:00:45.722 [main] INFO  Resources.base -  Job Function name clicked
+21:00:46.237 [main] INFO  Resources.base - Intiating Method :' updateOrganization '
+21:00:46.237 [main] INFO  Resources.base - Selecting organnisation at option number :5
+21:00:46.691 [main] INFO  Resources.base - toast Message Verified
+21:00:46.692 [main] INFO  Resources.base - Orgnisation name clicked
+21:00:47.205 [main] INFO  Resources.base - Intiating Method :' updateContactInfo '
+21:00:47.419 [main] INFO  Resources.base - Selecting country code at option number :98
+21:00:48.139 [main] INFO  Resources.base -  Country code for India Selected 
+21:00:51.356 [main] INFO  Resources.base - Mobile Number is Updated as: ' 5886186094  '
+21:00:53.292 [main] INFO  Resources.base - toast Message Verified
+21:00:53.296 [main] INFO  Resources.base - Intiating Method :' updateLocation '
+21:00:54.074 [main] INFO  Resources.base -  Country as : 'India ' is seleceted 
+21:00:55.378 [main] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+21:00:56.392 [main] INFO  Resources.base - Selecting city at option number :417
+21:00:57.796 [main] INFO  Resources.base -  City as : ' Majhauli Raj ' is selected
+21:00:58.788 [main] INFO  Resources.base - toast Message Verified
+21:00:59.293 [main] INFO  Resources.base - Intiating Method :' updateWelcomeMessage '
+21:01:01.615 [main] INFO  Resources.base - toast Message Verified
+21:01:01.617 [main] INFO  Resources.base - My Healine message entered
+21:01:02.574 [main] INFO  Resources.base - toast Message Verified
+21:01:02.981 [main] INFO  Resources.base - closing browser
+21:01:05.543 [main] INFO  Resources.base - Driver is initialized
+21:01:05.729 [main] INFO  Resources.base - Window is maximised
+21:01:10.016 [main] INFO  Resources.base - Navigated to Url 
+21:01:10.021 [main] INFO  Resources.base - Driver For MyProfile Page is initialized
+21:01:10.217 [main] INFO  Resources.base - Entered Username
+21:01:10.329 [main] INFO  Resources.base - Entered Password
+21:01:10.410 [main] INFO  Resources.base - Clicked on Login Button
+21:01:10.411 [main] INFO  Resources.base - Initiating Method :' validateNewUser '
+21:01:12.508 [main] INFO  Resources.base - Entered complete Profile Page
+21:01:12.738 [main] INFO  Resources.base - First name has been entered
+21:01:12.912 [main] INFO  Resources.base - Last name has been entered
+21:01:14.074 [main] INFO  Resources.base - Clicked on female radio button
+21:01:14.103 [main] INFO  Resources.base - Email field is non-editable
+21:01:15.453 [main] INFO  Resources.base - For Calender Year and Month are choosen
+21:01:15.687 [main] INFO  Resources.base - For Calender date is choosen
+21:01:15.687 [main] INFO  Resources.base - Selecting organisation at option number :10
+21:01:15.993 [main] INFO  Resources.base - Organisation name clicked
+21:01:15.994 [main] INFO  Resources.base - Selecting Job Function at option number :3
+21:01:18.946 [main] INFO  Resources.base -  Country as : 'India ' is selected 
+21:01:20.267 [main] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+21:01:21.279 [main] INFO  Resources.base - Selecting city at option number :374
+21:01:24.650 [main] INFO  Resources.base -  City as : ' Konch ' is selected
+21:01:24.650 [main] INFO  Resources.base - Selecting country code at option number :98
+21:01:25.234 [main] INFO  Resources.base -  Country code for India Selected 
+21:01:25.957 [main] INFO  Resources.base - Mobile Number is Updated as: ' 1962547688  '
+21:01:26.680 [main] INFO  Resources.base - My Healine message entered
+21:01:28.884 [main] INFO  Resources.base - toast Message Verified
+21:01:30.051 [main] INFO  Resources.base - Tour Exited
+21:01:31.156 [main] INFO  Resources.base - clicked on MyProfile Logo
+21:01:31.273 [main] INFO  Resources.base - clicked on Logout Button
+21:01:31.278 [main] INFO  Resources.base - Login Url matches after Logout 
+21:01:33.558 [main] INFO  Resources.base - Entered Username
+21:01:33.672 [main] INFO  Resources.base - Entered Password
+21:01:33.749 [main] INFO  Resources.base - Clicked on Login Button
+21:01:34.930 [main] INFO  Resources.base - clicked on checkbox
+21:01:35.541 [main] INFO  Resources.base - Entered complete Profile Page
+21:01:36.044 [main] INFO  Resources.base - First name has been entered
+21:01:36.197 [main] INFO  Resources.base - Last name has been entered
+21:01:37.462 [main] INFO  Resources.base - Clicked on female radio button
+21:01:37.494 [main] INFO  Resources.base - Email field is non-editable
+21:01:38.837 [main] INFO  Resources.base - For Calender Year and Month are choosen
+21:01:39.043 [main] INFO  Resources.base - For Calender date is choosen
+21:01:39.043 [main] INFO  Resources.base - Selecting organisation at option number :9
+21:01:39.313 [main] INFO  Resources.base - Organisation name clicked
+21:01:39.313 [main] INFO  Resources.base - Selecting Job Function at option number :8
+21:01:42.149 [main] INFO  Resources.base -  Country as : 'India ' is selected 
+21:01:43.464 [main] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+21:01:44.479 [main] INFO  Resources.base - Selecting city at option number :443
+21:01:47.860 [main] INFO  Resources.base -  City as : ' Milak ' is selected
+21:01:47.860 [main] INFO  Resources.base - Selecting country code at option number :98
+21:01:48.444 [main] INFO  Resources.base -  Country code for India Selected 
+21:01:49.158 [main] INFO  Resources.base - Mobile Number is Updated as: ' 3421382675  '
+21:01:49.890 [main] INFO  Resources.base - My Healine message entered
+21:01:52.032 [main] INFO  Resources.base - toast Message Verified
+21:01:53.195 [main] INFO  Resources.base - Tour Exited
+21:01:54.316 [main] INFO  Resources.base - clicked on MyProfile Logo
+21:01:54.431 [main] INFO  Resources.base - clicked on Logout Button
+21:01:54.436 [main] INFO  Resources.base - Login Url matches after Logout 
+21:01:56.471 [main] INFO  Resources.base - Test Case is successfully executed
+21:01:56.610 [main] INFO  Resources.base - closing browser
+21:01:59.246 [main] INFO  Resources.base - Driver is initialized
+21:01:59.415 [main] INFO  Resources.base - Window is maximised
+21:02:03.628 [main] INFO  Resources.base - Navigated to Url 
+21:02:03.900 [main] INFO  Resources.base - Entered Username
+21:08:36.322 [TestNG] INFO  Resources.base - Driver is initialized
+21:08:36.532 [TestNG] INFO  Resources.base - Window is maximised
+21:08:42.824 [TestNG] INFO  Resources.base - Navigated to Url 
+21:08:42.832 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+21:08:43.033 [TestNG] INFO  Resources.base - Entered Username
+21:08:43.148 [TestNG] INFO  Resources.base - Entered Password
+21:08:43.229 [TestNG] INFO  Resources.base - Clicked on Login Button
+21:08:43.276 [TestNG] INFO  Resources.base - Initiating Method :' validateNewUser '
+21:08:45.520 [TestNG] INFO  Resources.base - clicked on checkbox
+21:08:46.140 [TestNG] INFO  Resources.base - Entered complete Profile Page
+21:08:47.475 [TestNG] INFO  Resources.base - First name has been entered
+21:08:47.849 [TestNG] INFO  Resources.base - Last name has been entered
+21:08:49.056 [TestNG] INFO  Resources.base - Clicked on female radio button
+21:08:49.092 [TestNG] INFO  Resources.base - Email field is non-editable
+21:08:50.477 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+21:08:50.710 [TestNG] INFO  Resources.base - For Calender date is choosen
+21:08:50.712 [TestNG] INFO  Resources.base - Selecting organisation at option number :3
+21:08:50.927 [TestNG] INFO  Resources.base - Organisation name clicked
+21:08:50.927 [TestNG] INFO  Resources.base - Selecting Job Function at option number :0
+21:08:53.923 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+21:08:55.238 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+21:08:56.255 [TestNG] INFO  Resources.base - Selecting city at option number :200
+21:08:59.751 [TestNG] INFO  Resources.base -  City as : ' Faizganj ' is selected
+21:08:59.751 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+21:09:00.338 [TestNG] INFO  Resources.base -  Country code for India Selected 
+21:09:01.127 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 2749277137  '
+21:09:01.964 [TestNG] INFO  Resources.base - My Healine message entered
+21:09:04.492 [TestNG] INFO  Resources.base - toast Message Verified
+21:09:06.145 [TestNG] INFO  Resources.base - Tour Exited
+21:09:07.280 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+21:09:07.404 [TestNG] INFO  Resources.base - clicked on Logout Button
+21:09:07.411 [TestNG] INFO  Resources.base - Login Url matches after Logout 
+21:09:10.883 [TestNG] INFO  Resources.base - Test Case is successfully executed
+21:09:11.018 [TestNG] INFO  Resources.base - closing browser
+21:09:54.944 [main] INFO  Resources.base - Intiating Method :' loginPageTestCredentials : with correct user credentials '
+21:09:58.452 [main] INFO  Resources.base - Driver is initialized
+21:09:58.679 [main] INFO  Resources.base - Window is maximised
+21:10:06.201 [main] INFO  Resources.base - Navigated to Url 
+21:10:06.211 [main] INFO  Resources.base - Driver For Login Page is initialized
+21:10:06.218 [main] INFO  Resources.base - Dataset choice has been fetched
+21:10:06.468 [main] INFO  Resources.base - Username entered as  automation
+21:10:06.615 [main] INFO  Resources.base - password  entered as  automation
+21:10:06.754 [main] INFO  Resources.base - Clicked on login
+21:10:07.402 [main] INFO  Resources.base - Navigated to correct url ie. https://dev-adityabirla.emcollab.com/#/hub
+21:10:09.755 [main] INFO  Resources.base - Intiating Method :' loginPageTestCredentials: with correct UserName & wrong Password '
+21:10:11.895 [main] INFO  Resources.base - Driver is initialized
+21:10:12.067 [main] INFO  Resources.base - Window is maximised
+21:10:18.395 [main] INFO  Resources.base - Navigated to Url 
+21:10:18.402 [main] INFO  Resources.base - Driver For Login Page is initialized
+21:10:18.402 [main] INFO  Resources.base - Dataset choice has been fetched
+21:10:18.600 [main] INFO  Resources.base - Username entered as  automation
+21:10:18.726 [main] INFO  Resources.base - password  entered as  1234567
+21:10:18.819 [main] INFO  Resources.base - Clicked on login
+21:10:19.829 [main] INFO  Resources.base - Navigated to correct url ie. https://dev-adityabirla.emcollab.com/#
+21:10:19.829 [main] INFO  Resources.base - Error Message matched 
+21:10:19.829 [main] INFO  Resources.base - Toast message Verified
+21:10:22.083 [main] INFO  Resources.base - Intiating Method :' loginPageTestCredentials: with wrong UserName & correct Password '
+21:10:24.159 [main] INFO  Resources.base - Driver is initialized
+21:10:24.345 [main] INFO  Resources.base - Window is maximised
+21:10:28.885 [main] INFO  Resources.base - Navigated to Url 
+21:10:28.894 [main] INFO  Resources.base - Driver For Login Page is initialized
+21:10:28.894 [main] INFO  Resources.base - Dataset choice has been fetched
+21:10:29.076 [main] INFO  Resources.base - Username entered as  hs001
+21:10:29.211 [main] INFO  Resources.base - password  entered as  automation
+21:10:29.303 [main] INFO  Resources.base - Clicked on login
+21:10:30.304 [main] INFO  Resources.base - Navigated to correct url ie. https://dev-adityabirla.emcollab.com/#
+21:10:30.304 [main] INFO  Resources.base - Error Message matched 
+21:10:30.304 [main] INFO  Resources.base - Toast message Verified
+21:10:32.530 [main] INFO  Resources.base - Intiating Method :' loginPageTestCredentials: with wrong UserName & wrong Password '
+21:10:34.425 [main] INFO  Resources.base - Driver is initialized
+21:10:34.603 [main] INFO  Resources.base - Window is maximised
+21:10:40.154 [main] INFO  Resources.base - Navigated to Url 
+21:10:40.160 [main] INFO  Resources.base - Driver For Login Page is initialized
+21:10:40.160 [main] INFO  Resources.base - Dataset choice has been fetched
+21:10:40.332 [main] INFO  Resources.base - Username entered as  hs001
+21:10:40.455 [main] INFO  Resources.base - password  entered as  1234567
+21:10:40.545 [main] INFO  Resources.base - Clicked on login
+21:10:41.505 [main] INFO  Resources.base - Navigated to correct url ie. https://dev-adityabirla.emcollab.com/#
+21:10:41.505 [main] INFO  Resources.base - Error Message matched 
+21:10:41.505 [main] INFO  Resources.base - Toast message Verified
+21:10:46.622 [main] INFO  Resources.base - Driver is initialized
+21:10:46.837 [main] INFO  Resources.base - Window is maximised
+21:10:51.200 [main] INFO  Resources.base - Navigated to Url 
+21:10:51.208 [main] INFO  Resources.base - Driver For MyProfile Page is initialized
+21:10:51.440 [main] INFO  Resources.base - Entered Username
+21:10:51.582 [main] INFO  Resources.base - Entered Password
+21:10:51.678 [main] INFO  Resources.base - Clicked on Login Button
+21:10:53.239 [main] INFO  Resources.base - clicked on MyProfile Logo
+21:10:53.412 [main] INFO  Resources.base - Clicked on MyProfile button
+21:10:53.429 [main] INFO  Resources.base - Fetching MyProfilePage
+21:10:53.433 [main] INFO  Resources.base - Intiating Method :' updateUsername with user name of 90 charecters '
+21:10:53.433 [main] INFO  Resources.base - Dataset choice has been fetched
+21:10:55.410 [main] INFO  Resources.base - First name has been entered
+21:10:56.047 [main] INFO  Resources.base - Last name has been entered
+21:10:57.113 [main] INFO  Resources.base - toast Message Verified
+21:10:57.113 [main] INFO  Resources.base - Save Button has been clicked 
+21:10:57.117 [main] INFO  Resources.base - Intiating Method :' updateUsername with user name of >90 charecters '
+21:10:57.117 [main] INFO  Resources.base - Dataset choice has been fetched
+21:10:58.726 [main] INFO  Resources.base - First name has been entered as:HarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarry
+21:10:59.286 [main] INFO  Resources.base - Last name has been entered as:SahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahani
+21:10:59.453 [main] INFO  Resources.base - Save Button is disabled 
+21:11:00.023 [main] INFO  Resources.base - toast Message Verified
+21:11:00.024 [main] INFO  Resources.base - Save Button has been clicked 
+21:11:00.027 [main] INFO  Resources.base - Intiating Method :' updateUsername with null charecters '
+21:11:00.028 [main] INFO  Resources.base - Dataset choice has been fetched
+21:11:01.151 [main] INFO  Resources.base - First name has been entered as:
+21:11:01.251 [main] INFO  Resources.base - Last name has been entered as:
+21:11:01.337 [main] INFO  Resources.base - Save Button is disabled 
+21:11:01.766 [main] INFO  Resources.base - toast Message Verified
+21:11:01.766 [main] INFO  Resources.base - Save Button has been clicked 
+21:11:01.769 [main] INFO  Resources.base - Intiating Method :' updateUsername with special case charecters charecters '
+21:11:01.769 [main] INFO  Resources.base - Dataset choice has been fetched
+21:11:02.945 [main] INFO  Resources.base - First name has been entered as:@#$%^
+21:11:03.104 [main] INFO  Resources.base - Last name has been entered as:@#$%^
+21:11:03.235 [main] INFO  Resources.base - Save Button is disabled 
+21:11:03.235 [main] INFO  Resources.base - FirstName and Last name do not support special charecters in respective fields
+21:11:03.742 [main] INFO  Resources.base - toast Message Verified
+21:11:03.742 [main] INFO  Resources.base - Save Button has been clicked 
+21:11:03.746 [main] INFO  Resources.base - Intiating Method :' updateGender '
+21:11:03.862 [main] INFO  Resources.base - Clicked on female radio button
+21:11:04.021 [main] INFO  Resources.base - toast Message Verified
+21:11:04.684 [main] INFO  Resources.base - Clicked on Male radio button
+21:11:04.939 [main] INFO  Resources.base - toast Message Verified
+21:11:05.447 [main] INFO  Resources.base - Intiating Method :' validateCalender '
+21:11:07.012 [main] INFO  Resources.base - For Calender Year and Month are choosen
+21:11:07.226 [main] INFO  Resources.base - For Calender date is choosen
+21:11:07.333 [main] INFO  Resources.base - toast Message Verified
+21:11:07.336 [main] INFO  Resources.base - Intiating Method :' validateEmailField '
+21:11:07.416 [main] INFO  Resources.base - Email field is non-editable
+21:11:07.419 [main] INFO  Resources.base - Intiating Method :' updateJobFunction '
+21:11:07.420 [main] INFO  Resources.base - Selecting Job Function at option number :10
+21:11:08.107 [main] INFO  Resources.base - toast Message Verified
+21:11:08.108 [main] INFO  Resources.base -  Job Function name clicked
+21:11:08.615 [main] INFO  Resources.base - Intiating Method :' updateOrganization '
+21:11:08.615 [main] INFO  Resources.base - Selecting organnisation at option number :9
+21:11:09.112 [main] INFO  Resources.base - toast Message Verified
+21:11:09.112 [main] INFO  Resources.base - Orgnisation name clicked
+21:11:09.620 [main] INFO  Resources.base - Intiating Method :' updateContactInfo '
+21:11:09.723 [main] INFO  Resources.base - Selecting country code at option number :98
+21:11:10.399 [main] INFO  Resources.base -  Country code for India Selected 
+21:11:13.613 [main] INFO  Resources.base - Mobile Number is Updated as: ' 7497194429  '
+21:11:15.617 [main] INFO  Resources.base - toast Message Verified
+21:11:15.620 [main] INFO  Resources.base - Intiating Method :' updateLocation '
+21:11:16.293 [main] INFO  Resources.base -  Country as : 'India ' is seleceted 
+21:11:17.616 [main] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+21:11:18.630 [main] INFO  Resources.base - Selecting city at option number :668
+21:11:19.857 [main] INFO  Resources.base -  City as : ' Tundla Railway Colony ' is selected
+21:11:20.827 [main] INFO  Resources.base - toast Message Verified
+21:11:21.333 [main] INFO  Resources.base - Intiating Method :' updateWelcomeMessage '
+21:11:23.675 [main] INFO  Resources.base - toast Message Verified
+21:11:23.675 [main] INFO  Resources.base - My Healine message entered
+21:11:24.657 [main] INFO  Resources.base - toast Message Verified
+21:11:25.211 [main] INFO  Resources.base - closing browser
+21:11:28.076 [main] INFO  Resources.base - Driver is initialized
+21:11:28.327 [main] INFO  Resources.base - Window is maximised
+21:11:32.771 [main] INFO  Resources.base - Navigated to Url 
+21:11:32.775 [main] INFO  Resources.base - Driver For MyProfile Page is initialized
+21:11:32.995 [main] INFO  Resources.base - Entered Username
+21:11:33.185 [main] INFO  Resources.base - Entered Password
+21:11:33.332 [main] INFO  Resources.base - Clicked on Login Button
+21:11:33.334 [main] INFO  Resources.base - Initiating Method :' validateNewUser '
+21:11:35.487 [main] INFO  Resources.base - clicked on checkbox
+21:11:36.094 [main] INFO  Resources.base - Entered complete Profile Page
+21:11:36.786 [main] INFO  Resources.base - First name has been entered
+21:11:36.959 [main] INFO  Resources.base - Last name has been entered
+21:11:38.144 [main] INFO  Resources.base - Clicked on female radio button
+21:11:38.176 [main] INFO  Resources.base - Email field is non-editable
+21:11:39.550 [main] INFO  Resources.base - For Calender Year and Month are choosen
+21:11:39.772 [main] INFO  Resources.base - For Calender date is choosen
+21:11:39.773 [main] INFO  Resources.base - Selecting organisation at option number :16
+21:11:40.074 [main] INFO  Resources.base - Organisation name clicked
+21:11:40.074 [main] INFO  Resources.base - Selecting Job Function at option number :13
+21:11:42.980 [main] INFO  Resources.base -  Country as : 'India ' is selected 
+21:11:44.315 [main] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+21:11:45.325 [main] INFO  Resources.base - Selecting city at option number :383
+21:11:48.672 [main] INFO  Resources.base -  City as : ' Kunda ' is selected
+21:11:48.672 [main] INFO  Resources.base - Selecting country code at option number :98
+21:11:49.339 [main] INFO  Resources.base -  Country code for India Selected 
+21:11:50.057 [main] INFO  Resources.base - Mobile Number is Updated as: ' 1297448424  '
+21:11:50.787 [main] INFO  Resources.base - My Healine message entered
+21:11:52.807 [main] INFO  Resources.base - toast Message Verified
+21:11:53.971 [main] INFO  Resources.base - Tour Exited
+21:11:55.077 [main] INFO  Resources.base - clicked on MyProfile Logo
+21:11:55.197 [main] INFO  Resources.base - clicked on Logout Button
+21:11:55.205 [main] INFO  Resources.base - Login Url matches after Logout 
+21:11:58.170 [main] INFO  Resources.base - Test Case is successfully executed
+21:11:58.330 [main] INFO  Resources.base - closing browser
+21:12:00.802 [main] INFO  Resources.base - Driver is initialized
+21:12:01.022 [main] INFO  Resources.base - Window is maximised
+21:12:05.558 [main] INFO  Resources.base - Navigated to Url 
+21:12:05.799 [main] INFO  Resources.base - Entered Username
+21:12:05.939 [main] INFO  Resources.base - Entered Password
+21:12:06.021 [main] INFO  Resources.base - Clicked on Login Button
+21:12:07.456 [main] INFO  Resources.base - Initiating Method :' PostApprove '
+21:12:16.853 [main] INFO  Resources.base - Entered Username
+21:12:16.933 [main] INFO  Resources.base - Entered Password
+21:12:16.996 [main] INFO  Resources.base - Clicked on Login Button
+21:12:18.845 [main] INFO  Resources.base - Admin control button clicked 
+21:12:22.513 [main] INFO  Resources.base - Automation User
+21:12:23.440 [main] INFO  Resources.base - Post approve  message verified
+21:12:23.549 [main] INFO  Resources.base - clicked on approved button 
+21:12:24.010 [main] INFO  Resources.base - data matched after approving the post
+21:12:24.013 [main] INFO  Resources.base - Initiating Method :' PostDecline '
+21:12:24.459 [main] INFO  Resources.base - Admin control button clicked 
+09:24:46.091 [main] INFO  Resources.base - closing browser
+09:24:50.514 [main] INFO  Resources.base - Driver is initialized
+09:24:50.690 [main] INFO  Resources.base - Window is maximised
+09:24:57.424 [main] INFO  Resources.base - Navigated to Url 
+09:24:57.645 [main] INFO  Resources.base - Entered Username
+09:24:57.758 [main] INFO  Resources.base - Entered Password
+09:24:57.845 [main] INFO  Resources.base - Clicked on Login Button
+09:24:59.386 [main] INFO  Resources.base - Initiating Method :' CreateConnectHubDraft '
+09:24:59.534 [main] INFO  Resources.base - clicked on Connect Hub Button
+09:25:01.206 [main] INFO  Resources.base - Clicked on create post button
+09:25:02.431 [main] INFO  Resources.base - Post Headline Inserted
+09:25:03.310 [main] INFO  Resources.base - Sub  Headline Inserted
+09:25:04.725 [main] INFO  Resources.base -  Post description is inserted 
+09:25:04.940 [main] INFO  Resources.base - tag is inserted 
+09:25:08.254 [main] INFO  Resources.base - Save Draft button clicked
+09:25:08.580 [main] INFO  Resources.base - Post Description matched
+09:25:08.628 [main] INFO  Resources.base - Post udate On data matched
+09:25:08.666 [main] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.CreatePost.CreateConnectHubDraft(CreatePost.java:481) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240) [testng-6.8.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198) [testng-6.8.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123) [testng-6.8.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1031) [testng-6.8.jar:?]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+09:25:08.693 [main] INFO  Resources.base - Initiating Method :' CreateLearningDraft '
+09:25:10.638 [main] INFO  Resources.base - Post Headline Inserted
+09:25:11.169 [main] INFO  Resources.base - Sub  Headline Inserted
+09:25:12.553 [main] INFO  Resources.base -  Post description is inserted 
+09:25:12.696 [main] INFO  Resources.base - tag is inserted 
+09:25:15.925 [main] INFO  Resources.base - Save Draft button clicked
+09:25:16.090 [main] INFO  Resources.base - Post Description matched
+09:25:16.117 [main] INFO  Resources.base - Post udate On data matched
+09:25:16.140 [main] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.CreatePost.CreateLearningDraft(CreatePost.java:167) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240) [testng-6.8.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198) [testng-6.8.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123) [testng-6.8.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1031) [testng-6.8.jar:?]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+09:25:16.144 [main] INFO  Resources.base - Initiating Method :' CreateConnectPostwithYoutubeLink '
+09:25:16.488 [main] INFO  Resources.base - clicked on Connect Hub Button
+09:25:18.387 [main] INFO  Resources.base - Clicked on create post button
+09:25:19.302 [main] INFO  Resources.base - Post Headline Inserted
+09:25:19.748 [main] INFO  Resources.base - Sub  Headline Inserted
+09:25:21.393 [main] INFO  Resources.base - choice for link  is :3
+09:25:24.095 [main] INFO  Resources.base -  Post description is inserted 
+09:25:24.276 [main] INFO  Resources.base - tag is inserted 
+09:25:26.526 [main] INFO  Resources.base - Submit Button clicked 
+09:25:27.324 [main] INFO  Resources.base - close dialog button clicked 
+09:25:29.276 [main] INFO  Resources.base - Post Headline Matched
+09:25:29.307 [main] INFO  Resources.base - Post description Matched
+09:25:29.337 [main] INFO  Resources.base - Post Category Matched
+09:25:29.393 [main] INFO  Resources.base - Post Updated On Date is matched 
+09:25:29.395 [main] INFO  Resources.base - Initiating Method :' CreatelearningPostwithYoutubeLink '
+09:25:30.717 [main] INFO  Resources.base - Post Headline Inserted
+09:25:31.293 [main] INFO  Resources.base - Sub  Headline Inserted
+09:25:32.913 [main] INFO  Resources.base - choice for link  is :12
+09:25:33.244 [main] INFO  Resources.base - Youtube Submit button clicked
+09:25:35.650 [main] INFO  Resources.base -  Post description is inserted 
+09:25:35.800 [main] INFO  Resources.base - tag is inserted 
+09:25:38.040 [main] INFO  Resources.base - Submit Button clicked 
+09:25:39.342 [main] INFO  Resources.base - close dialog button clicked 
+09:25:41.242 [main] INFO  Resources.base - Post Headline Matched
+09:25:41.281 [main] INFO  Resources.base - Post description Matched
+09:25:41.326 [main] INFO  Resources.base - Post Category Matched
+09:25:41.360 [main] INFO  Resources.base - Post Updated On Date is matched 
+09:25:41.362 [main] INFO  Resources.base - Initiating Method :' EditDraft '
+09:25:41.367 [main] INFO  Resources.base - User is on My space Page 
+09:25:42.109 [main] INFO  Resources.base - First Post headline is : 2021/08/03 09:25:09 This is Content saved after creating the draft which is present is my spaces section of dev build..
+09:25:42.133 [main] INFO  Resources.base - First Post Description is : 2021/08/03 09:25:12content changed for draft : this is a post description body, data entered here is
+09:25:42.160 [main] INFO  Resources.base - First Post Updated on : 03 August 2021
+09:25:44.228 [main] INFO  Resources.base - Post Headline Inserted
+09:25:44.571 [main] INFO  Resources.base - Sub  Headline Inserted
+09:25:46.523 [main] INFO  Resources.base -  Post description is inserted 
+09:25:46.717 [main] INFO  Resources.base - tag is inserted 
+09:25:48.932 [main] INFO  Resources.base - Save Draft button clicked
+09:25:50.048 [main] INFO  Resources.base - Save message verified
+09:25:50.109 [main] INFO  Resources.base - Post creation date matched 
+09:25:50.132 [main] INFO  Resources.base - Post description matched 
+09:25:50.158 [main] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.CreatePost.EditDraft(CreatePost.java:860) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240) [testng-6.8.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198) [testng-6.8.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123) [testng-6.8.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1031) [testng-6.8.jar:?]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+09:25:50.161 [main] INFO  Resources.base - Initiating Method :' DeclineDraft '
+09:25:50.175 [main] INFO  Resources.base - User is on My space Page 
+09:25:52.451 [main] INFO  Resources.base - closing browser
+12:14:12.523 [main] INFO  Resources.base - Intiating Method :' loginPageTestCredentials : with correct user credentials '
+14:20:47.664 [main] INFO  Resources.base - Driver is initialized
+14:20:47.818 [main] INFO  Resources.base - Window is maximised
+14:20:49.394 [main] INFO  Resources.base - Navigated to Url 
+14:20:49.401 [main] INFO  Resources.base - Driver For MyProfile Page is initialized
+14:20:50.819 [main] INFO  Resources.base - Entered Username
+14:20:51.745 [main] INFO  Resources.base - Entered Password
+14:20:51.838 [main] INFO  Resources.base - Clicked on Login Button
+14:20:51.860 [main] INFO  Resources.base - Initiating Method :' validateNewUser '
+14:20:53.888 [main] INFO  Resources.base - Entered complete Profile Page
+14:20:54.119 [main] INFO  Resources.base - First name has been entered
+14:20:54.270 [main] INFO  Resources.base - Last name has been entered
+14:20:55.487 [main] INFO  Resources.base - Clicked on female radio button
+14:20:55.522 [main] INFO  Resources.base - Email field is non-editable
+14:20:56.896 [main] INFO  Resources.base - For Calender Year and Month are choosen
+14:20:57.144 [main] INFO  Resources.base - For Calender date is choosen
+14:20:57.145 [main] INFO  Resources.base - Selecting organisation at option number :16
+14:20:57.396 [main] INFO  Resources.base - Organisation name clicked
+14:20:57.396 [main] INFO  Resources.base - Selecting Job Function at option number :1
+14:21:00.201 [main] INFO  Resources.base -  Country as : 'India ' is selected 
+14:21:01.571 [main] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+14:21:02.582 [main] INFO  Resources.base - Selecting city at option number :469
+14:21:05.696 [main] INFO  Resources.base -  City as : ' Nadigaon ' is selected
+14:21:05.697 [main] INFO  Resources.base - Selecting country code at option number :98
+14:21:06.241 [main] INFO  Resources.base -  Country code for India Selected 
+14:21:06.946 [main] INFO  Resources.base - Mobile Number is Updated as: ' 5943990167  '
+14:21:07.666 [main] INFO  Resources.base - My Healine message entered
+14:21:09.300 [main] INFO  Resources.base - toast Message Verified
+14:21:10.503 [main] INFO  Resources.base - Tour Exited
+14:21:11.617 [main] INFO  Resources.base - clicked on MyProfile Logo
+14:21:11.728 [main] INFO  Resources.base - clicked on Logout Button
+14:21:11.733 [main] INFO  Resources.base - Login Url matches after Logout 
+14:21:14.924 [main] INFO  Resources.base - Entered Username
+14:21:15.025 [main] INFO  Resources.base - Entered Password
+14:21:15.098 [main] INFO  Resources.base - Clicked on Login Button
+14:21:16.262 [main] INFO  Resources.base - clicked on checkbox
+14:21:16.855 [main] INFO  Resources.base - Entered complete Profile Page
+14:21:17.003 [main] INFO  Resources.base - First name has been entered
+14:21:17.178 [main] INFO  Resources.base - Last name has been entered
+14:21:18.331 [main] INFO  Resources.base - Clicked on female radio button
+14:21:18.359 [main] INFO  Resources.base - Email field is non-editable
+14:21:19.670 [main] INFO  Resources.base - For Calender Year and Month are choosen
+14:21:19.916 [main] INFO  Resources.base - For Calender date is choosen
+14:21:19.916 [main] INFO  Resources.base - Selecting organisation at option number :2
+14:21:20.136 [main] INFO  Resources.base - Organisation name clicked
+14:21:20.136 [main] INFO  Resources.base - Selecting Job Function at option number :6
+14:21:22.889 [main] INFO  Resources.base -  Country as : 'India ' is selected 
+14:21:24.199 [main] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+14:21:25.218 [main] INFO  Resources.base - Selecting city at option number :253
+14:21:28.379 [main] INFO  Resources.base -  City as : ' Hafizpur ' is selected
+14:21:28.379 [main] INFO  Resources.base - Selecting country code at option number :98
+14:21:28.947 [main] INFO  Resources.base -  Country code for India Selected 
+14:21:29.657 [main] INFO  Resources.base - Mobile Number is Updated as: ' 4038158509  '
+14:21:30.379 [main] INFO  Resources.base - My Healine message entered
+14:21:31.953 [main] INFO  Resources.base - toast Message Verified
+14:21:33.097 [main] INFO  Resources.base - Tour Exited
+14:21:34.198 [main] INFO  Resources.base - clicked on MyProfile Logo
+14:21:34.311 [main] INFO  Resources.base - clicked on Logout Button
+14:21:34.334 [main] INFO  Resources.base - Login Url matches after Logout 
+14:21:36.388 [main] INFO  Resources.base - Test Case is successfully executed
+14:21:36.537 [main] INFO  Resources.base - closing browser
+17:31:10.809 [main] INFO  Resources.base - Driver is initialized
+17:31:10.963 [main] INFO  Resources.base - Window is maximised
+17:31:14.082 [main] INFO  Resources.base - Navigated to Url 
+17:31:14.107 [main] INFO  Resources.base - Driver For MyProfile Page is initialized
+17:31:15.201 [main] INFO  Resources.base - Entered Username
+17:31:15.308 [main] INFO  Resources.base - Entered Password
+17:31:15.397 [main] INFO  Resources.base - Clicked on Login Button
+17:31:15.418 [main] INFO  Resources.base - Initiating Method :' validateNewUser '
+17:31:17.660 [main] INFO  Resources.base - clicked on checkbox
+17:31:18.308 [main] INFO  Resources.base - Entered complete Profile Page
+17:31:18.489 [main] INFO  Resources.base - First name has been entered
+17:31:18.676 [main] INFO  Resources.base - Last name has been entered
+17:31:19.839 [main] INFO  Resources.base - Clicked on female radio button
+17:31:19.873 [main] INFO  Resources.base - Email field is non-editable
+17:31:21.314 [main] INFO  Resources.base - For Calender Year and Month are choosen
+17:31:21.550 [main] INFO  Resources.base - For Calender date is choosen
+17:31:21.552 [main] INFO  Resources.base - Selecting organisation at option number :3
+17:31:21.792 [main] INFO  Resources.base - Organisation name clicked
+17:31:21.792 [main] INFO  Resources.base - Selecting Job Function at option number :8
+17:31:24.647 [main] INFO  Resources.base -  Country as : 'India ' is selected 
+17:31:25.963 [main] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+17:31:26.981 [main] INFO  Resources.base - Selecting city at option number :431
+17:31:30.129 [main] INFO  Resources.base -  City as : ' Mathura ' is selected
+17:31:30.130 [main] INFO  Resources.base - Selecting country code at option number :98
+17:31:30.666 [main] INFO  Resources.base -  Country code for India Selected 
+17:31:31.394 [main] INFO  Resources.base - Mobile Number is Updated as: ' 5597692880  '
+17:31:32.145 [main] INFO  Resources.base - My Healine message entered
+17:31:33.755 [main] INFO  Resources.base - toast Message Verified
+17:31:34.898 [main] INFO  Resources.base - Tour Exited
+17:31:36.014 [main] INFO  Resources.base - clicked on MyProfile Logo
+17:31:36.162 [main] INFO  Resources.base - clicked on Logout Button
+17:31:39.548 [main] INFO  Resources.base - Login Url matches after Logout 
+17:31:39.605 [main] INFO  Resources.base - Test Case is successfully executed
+17:31:39.844 [main] INFO  Resources.base - closing browser
+17:33:31.456 [TestNG] INFO  Resources.base - Driver is initialized
+17:33:31.653 [TestNG] INFO  Resources.base - Window is maximised
+17:33:35.770 [TestNG] INFO  Resources.base - Navigated to Url 
+17:33:35.777 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+17:33:35.983 [TestNG] INFO  Resources.base - Entered Username
+17:33:36.091 [TestNG] INFO  Resources.base - Entered Password
+17:33:36.175 [TestNG] INFO  Resources.base - Clicked on Login Button
+17:33:36.223 [TestNG] INFO  Resources.base - Initiating Method :' validateNewUser '
+17:33:38.496 [TestNG] INFO  Resources.base - clicked on checkbox
+17:33:39.213 [TestNG] INFO  Resources.base - Entered complete Profile Page
+17:33:39.539 [TestNG] INFO  Resources.base - First name has been entered
+17:33:39.683 [TestNG] INFO  Resources.base - Last name has been entered
+17:33:40.834 [TestNG] INFO  Resources.base - Clicked on female radio button
+17:33:40.867 [TestNG] INFO  Resources.base - Email field is non-editable
+17:33:43.172 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+17:33:48.276 [TestNG] ERROR Resources.base - Error occured while inserting DateOfBirth
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//td[@aria-label='Saturday May 3 2003']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'harshits-MacBook-Air.local', ip: 'fe80:0:0:0:405:eb2d:c894:f556%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: /var/folders/mf/5d0879117zv...}, goog:chromeOptions: {debuggerAddress: localhost:63932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc085ed562e363151a53ebb2d5ce580c
+*** Element info: {Using=xpath, value=//td[@aria-label='Saturday May 3 2003']}
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353) ~[selenium-api-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at pageObjects.MyProfilePage.getDate(MyProfilePage.java:168) ~[classes/:?]
+	at encollab.Dummycode.validateNewUser(Dummycode.java:203) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]

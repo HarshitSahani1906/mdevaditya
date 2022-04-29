@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 47.469 s <<< FAILURE! - in TestSuite
+Eleve.LoginPage.loginPageNavigation[mayank@eleve.co.i, 1234567, 4](4)  Time elapsed: 8.097 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for url to match the regex "https://dev-admin.eleveglobal.com/discover/list". Current url: "https://dev-admin.eleveglobal.com/" (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'harshits-MacBook-Air.local', ip: 'fe80:0:0:0:48c:bab8:b602:78d6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/mf/5d0879117zv...}, goog:chromeOptions: {debuggerAddress: localhost:62615}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dae2c501a8292f7b31e62e1051574931
+	at Eleve.LoginPage.loginPageNavigation(LoginPage.java:96)
+

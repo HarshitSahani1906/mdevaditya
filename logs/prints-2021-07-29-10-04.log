@@ -1,0 +1,773 @@
+14:20:01.833 [TestNG] INFO  Resources.base - Driver is initialized
+14:20:02.024 [TestNG] INFO  Resources.base - Window is maximised
+14:20:08.111 [TestNG] INFO  Resources.base - Navigated to Url 
+14:20:08.121 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+14:20:08.358 [TestNG] INFO  Resources.base - Entered Username
+14:20:08.473 [TestNG] INFO  Resources.base - Entered Password
+14:20:08.566 [TestNG] INFO  Resources.base - Clicked on Login Button
+14:20:10.075 [TestNG] INFO  Resources.base - Initiating Method :' CreateConnectHubDraft '
+14:20:10.303 [TestNG] INFO  Resources.base - clicked on Connect Hub Button
+14:20:12.009 [TestNG] INFO  Resources.base - Clicked on create post button
+14:20:13.257 [TestNG] INFO  Resources.base - Post Headline Inserted
+14:20:13.901 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+14:20:15.289 [TestNG] INFO  Resources.base -  Post description is inserted 
+14:20:15.428 [TestNG] INFO  Resources.base - tag is inserted 
+14:20:18.617 [TestNG] INFO  Resources.base - Save Draft button clicked
+14:20:18.862 [TestNG] INFO  Resources.base - Post Description matched
+14:20:18.910 [TestNG] INFO  Resources.base - Post udate On data matched
+14:20:18.952 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.Dummycode.CreateConnectHubDraft(Dummycode.java:186) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+14:20:18.976 [TestNG] INFO  Resources.base - Initiating Method :' CreatePostwithYoutubeLink '
+14:20:19.321 [TestNG] INFO  Resources.base - clicked on Connect Hub Button
+14:20:21.056 [TestNG] INFO  Resources.base - Clicked on create post button
+14:20:21.825 [TestNG] INFO  Resources.base - Post Headline Inserted
+14:20:22.240 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+14:20:23.895 [TestNG] INFO  Resources.base - choice for link  is :10
+14:20:23.917 [TestNG] ERROR Resources.base - Unable to upload youtube link
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97) ~[selenium-remote-driver-3.141.59.jar:?]
+	at encollab.Dummycode.CreatePostwithYoutubeLink(Dummycode.java:286) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+14:25:29.405 [TestNG] INFO  Resources.base - Driver is initialized
+14:25:29.562 [TestNG] INFO  Resources.base - Window is maximised
+14:25:35.192 [TestNG] INFO  Resources.base - Navigated to Url 
+14:25:35.201 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+14:25:35.492 [TestNG] INFO  Resources.base - Entered Username
+14:25:35.604 [TestNG] INFO  Resources.base - Entered Password
+14:25:35.690 [TestNG] INFO  Resources.base - Clicked on Login Button
+14:25:37.440 [TestNG] INFO  Resources.base - Initiating Method :' CreateConnectHubDraft '
+14:25:37.788 [TestNG] INFO  Resources.base - clicked on Connect Hub Button
+14:25:39.551 [TestNG] INFO  Resources.base - Clicked on create post button
+14:25:40.830 [TestNG] INFO  Resources.base - Post Headline Inserted
+14:25:41.425 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+14:25:42.836 [TestNG] INFO  Resources.base -  Post description is inserted 
+14:25:42.986 [TestNG] INFO  Resources.base - tag is inserted 
+14:25:46.191 [TestNG] INFO  Resources.base - Save Draft button clicked
+14:25:46.552 [TestNG] INFO  Resources.base - Post Description matched
+14:25:46.637 [TestNG] INFO  Resources.base - Post udate On data matched
+14:25:46.698 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.Dummycode.CreateConnectHubDraft(Dummycode.java:186) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+14:25:46.743 [TestNG] INFO  Resources.base - Initiating Method :' CreatePostwithYoutubeLink '
+14:25:47.343 [TestNG] INFO  Resources.base - clicked on Connect Hub Button
+14:25:49.107 [TestNG] INFO  Resources.base - Clicked on create post button
+14:25:49.895 [TestNG] INFO  Resources.base - Post Headline Inserted
+14:25:50.416 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+14:25:52.087 [TestNG] INFO  Resources.base - choice for link  is :6
+14:25:54.777 [TestNG] INFO  Resources.base -  Post description is inserted 
+14:25:54.916 [TestNG] INFO  Resources.base - tag is inserted 
+14:25:57.117 [TestNG] INFO  Resources.base - Submit Button clicked 
+14:25:57.911 [TestNG] INFO  Resources.base - close dialog button clicked 
+14:25:59.691 [TestNG] INFO  Resources.base - Post Headline Matched
+14:25:59.754 [TestNG] INFO  Resources.base - Post description Matched
+14:25:59.841 [TestNG] INFO  Resources.base - Post Category Matched
+14:26:00.405 [TestNG] INFO  Resources.base - closing browser
+21:01:10.977 [TestNG] INFO  Resources.base - Driver is initialized
+21:01:11.148 [TestNG] INFO  Resources.base - Window is maximised
+21:01:18.883 [TestNG] INFO  Resources.base - Navigated to Url 
+21:01:19.187 [TestNG] INFO  Resources.base - Entered Username
+21:01:19.293 [TestNG] INFO  Resources.base - Entered Password
+21:01:19.376 [TestNG] INFO  Resources.base - Clicked on Login Button
+21:01:20.825 [TestNG] INFO  Resources.base - Initiating Method :' PostApprove '
+21:01:26.135 [TestNG] ERROR Resources.base - User is unable to login with admin credentials 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Admin Control"}
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'harshits-MacBook-Air.local', ip: 'fe80:0:0:0:185f:3bc:bf41:8715%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/mf/5d0879117zv...}, goog:chromeOptions: {debuggerAddress: localhost:59686}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 69ea62411479652238ec005a967a946f
+*** Element info: {Using=link text, value=Admin Control}
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220) ~[selenium-api-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at pageObjects.HubPage.getAdminControllButton(HubPage.java:47) ~[classes/:?]
+	at encollab.Dummycode.PostApprove(Dummycode.java:90) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+21:02:39.143 [TestNG] INFO  Resources.base - Driver is initialized
+21:02:39.374 [TestNG] INFO  Resources.base - Window is maximised
+21:02:47.807 [TestNG] INFO  Resources.base - Navigated to Url 
+21:02:48.698 [TestNG] INFO  Resources.base - Entered Username
+21:02:48.810 [TestNG] INFO  Resources.base - Entered Password
+21:02:48.895 [TestNG] INFO  Resources.base - Clicked on Login Button
+21:02:49.966 [TestNG] INFO  Resources.base - Initiating Method :' PostApprove '
+21:02:50.979 [TestNG] INFO  Resources.base - 1
+21:02:56.049 [TestNG] ERROR Resources.base - User is unable to login with admin credentials 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Admin Control"}
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'harshits-MacBook-Air.local', ip: 'fe80:0:0:0:185f:3bc:bf41:8715%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/mf/5d0879117zv...}, goog:chromeOptions: {debuggerAddress: localhost:60086}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ab8156f092fbda86f50c811e9cc5776e
+*** Element info: {Using=link text, value=Admin Control}
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220) ~[selenium-api-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at pageObjects.HubPage.getAdminControllButton(HubPage.java:47) ~[classes/:?]
+	at encollab.Dummycode.PostApprove(Dummycode.java:90) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+21:11:34.384 [TestNG] INFO  Resources.base - Driver is initialized
+21:11:34.565 [TestNG] INFO  Resources.base - Window is maximised
+21:11:41.882 [TestNG] INFO  Resources.base - Navigated to Url 
+21:11:42.106 [TestNG] INFO  Resources.base - Entered Username
+21:11:42.279 [TestNG] INFO  Resources.base - Entered Password
+21:11:42.368 [TestNG] INFO  Resources.base - Clicked on Login Button
+21:11:43.798 [TestNG] INFO  Resources.base - Initiating Method :' PostApprove '
+21:11:43.947 [TestNG] INFO  Resources.base - 1
+21:11:49.064 [TestNG] ERROR Resources.base - User is unable to login with admin credentials 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Admin Control"}
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'harshits-MacBook-Air.local', ip: 'fe80:0:0:0:185f:3bc:bf41:8715%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/mf/5d0879117zv...}, goog:chromeOptions: {debuggerAddress: localhost:62282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e842b793926758f571d1ad2029582309
+*** Element info: {Using=link text, value=Admin Control}
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220) ~[selenium-api-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at pageObjects.HubPage.getAdminControlButton(HubPage.java:47) ~[classes/:?]
+	at encollab.Dummycode.PostApprove(Dummycode.java:90) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+21:13:41.453 [TestNG] INFO  Resources.base - Driver is initialized
+21:13:41.611 [TestNG] INFO  Resources.base - Window is maximised
+21:13:48.468 [TestNG] INFO  Resources.base - Navigated to Url 
+21:13:49.311 [TestNG] INFO  Resources.base - Entered Username
+21:13:49.413 [TestNG] INFO  Resources.base - Entered Password
+21:13:49.498 [TestNG] INFO  Resources.base - Clicked on Login Button
+21:13:51.132 [TestNG] INFO  Resources.base - Initiating Method :' PostApprove '
+21:13:51.281 [TestNG] INFO  Resources.base - 1
+21:13:56.427 [TestNG] ERROR Resources.base - User is unable to login with admin credentials 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Admin Control"}
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'harshits-MacBook-Air.local', ip: 'fe80:0:0:0:185f:3bc:bf41:8715%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/mf/5d0879117zv...}, goog:chromeOptions: {debuggerAddress: localhost:62849}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff3dded198aca7b04521e6841b1c0f04
+*** Element info: {Using=link text, value=Admin Control}
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220) ~[selenium-api-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at pageObjects.HubPage.getAdminControlButton(HubPage.java:47) ~[classes/:?]
+	at encollab.Dummycode.PostApprove(Dummycode.java:90) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+09:16:52.103 [TestNG] INFO  Resources.base - Driver is initialized
+09:16:52.280 [TestNG] INFO  Resources.base - Window is maximised
+09:17:08.314 [TestNG] INFO  Resources.base - Navigated to Url 
+09:17:09.185 [TestNG] INFO  Resources.base - Entered Username
+09:17:09.306 [TestNG] INFO  Resources.base - Entered Password
+09:17:09.415 [TestNG] INFO  Resources.base - Clicked on Login Button
+09:18:41.802 [TestNG] INFO  Resources.base - Driver is initialized
+09:18:41.957 [TestNG] INFO  Resources.base - Window is maximised
+09:18:47.451 [TestNG] INFO  Resources.base - Navigated to Url 
+09:18:47.632 [TestNG] INFO  Resources.base - Entered Username
+09:18:47.733 [TestNG] INFO  Resources.base - Entered Password
+09:18:47.814 [TestNG] INFO  Resources.base - Clicked on Login Button
+09:18:48.436 [TestNG] INFO  Resources.base - Initiating Method :' PostApprove '
+09:18:49.277 [TestNG] INFO  Resources.base - 1
+09:18:49.394 [TestNG] INFO  Resources.base - true
+09:18:49.394 [TestNG] INFO  Resources.base - 2
+09:18:55.412 [TestNG] INFO  Resources.base - closing browser
+09:23:26.208 [TestNG] INFO  Resources.base - Driver is initialized
+09:23:26.368 [TestNG] INFO  Resources.base - Window is maximised
+09:23:32.493 [TestNG] INFO  Resources.base - Navigated to Url 
+09:23:32.676 [TestNG] INFO  Resources.base - Entered Username
+09:23:32.772 [TestNG] INFO  Resources.base - Entered Password
+09:23:32.854 [TestNG] INFO  Resources.base - Clicked on Login Button
+09:23:34.184 [TestNG] INFO  Resources.base - Initiating Method :' PostApprove '
+09:23:34.331 [TestNG] INFO  Resources.base - 1
+09:23:34.433 [TestNG] INFO  Resources.base - true
+09:23:34.433 [TestNG] INFO  Resources.base - 2
+09:23:40.388 [TestNG] INFO  Resources.base - closing browser
+09:28:31.389 [TestNG] INFO  Resources.base - Driver is initialized
+09:28:31.549 [TestNG] INFO  Resources.base - Window is maximised
+09:28:37.081 [TestNG] INFO  Resources.base - Navigated to Url 
+09:28:37.297 [TestNG] INFO  Resources.base - Entered Username
+09:28:37.446 [TestNG] INFO  Resources.base - Entered Password
+09:28:37.554 [TestNG] INFO  Resources.base - Clicked on Login Button
+09:28:39.053 [TestNG] INFO  Resources.base - Initiating Method :' PostApprove '
+09:28:39.286 [TestNG] INFO  Resources.base - 1
+09:28:46.399 [TestNG] ERROR Resources.base - User is unable to login with admin credentials 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Admin Control"}
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'harshits-MacBook-Air.local', ip: 'fe80:0:0:0:185f:3bc:bf41:8715%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/mf/5d0879117zv...}, goog:chromeOptions: {debuggerAddress: localhost:53704}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a18fb3153b0cdf55a670fb65f45e0021
+*** Element info: {Using=link text, value=Admin Control}
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220) ~[selenium-api-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at pageObjects.HubPage.getAdminControlButton(HubPage.java:47) ~[classes/:?]
+	at encollab.Dummycode.PostApprove(Dummycode.java:91) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+09:37:41.590 [TestNG] INFO  Resources.base - Driver is initialized
+09:37:41.754 [TestNG] INFO  Resources.base - Window is maximised
+09:37:47.220 [TestNG] INFO  Resources.base - Navigated to Url 
+09:37:47.399 [TestNG] INFO  Resources.base - Entered Username
+09:37:47.497 [TestNG] INFO  Resources.base - Entered Password
+09:37:47.588 [TestNG] INFO  Resources.base - Clicked on Login Button
+09:37:49.109 [TestNG] INFO  Resources.base - Initiating Method :' PostApprove '
+09:37:49.307 [TestNG] INFO  Resources.base - 1
+09:37:51.311 [TestNG] INFO  Resources.base - 2
+09:37:54.183 [TestNG] INFO  Resources.base - Post approve  message verified
+09:37:54.283 [TestNG] INFO  Resources.base - clicked on approved button 
+09:37:55.494 [TestNG] INFO  Resources.base - closing browser
+09:44:42.995 [TestNG] INFO  Resources.base - Driver is initialized
+09:44:43.194 [TestNG] INFO  Resources.base - Window is maximised
+09:44:48.786 [TestNG] INFO  Resources.base - Navigated to Url 
+09:44:48.995 [TestNG] INFO  Resources.base - Entered Username
+09:44:49.116 [TestNG] INFO  Resources.base - Entered Password
+09:44:49.199 [TestNG] INFO  Resources.base - Clicked on Login Button
+09:44:50.703 [TestNG] INFO  Resources.base - Initiating Method :' PostApprove '
+09:44:50.939 [TestNG] INFO  Resources.base - 1
+09:44:52.943 [TestNG] INFO  Resources.base - 2
+09:44:55.829 [TestNG] INFO  Resources.base - Post approve  message verified
+09:44:55.923 [TestNG] INFO  Resources.base - clicked on approved button 
+09:44:57.083 [TestNG] INFO  Resources.base - closing browser
+11:24:21.820 [TestNG] INFO  Resources.base - Driver is initialized
+11:24:21.991 [TestNG] INFO  Resources.base - Window is maximised
+11:24:29.065 [TestNG] INFO  Resources.base - Navigated to Url 
+11:24:29.322 [TestNG] INFO  Resources.base - Entered Username
+11:24:29.466 [TestNG] INFO  Resources.base - Entered Password
+11:24:29.562 [TestNG] INFO  Resources.base - Clicked on Login Button
+11:24:31.115 [TestNG] INFO  Resources.base - Initiating Method :' PostApprove '
+11:24:31.400 [TestNG] INFO  Resources.base - 1
+11:24:33.404 [TestNG] INFO  Resources.base - 2
+11:24:38.510 [TestNG] INFO  Resources.base - true
+11:24:43.538 [TestNG] INFO  Resources.base - 3
+11:24:45.901 [TestNG] INFO  Resources.base - Entered Username
+11:24:46.006 [TestNG] INFO  Resources.base - Entered Password
+11:24:46.115 [TestNG] INFO  Resources.base - Clicked on Login Button
+11:24:51.125 [TestNG] INFO  Resources.base - Post approve  message verified
+11:24:51.234 [TestNG] INFO  Resources.base - clicked on approved button 
+11:24:52.526 [TestNG] INFO  Resources.base - closing browser
+11:32:46.745 [TestNG] INFO  Resources.base - Driver is initialized
+11:32:46.921 [TestNG] INFO  Resources.base - Window is maximised
+11:32:52.874 [TestNG] INFO  Resources.base - Navigated to Url 
+11:32:54.153 [TestNG] INFO  Resources.base - Entered Username
+11:32:54.328 [TestNG] INFO  Resources.base - Entered Password
+11:32:54.466 [TestNG] INFO  Resources.base - Clicked on Login Button
+11:32:56.115 [TestNG] INFO  Resources.base - Initiating Method :' PostApprove '
+11:33:03.358 [TestNG] INFO  Resources.base - 3
+11:33:07.138 [TestNG] INFO  Resources.base - Entered Username
+11:33:07.252 [TestNG] INFO  Resources.base - Entered Password
+11:33:07.343 [TestNG] INFO  Resources.base - Clicked on Login Button
+11:33:09.080 [TestNG] INFO  Resources.base - Admin control button clicked 
+11:33:11.967 [TestNG] INFO  Resources.base - Post approve  message verified
+11:33:12.165 [TestNG] INFO  Resources.base - clicked on approved button 
+11:33:12.945 [TestNG] INFO  Resources.base - data matched after approving the post
+11:33:13.303 [TestNG] INFO  Resources.base - closing browser
+11:36:38.212 [TestNG] INFO  Resources.base - Driver is initialized
+11:36:38.371 [TestNG] INFO  Resources.base - Window is maximised
+11:36:45.029 [TestNG] INFO  Resources.base - Navigated to Url 
+11:36:45.267 [TestNG] INFO  Resources.base - Entered Username
+11:36:45.405 [TestNG] INFO  Resources.base - Entered Password
+11:36:45.499 [TestNG] INFO  Resources.base - Clicked on Login Button
+11:36:47.084 [TestNG] INFO  Resources.base - Initiating Method :' PostApprove '
+11:36:56.068 [TestNG] INFO  Resources.base - Entered Username
+11:36:56.208 [TestNG] INFO  Resources.base - Entered Password
+11:36:56.333 [TestNG] INFO  Resources.base - Clicked on Login Button
+11:36:58.494 [TestNG] INFO  Resources.base - Admin control button clicked 
+11:37:00.518 [TestNG] INFO  Resources.base - Automation User
+11:37:01.553 [TestNG] INFO  Resources.base - Post approve  message verified
+11:37:01.686 [TestNG] INFO  Resources.base - clicked on approved button 
+11:37:02.363 [TestNG] INFO  Resources.base - data matched after approving the post
+11:37:02.750 [TestNG] INFO  Resources.base - closing browser
+17:03:57.463 [TestNG] INFO  Resources.base - Driver is initialized
+17:03:57.640 [TestNG] INFO  Resources.base - Window is maximised
+17:04:06.593 [TestNG] INFO  Resources.base - Navigated to Url 
+17:04:06.897 [TestNG] INFO  Resources.base - Entered Username
+17:04:07.019 [TestNG] INFO  Resources.base - Entered Password
+17:04:07.128 [TestNG] INFO  Resources.base - Clicked on Login Button
+17:04:07.788 [TestNG] INFO  Resources.base - Initiating Method :' PostDecline '
+17:04:17.879 [TestNG] INFO  Resources.base - Entered Username
+17:04:18.003 [TestNG] INFO  Resources.base - Entered Password
+17:04:18.086 [TestNG] INFO  Resources.base - Clicked on Login Button
+17:04:20.223 [TestNG] INFO  Resources.base - Admin control button clicked 
+17:04:21.896 [TestNG] INFO  Resources.base - Harryharryharryharryharryharryharryharryharryharryharryharryharryharryharryharryharryharry Sahanisahanisahanisahanisahanisahanisahanisahanisahanisahanisahanisahanisahanisahanisahani
+17:04:24.910 [TestNG] INFO  Resources.base - Post approve  message verified
+17:04:28.013 [TestNG] INFO  Resources.base - Entered Username
+17:04:28.132 [TestNG] INFO  Resources.base - Entered Password
+17:04:28.217 [TestNG] INFO  Resources.base - Clicked on Login Button
+17:49:19.685 [TestNG] INFO  Resources.base - Driver is initialized
+17:49:19.860 [TestNG] INFO  Resources.base - Window is maximised
+17:49:55.306 [TestNG] INFO  Resources.base - Navigated to Url 
+17:49:55.554 [TestNG] INFO  Resources.base - Entered Username
+17:49:55.656 [TestNG] INFO  Resources.base - Entered Password
+17:49:55.776 [TestNG] INFO  Resources.base - Clicked on Login Button
+17:49:56.855 [TestNG] INFO  Resources.base - Initiating Method :' PostDecline '
+17:50:06.422 [TestNG] INFO  Resources.base - Entered Username
+17:50:06.534 [TestNG] INFO  Resources.base - Entered Password
+17:50:06.616 [TestNG] INFO  Resources.base - Clicked on Login Button
+17:50:08.895 [TestNG] INFO  Resources.base - Admin control button clicked 
+17:50:11.706 [TestNG] INFO  Resources.base - Automation User
+17:50:14.875 [TestNG] INFO  Resources.base - Post approve  message verified
+17:50:22.628 [TestNG] INFO  Resources.base - Entered Username
+17:50:22.741 [TestNG] INFO  Resources.base - Entered Password
+17:50:22.836 [TestNG] INFO  Resources.base - Clicked on Login Button
+17:50:30.259 [TestNG] INFO  Resources.base - closing browser
+17:51:39.748 [TestNG] INFO  Resources.base - Driver is initialized
+17:51:39.917 [TestNG] INFO  Resources.base - Window is maximised
+17:51:57.359 [TestNG] INFO  Resources.base - Navigated to Url 
+17:51:58.269 [TestNG] INFO  Resources.base - Entered Username
+17:51:58.378 [TestNG] INFO  Resources.base - Entered Password
+17:51:58.483 [TestNG] INFO  Resources.base - Clicked on Login Button
+17:52:01.351 [TestNG] INFO  Resources.base - Initiating Method :' PostApprove '
+17:52:12.033 [TestNG] INFO  Resources.base - Entered Username
+17:52:12.143 [TestNG] INFO  Resources.base - Entered Password
+17:52:12.229 [TestNG] INFO  Resources.base - Clicked on Login Button
+17:52:14.075 [TestNG] INFO  Resources.base - Admin control button clicked 
+17:52:16.475 [TestNG] INFO  Resources.base - Automation User
+17:52:18.287 [TestNG] INFO  Resources.base - Post approve  message verified
+17:52:18.405 [TestNG] INFO  Resources.base - clicked on approved button 
+17:52:19.794 [TestNG] INFO  Resources.base - data matched after approving the post
+17:52:19.812 [TestNG] INFO  Resources.base - Initiating Method :' PostDecline '
+17:52:20.445 [TestNG] INFO  Resources.base - Admin control button clicked 
+17:52:22.319 [TestNG] INFO  Resources.base - Automation User
+17:52:25.724 [TestNG] INFO  Resources.base - Post approve  message verified
+17:52:29.133 [TestNG] INFO  Resources.base - Entered Username
+17:52:29.248 [TestNG] INFO  Resources.base - Entered Password
+17:52:29.333 [TestNG] INFO  Resources.base - Clicked on Login Button
+17:52:34.856 [TestNG] INFO  Resources.base - closing browser
+19:36:09.762 [TestNG] INFO  Resources.base - Driver is initialized
+19:36:09.912 [TestNG] INFO  Resources.base - Window is maximised
+19:36:15.601 [TestNG] INFO  Resources.base - Navigated to Url 
+19:36:15.801 [TestNG] INFO  Resources.base - Entered Username
+19:36:15.923 [TestNG] INFO  Resources.base - Entered Password
+19:36:16.010 [TestNG] INFO  Resources.base - Clicked on Login Button
+19:36:17.475 [TestNG] INFO  Resources.base - Initiating Method :' PostDecline '
+19:36:25.738 [TestNG] INFO  Resources.base - Entered Username
+19:36:25.837 [TestNG] INFO  Resources.base - Entered Password
+19:36:25.915 [TestNG] INFO  Resources.base - Clicked on Login Button
+19:36:27.432 [TestNG] INFO  Resources.base - Admin control button clicked 
+19:36:29.093 [TestNG] INFO  Resources.base - Automation User
+19:36:31.966 [TestNG] INFO  Resources.base - Post approve  message verified
+19:36:34.114 [TestNG] INFO  Resources.base - Entered Username
+19:36:34.260 [TestNG] INFO  Resources.base - Entered Password
+19:36:34.335 [TestNG] INFO  Resources.base - Clicked on Login Button
+19:36:37.901 [TestNG] ERROR Resources.base - Data mismatched under My Pending Post Section
+java.lang.StringIndexOutOfBoundsException: begin 0, end 80, length 47
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.Dummycode.PostDecline(Dummycode.java:248) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+19:36:38.463 [TestNG] INFO  Resources.base - closing browser
+20:05:20.712 [TestNG] INFO  Resources.base - Driver is initialized
+20:05:20.896 [TestNG] INFO  Resources.base - Window is maximised
+20:05:26.481 [TestNG] INFO  Resources.base - Navigated to Url 
+20:05:26.706 [TestNG] INFO  Resources.base - Entered Username
+20:05:26.825 [TestNG] INFO  Resources.base - Entered Password
+20:05:26.911 [TestNG] INFO  Resources.base - Clicked on Login Button
+20:05:28.395 [TestNG] INFO  Resources.base - Initiating Method :' PostDecline '
+20:05:36.871 [TestNG] INFO  Resources.base - Entered Username
+20:05:36.998 [TestNG] INFO  Resources.base - Entered Password
+20:05:37.083 [TestNG] INFO  Resources.base - Clicked on Login Button
+20:05:40.240 [TestNG] INFO  Resources.base - Admin control button clicked 
+20:05:41.777 [TestNG] INFO  Resources.base - Automation User
+20:05:45.341 [TestNG] INFO  Resources.base - Post approve  message verified
+20:05:49.162 [TestNG] INFO  Resources.base - Entered Username
+20:05:49.267 [TestNG] INFO  Resources.base - Entered Password
+20:05:49.342 [TestNG] INFO  Resources.base - Clicked on Login Button
+20:05:53.492 [TestNG] INFO  Resources.base - closing browser
+20:09:31.154 [TestNG] INFO  Resources.base - Driver is initialized
+20:09:31.316 [TestNG] INFO  Resources.base - Window is maximised
+20:09:39.022 [TestNG] INFO  Resources.base - Navigated to Url 
+20:09:39.319 [TestNG] INFO  Resources.base - Entered Username
+20:09:39.441 [TestNG] INFO  Resources.base - Entered Password
+20:09:39.538 [TestNG] INFO  Resources.base - Clicked on Login Button
+20:09:40.999 [TestNG] INFO  Resources.base - Initiating Method :' PostDecline '
+20:09:48.775 [TestNG] INFO  Resources.base - Entered Username
+20:09:48.872 [TestNG] INFO  Resources.base - Entered Password
+20:09:48.948 [TestNG] INFO  Resources.base - Clicked on Login Button
+20:09:50.691 [TestNG] INFO  Resources.base - Admin control button clicked 
+20:09:52.405 [TestNG] INFO  Resources.base - Automation User
+20:09:55.251 [TestNG] INFO  Resources.base - Post approve  message verified
+20:09:57.341 [TestNG] INFO  Resources.base - Entered Username
+20:09:57.441 [TestNG] INFO  Resources.base - Entered Password
+20:09:57.516 [TestNG] INFO  Resources.base - Clicked on Login Button
+20:10:00.902 [TestNG] INFO  Resources.base - 2021/07/26 23:28:46 This is Content saved after creating the draft which is pres ...
+20:10:00.902 [TestNG] INFO  Resources.base - 124 : 2021/07/26 23:28:46 This is Content saved after creating the draft which is pres ...
+20:10:00.961 [TestNG] INFO  Resources.base - Post Headline Matched
+20:10:00.985 [TestNG] INFO  Resources.base - Post Headline Matched
+20:10:01.015 [TestNG] INFO  Resources.base - Post Category Matched
+20:10:01.046 [TestNG] INFO  Resources.base - Post Updated On Date is matched 
+20:10:02.527 [TestNG] INFO  Resources.base - closing browser
+20:12:43.143 [TestNG] INFO  Resources.base - Driver is initialized
+20:12:43.302 [TestNG] INFO  Resources.base - Window is maximised
+20:12:51.225 [TestNG] INFO  Resources.base - Navigated to Url 
+20:12:51.496 [TestNG] INFO  Resources.base - Entered Username
+20:12:51.673 [TestNG] INFO  Resources.base - Entered Password
+20:12:51.763 [TestNG] INFO  Resources.base - Clicked on Login Button
+20:12:54.284 [TestNG] INFO  Resources.base - Initiating Method :' PostDecline '
+20:13:02.274 [TestNG] INFO  Resources.base - Entered Username
+20:13:02.377 [TestNG] INFO  Resources.base - Entered Password
+20:13:02.459 [TestNG] INFO  Resources.base - Clicked on Login Button
+20:13:04.103 [TestNG] INFO  Resources.base - Admin control button clicked 
+20:13:05.974 [TestNG] INFO  Resources.base - Automation User
+20:13:08.892 [TestNG] INFO  Resources.base - Post approve  message verified
+20:13:10.992 [TestNG] INFO  Resources.base - Entered Username
+20:13:11.093 [TestNG] INFO  Resources.base - Entered Password
+20:13:11.165 [TestNG] INFO  Resources.base - Clicked on Login Button
+20:13:14.616 [TestNG] INFO  Resources.base - 2021/07/26 23:24:12 This is Content saved after creating the draft which is pres ...
+20:13:14.616 [TestNG] INFO  Resources.base - 124 : 2021/07/26 23:24:12 This is Content saved after creating the draft which is pres ...
+20:13:14.704 [TestNG] INFO  Resources.base - Post Headline Matched
+20:13:14.754 [TestNG] INFO  Resources.base - Post Category Matched
+20:13:14.782 [TestNG] INFO  Resources.base - Post Updated On Date is matched 
+20:13:15.455 [TestNG] INFO  Resources.base - Decline Message verified
+20:13:16.242 [TestNG] INFO  Resources.base - closing browser
+10:01:14.049 [TestNG] INFO  Resources.base - Intiating Method :' loginPageTestCredentials : with correct user credentials '
+10:01:31.055 [TestNG] INFO  Resources.base - Driver is initialized
+10:01:31.060 [TestNG] INFO  Resources.base - Driver is initialized
+10:01:31.060 [TestNG] INFO  Resources.base - Driver is initialized
+10:01:31.053 [TestNG] INFO  Resources.base - Driver is initialized
+10:01:31.060 [TestNG] INFO  Resources.base - Driver is initialized
+10:01:31.414 [TestNG] INFO  Resources.base - Window is maximised
+10:01:31.478 [TestNG] INFO  Resources.base - Window is maximised
+10:01:31.543 [TestNG] INFO  Resources.base - Window is maximised
+10:01:31.628 [TestNG] INFO  Resources.base - Window is maximised
+10:01:31.802 [TestNG] INFO  Resources.base - Window is maximised
+10:02:49.505 [TestNG] INFO  Resources.base - Navigated to Url 
+10:02:49.539 [TestNG] INFO  Resources.base - Driver For Login Page is initialized
+10:02:49.561 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+10:02:50.138 [TestNG] INFO  Resources.base - Navigated to Url 
+10:02:50.146 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+10:02:50.618 [TestNG] INFO  Resources.base - Navigated to Url 
+10:03:09.064 [TestNG] INFO  Resources.base - Entered Username
+10:03:09.161 [TestNG] INFO  Resources.base - Entered Username
+10:03:09.814 [TestNG] INFO  Resources.base - Entered Password
+10:03:09.874 [TestNG] INFO  Resources.base - Entered Password
+10:03:10.528 [TestNG] INFO  Resources.base - Clicked on Login Button
+10:03:10.782 [TestNG] INFO  Resources.base - Clicked on Login Button
+10:03:16.662 [TestNG] INFO  Resources.base - Navigated to Url 
+10:03:18.671 [TestNG] INFO  Resources.base - Username entered as  automation
+10:03:19.240 [TestNG] INFO  Resources.base - Entered Username
+10:03:20.081 [TestNG] INFO  Resources.base - password  entered as  automation
+10:03:20.282 [TestNG] INFO  Resources.base - Entered Password
+10:03:20.667 [TestNG] INFO  Resources.base - Clicked on login
+10:03:21.080 [TestNG] INFO  Resources.base - Clicked on Login Button
+10:03:22.848 [TestNG] INFO  Resources.base - Initiating Method :' CreateConnectHubDraft '
+10:03:30.210 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+10:03:31.159 [TestNG] INFO  Resources.base - clicked on Connect Hub Button
+10:03:31.683 [TestNG] INFO  Resources.base - Clicked on MyProfile button
+10:03:34.989 [TestNG] INFO  Resources.base - Navigated to correct url ie. https://dev-adityabirla.emcollab.com/#/hub
+10:03:35.401 [TestNG] INFO  Resources.base - Initiating Method :' CreateLearningDraft '
+10:03:36.528 [TestNG] INFO  Resources.base - Clicked on create post button
+10:03:38.282 [TestNG] INFO  Resources.base - Intiating Method :' loginPageTestCredentials: with correct UserName & wrong Password '
+10:03:42.683 [TestNG] INFO  Resources.base - Fetching MyProfilePage
+10:03:42.979 [TestNG] INFO  Resources.base - Intiating Method :' updateContactInfo '
+10:03:49.045 [TestNG] INFO  Resources.base - Driver is initialized
+10:03:50.296 [TestNG] INFO  Resources.base - Window is maximised
+10:03:50.411 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+10:03:57.662 [TestNG] INFO  Resources.base - Post Headline Inserted
+10:04:02.584 [TestNG] INFO  Resources.base -  Country code for India Selected 
+10:04:04.011 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+10:04:07.460 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 8676531512  '
+10:04:09.796 [TestNG] INFO  Resources.base -  Post description is inserted 
+10:04:10.389 [TestNG] INFO  Resources.base - Post Headline Inserted
+10:04:12.639 [TestNG] INFO  Resources.base - tag is inserted 
+10:04:14.738 [TestNG] INFO  Resources.base - toast Message Verified
+10:04:14.774 [TestNG] INFO  Resources.base - Intiating Method :' updateGender '
+10:04:15.387 [TestNG] INFO  Resources.base - Clicked on female radio button
+10:04:16.383 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+10:04:17.591 [TestNG] INFO  Resources.base - Save Draft button clicked
+10:04:19.987 [TestNG] INFO  Resources.base - toast Message Verified
+10:04:21.443 [TestNG] INFO  Resources.base - Clicked on Male radio button
+10:04:21.567 [TestNG] INFO  Resources.base -  Post description is inserted 
+10:04:24.067 [TestNG] INFO  Resources.base - tag is inserted 
+10:04:24.178 [TestNG] ERROR Resources.base - Confirmation message didn't showed
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'harshits-MacBook-Air.local', ip: 'fe80:0:0:0:185f:3bc:bf41:8715%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/mf/5d0879117zv...}, goog:chromeOptions: {debuggerAddress: localhost:49541}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b2b1d2609d54243997b7176616e7b65
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	at encollab.CreateConnectHubPost.CreateConnectHubDraft(CreateConnectHubPost.java:162) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]

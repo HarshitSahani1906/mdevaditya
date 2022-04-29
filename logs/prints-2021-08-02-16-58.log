@@ -1,0 +1,743 @@
+15:56:28.663 [TestNG] INFO  Resources.base - Save Draft button clicked
+15:56:29.851 [TestNG] INFO  Resources.base - Save message verified
+15:56:29.932 [TestNG] INFO  Resources.base - Post creation date matched 
+15:56:29.966 [TestNG] INFO  Resources.base - Post description matched 
+15:56:30.002 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.CreatePost.EditDraft(CreatePost.java:860) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+15:56:30.005 [TestNG] INFO  Resources.base - Initiating Method :' DeclineDraft '
+15:56:30.039 [TestNG] INFO  Resources.base - User is on My space Page 
+15:56:32.183 [TestNG] INFO  Resources.base - closing browser
+16:15:07.122 [TestNG] INFO  Resources.base - Driver is initialized
+16:15:07.366 [TestNG] INFO  Resources.base - Window is maximised
+16:15:14.136 [TestNG] INFO  Resources.base - Navigated to Url 
+16:15:14.147 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+16:15:14.374 [TestNG] INFO  Resources.base - Entered Username
+16:15:14.505 [TestNG] INFO  Resources.base - Entered Password
+16:15:14.609 [TestNG] INFO  Resources.base - Clicked on Login Button
+16:15:14.646 [TestNG] INFO  Resources.base - Initiating Method :' validateNewUser '
+16:15:16.735 [TestNG] INFO  Resources.base - Entered complete Profile Page
+16:15:17.065 [TestNG] INFO  Resources.base - First name has been entered
+16:15:17.285 [TestNG] INFO  Resources.base - Last name has been entered
+16:15:17.393 [TestNG] INFO  Resources.base - Clicked on female radio button
+16:15:17.438 [TestNG] INFO  Resources.base - Email field is non-editable
+16:15:18.876 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+16:15:19.143 [TestNG] INFO  Resources.base - For Calender date is choosen
+16:15:19.144 [TestNG] INFO  Resources.base - Selecting organisation at option number :0
+16:15:19.442 [TestNG] INFO  Resources.base - Organisation name clicked
+16:15:19.442 [TestNG] INFO  Resources.base - Selecting Job Function at option number :3
+16:15:20.565 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+16:15:21.928 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+16:15:22.943 [TestNG] INFO  Resources.base - Selecting city at option number :539
+16:15:26.481 [TestNG] INFO  Resources.base -  City as : ' Rajapur ' is selected
+16:15:26.481 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+16:15:27.123 [TestNG] INFO  Resources.base -  Country code for India Selected 
+16:15:27.888 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 2540807892  '
+16:15:28.650 [TestNG] INFO  Resources.base - My Healine message entered
+16:15:31.033 [TestNG] INFO  Resources.base - toast Message Verified
+16:15:32.278 [TestNG] INFO  Resources.base - Tour Exited
+16:15:33.409 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+16:15:33.560 [TestNG] INFO  Resources.base - clicked on Logout Button
+16:15:33.565 [TestNG] INFO  Resources.base - Login Url matches after Logout 
+16:15:36.335 [TestNG] INFO  Resources.base - Test Case is successfully executed
+16:15:36.526 [TestNG] INFO  Resources.base - closing browser
+16:18:49.536 [TestNG] INFO  Resources.base - Driver is initialized
+16:18:49.721 [TestNG] INFO  Resources.base - Window is maximised
+16:18:56.060 [TestNG] INFO  Resources.base - Navigated to Url 
+16:18:56.070 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+16:18:56.311 [TestNG] INFO  Resources.base - Entered Username
+16:18:56.446 [TestNG] INFO  Resources.base - Entered Password
+16:18:56.550 [TestNG] INFO  Resources.base - Clicked on Login Button
+16:18:56.598 [TestNG] INFO  Resources.base - Initiating Method :' validateNewUser '
+16:18:58.822 [TestNG] INFO  Resources.base - clicked on checkbox
+16:18:59.865 [TestNG] INFO  Resources.base - Entered complete Profile Page
+16:19:00.299 [TestNG] INFO  Resources.base - First name has been entered
+16:19:00.811 [TestNG] INFO  Resources.base - Last name has been entered
+16:19:00.919 [TestNG] INFO  Resources.base - Clicked on female radio button
+16:19:00.977 [TestNG] INFO  Resources.base - Email field is non-editable
+16:19:02.461 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+16:19:02.703 [TestNG] INFO  Resources.base - For Calender date is choosen
+16:19:02.704 [TestNG] INFO  Resources.base - Selecting organisation at option number :9
+16:19:02.968 [TestNG] INFO  Resources.base - Organisation name clicked
+16:19:02.969 [TestNG] INFO  Resources.base - Selecting Job Function at option number :8
+16:19:04.091 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+16:19:05.489 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+16:19:06.502 [TestNG] INFO  Resources.base - Selecting city at option number :275
+16:19:10.197 [TestNG] INFO  Resources.base -  City as : ' Islamnagar ' is selected
+16:19:10.197 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+16:19:10.854 [TestNG] INFO  Resources.base -  Country code for India Selected 
+16:19:11.586 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 2467460118  '
+16:19:12.333 [TestNG] INFO  Resources.base - My Healine message entered
+16:19:14.599 [TestNG] INFO  Resources.base - toast Message Verified
+16:19:15.822 [TestNG] INFO  Resources.base - Tour Exited
+16:19:16.938 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+16:19:17.098 [TestNG] INFO  Resources.base - clicked on Logout Button
+16:19:17.103 [TestNG] INFO  Resources.base - Login Url matches after Logout 
+16:19:21.102 [TestNG] INFO  Resources.base - Entered Username
+16:19:21.222 [TestNG] INFO  Resources.base - Entered Password
+16:19:21.306 [TestNG] INFO  Resources.base - Clicked on Login Button
+16:19:22.518 [TestNG] INFO  Resources.base - clicked on checkbox
+16:19:23.472 [TestNG] INFO  Resources.base - Entered complete Profile Page
+16:19:23.776 [TestNG] INFO  Resources.base - First name has been entered
+16:19:23.979 [TestNG] INFO  Resources.base - Last name has been entered
+16:19:24.154 [TestNG] INFO  Resources.base - Clicked on female radio button
+16:19:24.226 [TestNG] INFO  Resources.base - Email field is non-editable
+16:19:25.723 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+16:19:25.947 [TestNG] INFO  Resources.base - For Calender date is choosen
+16:19:25.948 [TestNG] INFO  Resources.base - Selecting organisation at option number :12
+16:19:26.206 [TestNG] INFO  Resources.base - Organisation name clicked
+16:19:26.206 [TestNG] INFO  Resources.base - Selecting Job Function at option number :9
+16:19:27.522 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+16:19:28.874 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+16:19:29.885 [TestNG] INFO  Resources.base - Selecting city at option number :254
+16:19:33.417 [TestNG] INFO  Resources.base -  City as : ' Haidergarh ' is selected
+16:19:33.417 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+16:19:34.070 [TestNG] INFO  Resources.base -  Country code for India Selected 
+16:19:34.798 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 2840325440  '
+16:19:35.531 [TestNG] INFO  Resources.base - My Healine message entered
+16:19:38.136 [TestNG] INFO  Resources.base - toast Message Verified
+16:19:39.281 [TestNG] INFO  Resources.base - Tour Exited
+16:19:39.282 [TestNG] ERROR Resources.base - Testcase failed due to exceed attempts
+16:19:40.099 [TestNG] INFO  Resources.base - closing browser
+16:20:13.368 [TestNG] INFO  Resources.base - Driver is initialized
+16:20:13.523 [TestNG] INFO  Resources.base - Window is maximised
+16:20:20.376 [TestNG] INFO  Resources.base - Navigated to Url 
+16:20:20.387 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+16:20:20.689 [TestNG] INFO  Resources.base - Entered Username
+16:20:20.855 [TestNG] INFO  Resources.base - Entered Password
+16:20:20.979 [TestNG] INFO  Resources.base - Clicked on Login Button
+16:20:21.062 [TestNG] INFO  Resources.base - Initiating Method :' validateNewUser '
+16:20:24.266 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+16:20:24.460 [TestNG] INFO  Resources.base - clicked on Logout Button
+16:20:24.471 [TestNG] INFO  Resources.base - Login Url matches after Logout 
+16:20:26.716 [TestNG] INFO  Resources.base - Entered Username
+16:20:26.825 [TestNG] INFO  Resources.base - Entered Password
+16:20:26.910 [TestNG] INFO  Resources.base - Clicked on Login Button
+16:20:28.176 [TestNG] INFO  Resources.base - clicked on checkbox
+16:20:28.790 [TestNG] INFO  Resources.base - Entered complete Profile Page
+16:20:29.504 [TestNG] INFO  Resources.base - First name has been entered
+16:20:29.680 [TestNG] INFO  Resources.base - Last name has been entered
+16:20:29.827 [TestNG] INFO  Resources.base - Clicked on female radio button
+16:20:29.872 [TestNG] INFO  Resources.base - Email field is non-editable
+16:20:31.395 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+16:20:31.650 [TestNG] INFO  Resources.base - For Calender date is choosen
+16:20:31.652 [TestNG] INFO  Resources.base - Selecting organisation at option number :2
+16:20:31.956 [TestNG] INFO  Resources.base - Organisation name clicked
+16:20:31.957 [TestNG] INFO  Resources.base - Selecting Job Function at option number :4
+16:20:33.288 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+16:20:34.632 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+16:20:35.645 [TestNG] INFO  Resources.base - Selecting city at option number :464
+16:20:39.250 [TestNG] INFO  Resources.base -  City as : ' Mundora ' is selected
+16:20:39.266 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+16:20:39.905 [TestNG] INFO  Resources.base -  Country code for India Selected 
+16:20:40.626 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 1108794762  '
+16:20:41.365 [TestNG] INFO  Resources.base - My Healine message entered
+16:20:43.553 [TestNG] INFO  Resources.base - toast Message Verified
+16:20:44.728 [TestNG] INFO  Resources.base - Tour Exited
+16:20:45.847 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+16:20:45.980 [TestNG] INFO  Resources.base - clicked on Logout Button
+16:20:45.992 [TestNG] INFO  Resources.base - Login Url matches after Logout 
+16:20:49.514 [TestNG] INFO  Resources.base - Entered Username
+16:20:49.619 [TestNG] INFO  Resources.base - Entered Password
+16:20:49.698 [TestNG] INFO  Resources.base - Clicked on Login Button
+16:20:50.915 [TestNG] INFO  Resources.base - clicked on checkbox
+16:20:51.881 [TestNG] ERROR Resources.base - Testcase failed due to exceed attempts
+16:20:52.315 [TestNG] INFO  Resources.base - closing browser
+16:27:38.121 [TestNG] INFO  Resources.base - Driver is initialized
+16:27:38.446 [TestNG] INFO  Resources.base - Window is maximised
+16:27:45.339 [TestNG] INFO  Resources.base - Navigated to Url 
+16:27:45.346 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+16:27:45.595 [TestNG] INFO  Resources.base - Entered Username
+16:27:45.726 [TestNG] INFO  Resources.base - Entered Password
+16:27:45.827 [TestNG] INFO  Resources.base - Clicked on Login Button
+16:27:45.876 [TestNG] INFO  Resources.base - Initiating Method :' validateNewUser '
+16:27:48.003 [TestNG] INFO  Resources.base - Entered complete Profile Page
+16:27:48.292 [TestNG] INFO  Resources.base - First name has been entered
+16:27:48.496 [TestNG] INFO  Resources.base - Last name has been entered
+16:27:48.599 [TestNG] INFO  Resources.base - Clicked on female radio button
+16:27:48.655 [TestNG] INFO  Resources.base - Email field is non-editable
+16:27:50.077 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+16:27:50.317 [TestNG] INFO  Resources.base - For Calender date is choosen
+16:27:50.319 [TestNG] INFO  Resources.base - Selecting organisation at option number :15
+16:27:50.759 [TestNG] INFO  Resources.base - Organisation name clicked
+16:27:50.759 [TestNG] INFO  Resources.base - Selecting Job Function at option number :9
+16:27:51.929 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+16:27:53.282 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+16:27:54.292 [TestNG] INFO  Resources.base - Selecting city at option number :255
+16:27:58.111 [TestNG] INFO  Resources.base -  City as : ' Haldaur ' is selected
+16:27:58.113 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+16:27:58.777 [TestNG] INFO  Resources.base -  Country code for India Selected 
+16:27:59.528 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 3997829356  '
+16:28:00.286 [TestNG] INFO  Resources.base - My Healine message entered
+16:28:02.779 [TestNG] INFO  Resources.base - toast Message Verified
+16:28:03.960 [TestNG] INFO  Resources.base - Tour Exited
+16:28:05.089 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+16:28:05.231 [TestNG] INFO  Resources.base - clicked on Logout Button
+16:28:05.238 [TestNG] INFO  Resources.base - Login Url matches after Logout 
+16:28:08.934 [TestNG] INFO  Resources.base - Test Case is successfully executed
+16:28:09.133 [TestNG] INFO  Resources.base - closing browser
+16:28:28.417 [TestNG] INFO  Resources.base - Driver is initialized
+16:28:28.565 [TestNG] INFO  Resources.base - Window is maximised
+16:28:33.317 [TestNG] INFO  Resources.base - Navigated to Url 
+16:28:33.324 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+16:28:33.548 [TestNG] INFO  Resources.base - Entered Username
+16:28:33.665 [TestNG] INFO  Resources.base - Entered Password
+16:28:33.757 [TestNG] INFO  Resources.base - Clicked on Login Button
+16:28:33.791 [TestNG] INFO  Resources.base - Initiating Method :' validateNewUser '
+16:28:36.058 [TestNG] INFO  Resources.base - clicked on checkbox
+16:28:36.677 [TestNG] INFO  Resources.base - Entered complete Profile Page
+16:28:37.696 [TestNG] INFO  Resources.base - First name has been entered
+16:28:38.027 [TestNG] INFO  Resources.base - Last name has been entered
+16:28:38.173 [TestNG] INFO  Resources.base - Clicked on female radio button
+16:28:38.234 [TestNG] INFO  Resources.base - Email field is non-editable
+16:28:39.628 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+16:28:39.907 [TestNG] INFO  Resources.base - For Calender date is choosen
+16:28:39.908 [TestNG] INFO  Resources.base - Selecting organisation at option number :12
+16:28:40.174 [TestNG] INFO  Resources.base - Organisation name clicked
+16:28:40.175 [TestNG] INFO  Resources.base - Selecting Job Function at option number :13
+16:28:41.262 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+16:28:42.645 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+16:28:43.657 [TestNG] INFO  Resources.base - Selecting city at option number :219
+16:28:47.157 [TestNG] INFO  Resources.base -  City as : ' Ganj Muradabad ' is selected
+16:28:47.158 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+16:28:47.801 [TestNG] INFO  Resources.base -  Country code for India Selected 
+16:28:48.525 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 2167016554  '
+16:28:49.288 [TestNG] INFO  Resources.base - My Healine message entered
+16:28:51.329 [TestNG] INFO  Resources.base - toast Message Verified
+16:28:52.518 [TestNG] INFO  Resources.base - Tour Exited
+16:28:53.636 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+16:28:53.777 [TestNG] INFO  Resources.base - clicked on Logout Button
+16:28:53.783 [TestNG] INFO  Resources.base - Login Url matches after Logout 
+16:28:57.368 [TestNG] INFO  Resources.base - Entered Username
+16:28:57.483 [TestNG] INFO  Resources.base - Entered Password
+16:28:57.567 [TestNG] INFO  Resources.base - Clicked on Login Button
+16:28:58.817 [TestNG] INFO  Resources.base - clicked on checkbox
+16:28:59.444 [TestNG] INFO  Resources.base - Entered complete Profile Page
+16:29:00.092 [TestNG] INFO  Resources.base - First name has been entered
+16:29:00.275 [TestNG] INFO  Resources.base - Last name has been entered
+16:29:00.438 [TestNG] INFO  Resources.base - Clicked on female radio button
+16:29:00.471 [TestNG] INFO  Resources.base - Email field is non-editable
+16:29:01.874 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+16:29:02.109 [TestNG] INFO  Resources.base - For Calender date is choosen
+16:29:02.110 [TestNG] INFO  Resources.base - Selecting organisation at option number :5
+16:29:02.361 [TestNG] INFO  Resources.base - Organisation name clicked
+16:29:02.362 [TestNG] INFO  Resources.base - Selecting Job Function at option number :0
+16:29:03.409 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+16:29:04.749 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+16:29:05.761 [TestNG] INFO  Resources.base - Selecting city at option number :115
+16:29:09.276 [TestNG] INFO  Resources.base -  City as : ' Bidhuna ' is selected
+16:29:09.276 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+16:29:09.928 [TestNG] INFO  Resources.base -  Country code for India Selected 
+16:29:10.651 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 5282739023  '
+16:29:11.396 [TestNG] INFO  Resources.base - My Healine message entered
+16:29:13.007 [TestNG] ERROR Resources.base - Error occured while CompleteProfile Page is loaded 
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="btn btn-action" type="submit" ng-disabled="user.$invalid" ng-click="updateUser(1)" disabled="disabled">...</button> is not clickable at point (168, 595). Other element would receive the click: <div class="form-group col-md-12 col-sm-12 col-xs-12 xs-text-center" id="saveBlock">...</div>
+  (Session info: chrome=92.0.4515.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'harshits-MacBook-Air.local', ip: 'fe80:0:0:0:854:8da6:493:31d8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/mf/5d0879117zv...}, goog:chromeOptions: {debuggerAddress: localhost:51569}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d643b5da46116e16d59b671fe37500f
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84) ~[selenium-remote-driver-3.141.59.jar:?]
+	at encollab.Dummycode.saveButton(Dummycode.java:74) ~[test-classes/:?]
+	at encollab.Dummycode.validateNewUser(Dummycode.java:307) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+16:29:13.330 [TestNG] INFO  Resources.base - closing browser
+16:30:11.292 [TestNG] INFO  Resources.base - Driver is initialized
+16:30:11.464 [TestNG] INFO  Resources.base - Window is maximised
+16:30:17.236 [TestNG] INFO  Resources.base - Navigated to Url 
+16:30:17.241 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+16:30:17.476 [TestNG] INFO  Resources.base - Entered Username
+16:30:17.608 [TestNG] INFO  Resources.base - Entered Password
+16:30:17.698 [TestNG] INFO  Resources.base - Clicked on Login Button
+16:30:17.728 [TestNG] INFO  Resources.base - Initiating Method :' validateNewUser '
+16:30:19.754 [TestNG] INFO  Resources.base - Entered complete Profile Page
+16:30:20.058 [TestNG] INFO  Resources.base - First name has been entered
+16:30:20.263 [TestNG] INFO  Resources.base - Last name has been entered
+16:30:20.373 [TestNG] INFO  Resources.base - Clicked on female radio button
+16:30:20.421 [TestNG] INFO  Resources.base - Email field is non-editable
+16:30:21.871 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+16:30:22.098 [TestNG] INFO  Resources.base - For Calender date is choosen
+16:30:22.099 [TestNG] INFO  Resources.base - Selecting organisation at option number :1
+16:30:22.380 [TestNG] INFO  Resources.base - Organisation name clicked
+16:30:22.380 [TestNG] INFO  Resources.base - Selecting Job Function at option number :14
+16:30:23.633 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+16:30:24.958 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+16:30:25.969 [TestNG] INFO  Resources.base - Selecting city at option number :373
+16:30:29.425 [TestNG] INFO  Resources.base -  City as : ' Koiripur ' is selected
+16:30:29.426 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+16:30:30.106 [TestNG] INFO  Resources.base -  Country code for India Selected 
+16:30:30.820 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 2683405047  '
+16:30:31.560 [TestNG] INFO  Resources.base - My Healine message entered
+16:30:33.602 [TestNG] INFO  Resources.base - toast Message Verified
+16:30:34.803 [TestNG] INFO  Resources.base - Tour Exited
+16:30:35.927 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+16:30:36.053 [TestNG] INFO  Resources.base - clicked on Logout Button
+16:30:36.058 [TestNG] INFO  Resources.base - Login Url matches after Logout 
+16:30:39.288 [TestNG] INFO  Resources.base - Test Case is successfully executed
+16:30:39.463 [TestNG] INFO  Resources.base - closing browser
+16:32:11.982 [TestNG] INFO  Resources.base - Driver is initialized
+16:32:12.214 [TestNG] INFO  Resources.base - Window is maximised
+16:32:19.228 [TestNG] INFO  Resources.base - Navigated to Url 
+16:32:19.237 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+16:32:19.479 [TestNG] INFO  Resources.base - Entered Username
+16:32:19.608 [TestNG] INFO  Resources.base - Entered Password
+16:32:19.703 [TestNG] INFO  Resources.base - Clicked on Login Button
+16:32:19.732 [TestNG] INFO  Resources.base - Initiating Method :' validateNewUser '
+16:32:21.960 [TestNG] INFO  Resources.base - clicked on checkbox
+16:32:22.580 [TestNG] INFO  Resources.base - Entered complete Profile Page
+16:32:23.377 [TestNG] INFO  Resources.base - First name has been entered
+16:32:23.617 [TestNG] INFO  Resources.base - Last name has been entered
+16:32:23.723 [TestNG] INFO  Resources.base - Clicked on female radio button
+16:32:23.788 [TestNG] INFO  Resources.base - Email field is non-editable
+16:32:25.321 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+16:32:25.591 [TestNG] INFO  Resources.base - For Calender date is choosen
+16:32:25.592 [TestNG] INFO  Resources.base - Selecting organisation at option number :14
+16:32:25.866 [TestNG] INFO  Resources.base - Organisation name clicked
+16:32:25.866 [TestNG] INFO  Resources.base - Selecting Job Function at option number :11
+16:32:26.945 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+16:32:28.282 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+16:32:29.294 [TestNG] INFO  Resources.base - Selecting city at option number :444
+16:32:32.929 [TestNG] INFO  Resources.base -  City as : ' Miranpur ' is selected
+16:32:32.929 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+16:32:33.560 [TestNG] INFO  Resources.base -  Country code for India Selected 
+16:32:34.309 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 5857164974  '
+16:32:35.055 [TestNG] INFO  Resources.base - My Healine message entered
+16:32:37.259 [TestNG] INFO  Resources.base - toast Message Verified
+16:32:38.468 [TestNG] INFO  Resources.base - Tour Exited
+16:32:39.587 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+16:32:39.729 [TestNG] INFO  Resources.base - clicked on Logout Button
+16:32:39.734 [TestNG] INFO  Resources.base - Login Url matches after Logout 
+16:32:42.305 [TestNG] INFO  Resources.base - Entered Username
+16:32:42.424 [TestNG] INFO  Resources.base - Entered Password
+16:32:42.519 [TestNG] INFO  Resources.base - Clicked on Login Button
+16:32:43.747 [TestNG] INFO  Resources.base - clicked on checkbox
+16:32:44.703 [TestNG] INFO  Resources.base - Entered complete Profile Page
+16:32:44.979 [TestNG] INFO  Resources.base - First name has been entered
+16:32:45.164 [TestNG] INFO  Resources.base - Last name has been entered
+16:32:45.333 [TestNG] INFO  Resources.base - Clicked on female radio button
+16:32:45.376 [TestNG] INFO  Resources.base - Email field is non-editable
+16:32:46.792 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+16:32:47.015 [TestNG] INFO  Resources.base - For Calender date is choosen
+16:32:47.015 [TestNG] INFO  Resources.base - Selecting organisation at option number :7
+16:32:47.348 [TestNG] INFO  Resources.base - Organisation name clicked
+16:32:47.348 [TestNG] INFO  Resources.base - Selecting Job Function at option number :7
+16:32:48.485 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+16:32:49.922 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+16:32:50.932 [TestNG] INFO  Resources.base - Selecting city at option number :124
+16:32:54.400 [TestNG] INFO  Resources.base -  City as : ' Bilram ' is selected
+16:32:54.400 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+16:32:55.083 [TestNG] INFO  Resources.base -  Country code for India Selected 
+16:32:55.799 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 3541944256  '
+16:32:56.581 [TestNG] INFO  Resources.base - My Healine message entered
+16:32:58.189 [TestNG] ERROR Resources.base - Error occured while CompleteProfile Page is loaded 
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="btn btn-action" type="submit" ng-disabled="user.$invalid" ng-click="updateUser(1)" disabled="disabled">...</button> is not clickable at point (168, 595). Other element would receive the click: <div class="form-group col-md-12 col-sm-12 col-xs-12 xs-text-center" id="saveBlock">...</div>
+  (Session info: chrome=92.0.4515.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'harshits-MacBook-Air.local', ip: 'fe80:0:0:0:854:8da6:493:31d8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/mf/5d0879117zv...}, goog:chromeOptions: {debuggerAddress: localhost:51660}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 617d21620a21e3efd0474541f9fe4e4a
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84) ~[selenium-remote-driver-3.141.59.jar:?]
+	at encollab.Dummycode.saveButton(Dummycode.java:74) ~[test-classes/:?]
+	at encollab.Dummycode.validateNewUser(Dummycode.java:307) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+16:32:58.590 [TestNG] INFO  Resources.base - closing browser
+16:36:52.619 [TestNG] INFO  Resources.base - Driver is initialized
+16:36:52.841 [TestNG] INFO  Resources.base - Window is maximised
+16:36:59.568 [TestNG] INFO  Resources.base - Navigated to Url 
+16:36:59.584 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+16:36:59.870 [TestNG] INFO  Resources.base - Entered Username
+16:36:59.987 [TestNG] INFO  Resources.base - Entered Password
+16:37:00.090 [TestNG] INFO  Resources.base - Clicked on Login Button
+16:37:00.136 [TestNG] INFO  Resources.base - Initiating Method :' validateNewUser '
+16:37:02.204 [TestNG] INFO  Resources.base - Entered complete Profile Page
+16:37:02.523 [TestNG] INFO  Resources.base - First name has been entered
+16:37:02.749 [TestNG] INFO  Resources.base - Last name has been entered
+16:37:02.855 [TestNG] INFO  Resources.base - Clicked on female radio button
+16:37:02.894 [TestNG] INFO  Resources.base - Email field is non-editable
+16:37:04.304 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+16:37:04.549 [TestNG] INFO  Resources.base - For Calender date is choosen
+16:37:04.550 [TestNG] INFO  Resources.base - Selecting organisation at option number :1
+16:37:04.824 [TestNG] INFO  Resources.base - Organisation name clicked
+16:37:04.824 [TestNG] INFO  Resources.base - Selecting Job Function at option number :3
+16:37:05.951 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+16:37:07.304 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+16:37:08.317 [TestNG] INFO  Resources.base - Selecting city at option number :544
+16:37:11.832 [TestNG] INFO  Resources.base -  City as : ' Rampur Karkhana ' is selected
+16:37:11.833 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+16:37:12.492 [TestNG] INFO  Resources.base -  Country code for India Selected 
+16:37:13.215 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 1156322929  '
+16:37:13.952 [TestNG] INFO  Resources.base - My Healine message entered
+16:37:16.525 [TestNG] INFO  Resources.base - toast Message Verified
+16:37:17.758 [TestNG] INFO  Resources.base - Tour Exited
+16:37:18.896 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+16:37:19.035 [TestNG] INFO  Resources.base - clicked on Logout Button
+16:37:19.040 [TestNG] INFO  Resources.base - Login Url matches after Logout 
+16:37:22.421 [TestNG] INFO  Resources.base - Entered Username
+16:37:22.527 [TestNG] INFO  Resources.base - Entered Password
+16:37:22.612 [TestNG] INFO  Resources.base - Clicked on Login Button
+16:37:23.822 [TestNG] INFO  Resources.base - clicked on checkbox
+16:37:24.435 [TestNG] INFO  Resources.base - Entered complete Profile Page
+16:37:24.953 [TestNG] INFO  Resources.base - First name has been entered
+16:37:25.156 [TestNG] INFO  Resources.base - Last name has been entered
+16:37:25.265 [TestNG] INFO  Resources.base - Clicked on female radio button
+16:37:25.305 [TestNG] INFO  Resources.base - Email field is non-editable
+16:37:26.716 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+16:37:26.932 [TestNG] INFO  Resources.base - For Calender date is choosen
+16:37:26.933 [TestNG] INFO  Resources.base - Selecting organisation at option number :15
+16:37:27.207 [TestNG] INFO  Resources.base - Organisation name clicked
+16:37:27.207 [TestNG] INFO  Resources.base - Selecting Job Function at option number :7
+16:37:28.299 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+16:37:29.720 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+16:37:30.732 [TestNG] INFO  Resources.base - Selecting city at option number :441
+16:37:34.172 [TestNG] INFO  Resources.base -  City as : ' Mehndawal ' is selected
+16:37:34.173 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+16:37:34.823 [TestNG] INFO  Resources.base -  Country code for India Selected 
+16:37:35.552 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 1033540715  '
+16:37:36.321 [TestNG] INFO  Resources.base - My Healine message entered
+16:37:37.928 [TestNG] ERROR Resources.base - Error occured while CompleteProfile Page is loaded 
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="btn btn-action" type="submit" ng-disabled="user.$invalid" ng-click="updateUser(1)" disabled="disabled">...</button> is not clickable at point (168, 595). Other element would receive the click: <div class="form-group col-md-12 col-sm-12 col-xs-12 xs-text-center" id="saveBlock">...</div>
+  (Session info: chrome=92.0.4515.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'harshits-MacBook-Air.local', ip: 'fe80:0:0:0:854:8da6:493:31d8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/mf/5d0879117zv...}, goog:chromeOptions: {debuggerAddress: localhost:51721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7014b597279441b61744e0fd9d15adc7
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84) ~[selenium-remote-driver-3.141.59.jar:?]
+	at encollab.Dummycode.saveButton(Dummycode.java:74) ~[test-classes/:?]
+	at encollab.Dummycode.validateNewUser(Dummycode.java:307) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+16:37:38.250 [TestNG] INFO  Resources.base - closing browser
+16:38:08.232 [TestNG] INFO  Resources.base - Driver is initialized
+16:38:08.412 [TestNG] INFO  Resources.base - Window is maximised
+16:38:16.032 [TestNG] INFO  Resources.base - Navigated to Url 
+16:38:16.069 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+16:38:17.213 [TestNG] INFO  Resources.base - Entered Username
+16:38:17.327 [TestNG] INFO  Resources.base - Entered Password
+16:38:17.429 [TestNG] INFO  Resources.base - Clicked on Login Button
+16:38:17.459 [TestNG] INFO  Resources.base - Initiating Method :' validateNewUser '
+16:38:19.495 [TestNG] INFO  Resources.base - Entered complete Profile Page
+16:38:19.779 [TestNG] INFO  Resources.base - First name has been entered
+16:38:19.974 [TestNG] INFO  Resources.base - Last name has been entered
+16:38:20.076 [TestNG] INFO  Resources.base - Clicked on female radio button
+16:38:20.114 [TestNG] INFO  Resources.base - Email field is non-editable
+16:38:21.526 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+16:38:21.764 [TestNG] INFO  Resources.base - For Calender date is choosen
+16:38:21.765 [TestNG] INFO  Resources.base - Selecting organisation at option number :15
+16:38:22.081 [TestNG] INFO  Resources.base - Organisation name clicked
+16:38:22.081 [TestNG] INFO  Resources.base - Selecting Job Function at option number :8
+16:38:23.124 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+16:38:24.478 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+16:38:25.490 [TestNG] INFO  Resources.base - Selecting city at option number :250
+16:38:29.206 [TestNG] INFO  Resources.base -  City as : ' Gursahaiganj ' is selected
+16:38:29.210 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+16:38:29.892 [TestNG] INFO  Resources.base -  Country code for India Selected 
+16:38:30.610 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 3685233654  '
+16:38:31.360 [TestNG] INFO  Resources.base - My Healine message entered
+16:38:33.444 [TestNG] INFO  Resources.base - toast Message Verified
+16:38:34.627 [TestNG] INFO  Resources.base - Tour Exited
+16:38:35.761 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+16:38:35.907 [TestNG] INFO  Resources.base - clicked on Logout Button
+16:38:35.914 [TestNG] INFO  Resources.base - Login Url matches after Logout 
+16:38:39.536 [TestNG] INFO  Resources.base - Entered Username
+16:38:39.667 [TestNG] INFO  Resources.base - Entered Password
+16:38:39.760 [TestNG] INFO  Resources.base - Clicked on Login Button
+16:38:40.978 [TestNG] INFO  Resources.base - clicked on checkbox
+16:38:41.590 [TestNG] INFO  Resources.base - Entered complete Profile Page
+16:38:42.114 [TestNG] INFO  Resources.base - First name has been entered
+16:38:42.266 [TestNG] INFO  Resources.base - Last name has been entered
+16:38:42.368 [TestNG] INFO  Resources.base - Clicked on female radio button
+16:38:42.415 [TestNG] INFO  Resources.base - Email field is non-editable
+16:38:43.820 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+16:38:44.033 [TestNG] INFO  Resources.base - For Calender date is choosen
+16:38:44.033 [TestNG] INFO  Resources.base - Selecting organisation at option number :14
+16:38:44.275 [TestNG] INFO  Resources.base - Organisation name clicked
+16:38:44.275 [TestNG] INFO  Resources.base - Selecting Job Function at option number :0
+16:38:45.333 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+16:38:46.678 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+16:38:47.690 [TestNG] INFO  Resources.base - Selecting city at option number :330
+16:38:51.132 [TestNG] INFO  Resources.base -  City as : ' Kanpur ' is selected
+16:38:51.132 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+16:38:51.782 [TestNG] INFO  Resources.base -  Country code for India Selected 
+16:38:52.524 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 1678954618  '
+16:38:53.260 [TestNG] INFO  Resources.base - My Healine message entered
+16:38:54.869 [TestNG] ERROR Resources.base - Error occured while CompleteProfile Page is loaded 
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="btn btn-action" type="submit" ng-disabled="user.$invalid" ng-click="updateUser(1)" disabled="disabled">...</button> is not clickable at point (168, 595). Other element would receive the click: <div class="form-group col-md-12 col-sm-12 col-xs-12 xs-text-center" id="saveBlock">...</div>
+  (Session info: chrome=92.0.4515.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'harshits-MacBook-Air.local', ip: 'fe80:0:0:0:854:8da6:493:31d8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/mf/5d0879117zv...}, goog:chromeOptions: {debuggerAddress: localhost:51766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0905449eb516a3a9a0f140d3452c2640
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84) ~[selenium-remote-driver-3.141.59.jar:?]
+	at encollab.Dummycode.saveButton(Dummycode.java:74) ~[test-classes/:?]
+	at encollab.Dummycode.validateNewUser(Dummycode.java:307) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+16:38:55.180 [TestNG] INFO  Resources.base - closing browser
+16:41:20.083 [TestNG] INFO  Resources.base - Driver is initialized
+16:41:20.287 [TestNG] INFO  Resources.base - Window is maximised
+16:41:25.586 [TestNG] INFO  Resources.base - Navigated to Url 
+16:41:25.596 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+16:41:26.417 [TestNG] INFO  Resources.base - Entered Username
+16:41:26.522 [TestNG] INFO  Resources.base - Entered Password
+16:41:26.613 [TestNG] INFO  Resources.base - Clicked on Login Button
+16:41:26.649 [TestNG] INFO  Resources.base - Initiating Method :' validateNewUser '
+16:41:28.758 [TestNG] INFO  Resources.base - Entered complete Profile Page
+16:41:29.062 [TestNG] INFO  Resources.base - First name has been entered
+16:41:29.279 [TestNG] INFO  Resources.base - Last name has been entered
+16:41:30.431 [TestNG] INFO  Resources.base - Clicked on female radio button
+16:41:30.468 [TestNG] INFO  Resources.base - Email field is non-editable
+16:41:31.873 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+16:41:32.120 [TestNG] INFO  Resources.base - For Calender date is choosen
+16:41:32.121 [TestNG] INFO  Resources.base - Selecting organisation at option number :4
+16:41:32.430 [TestNG] INFO  Resources.base - Organisation name clicked
+16:41:32.430 [TestNG] INFO  Resources.base - Selecting Job Function at option number :4
+16:41:33.522 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+16:41:34.886 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+16:41:35.897 [TestNG] INFO  Resources.base - Selecting city at option number :370
+16:41:39.356 [TestNG] INFO  Resources.base -  City as : ' Kishanpur ' is selected
+16:41:39.356 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+16:41:39.970 [TestNG] INFO  Resources.base -  Country code for India Selected 
+16:41:40.688 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 4387085816  '
+16:41:41.419 [TestNG] INFO  Resources.base - My Healine message entered
+16:41:43.530 [TestNG] INFO  Resources.base - toast Message Verified
+16:41:44.733 [TestNG] INFO  Resources.base - Tour Exited
+16:41:45.847 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+16:41:45.980 [TestNG] INFO  Resources.base - clicked on Logout Button
+16:41:45.988 [TestNG] INFO  Resources.base - Login Url matches after Logout 
+16:41:48.750 [TestNG] INFO  Resources.base - Entered Username
+16:41:48.872 [TestNG] INFO  Resources.base - Entered Password
+16:41:48.957 [TestNG] INFO  Resources.base - Clicked on Login Button
+16:41:50.158 [TestNG] INFO  Resources.base - clicked on checkbox
+16:41:50.772 [TestNG] INFO  Resources.base - Entered complete Profile Page
+16:41:51.306 [TestNG] INFO  Resources.base - First name has been entered
+16:41:51.481 [TestNG] INFO  Resources.base - Last name has been entered
+16:41:52.793 [TestNG] INFO  Resources.base - Clicked on female radio button
+16:41:52.827 [TestNG] INFO  Resources.base - Email field is non-editable
+16:41:54.183 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+16:41:54.457 [TestNG] INFO  Resources.base - For Calender date is choosen
+16:41:54.458 [TestNG] INFO  Resources.base - Selecting organisation at option number :0
+16:41:54.706 [TestNG] INFO  Resources.base - Organisation name clicked
+16:41:54.707 [TestNG] INFO  Resources.base - Selecting Job Function at option number :4
+16:41:55.765 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+16:41:57.188 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+16:41:58.200 [TestNG] INFO  Resources.base - Selecting city at option number :203
+16:42:01.625 [TestNG] INFO  Resources.base -  City as : ' Faridpur ' is selected
+16:42:01.626 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+16:42:02.312 [TestNG] INFO  Resources.base -  Country code for India Selected 
+16:42:03.026 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 3010514856  '
+16:42:03.753 [TestNG] INFO  Resources.base - My Healine message entered
+16:42:05.179 [TestNG] INFO  Resources.base - toast Message Verified
+16:42:06.613 [TestNG] INFO  Resources.base - Tour Exited
+16:42:07.747 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+16:42:07.879 [TestNG] INFO  Resources.base - clicked on Logout Button
+16:42:07.884 [TestNG] INFO  Resources.base - Login Url matches after Logout 
+16:42:10.056 [TestNG] INFO  Resources.base - Test Case is successfully executed
+16:42:10.212 [TestNG] INFO  Resources.base - closing browser
+16:57:48.066 [TestNG] INFO  Resources.base - Driver is initialized
+16:57:48.286 [TestNG] INFO  Resources.base - Window is maximised
+16:57:54.336 [TestNG] INFO  Resources.base - Navigated to Url 
+16:57:54.343 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+16:57:54.575 [TestNG] INFO  Resources.base - Entered Username
+16:57:54.708 [TestNG] INFO  Resources.base - Entered Password
+16:57:54.786 [TestNG] INFO  Resources.base - Clicked on Login Button
+16:57:54.829 [TestNG] INFO  Resources.base - Initiating Method :' validateNewUser '
+16:57:56.856 [TestNG] INFO  Resources.base - Entered complete Profile Page
+16:57:57.167 [TestNG] INFO  Resources.base - First name has been entered
+16:57:57.488 [TestNG] INFO  Resources.base - Last name has been entered
+16:57:58.712 [TestNG] INFO  Resources.base - Clicked on female radio button
+16:57:58.747 [TestNG] INFO  Resources.base - Email field is non-editable
+16:58:04.920 [TestNG] ERROR Resources.base - Error occured while inserting DateOfBirth
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//td[@aria-label='May 2003']"}
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'harshits-MacBook-Air.local', ip: 'fe80:0:0:0:854:8da6:493:31d8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/mf/5d0879117zv...}, goog:chromeOptions: {debuggerAddress: localhost:53314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 506799a7f4d15979828050b7d2257b8f
+*** Element info: {Using=xpath, value=//td[@aria-label='May 2003']}
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353) ~[selenium-api-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at pageObjects.MyProfilePage.getDate(MyProfilePage.java:151) ~[classes/:?]
+	at encollab.Dummycode.validateNewUser(Dummycode.java:203) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="encollab.Listeners"/>
+  </listeners>
+  <test parallel="tests" name="validating DummyCode(failed)">
+    <classes>
+      <class name="encollab.Dummycode">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="validateNewUser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- encollab.Dummycode -->
+    </classes>
+  </test> <!-- validating DummyCode(failed) -->
+</suite> <!-- Failed suite [Suite] -->

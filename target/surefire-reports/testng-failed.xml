@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="Eleve.Listeners"/>
+  </listeners>
+  <test parallel="none" name="validating user login(failed)">
+    <classes>
+      <class name="Eleve.LoginPage">
+        <methods>
+          <include name="loginPageNavigation" invocation-numbers="3"/>
+        </methods>
+      </class> <!-- Eleve.LoginPage -->
+    </classes>
+  </test> <!-- validating user login(failed) -->
+</suite> <!-- Failed suite [Suite] -->

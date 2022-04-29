@@ -1,0 +1,748 @@
+16:54:04.479 [TestNG] INFO  Resources.base - closing browser
+16:54:29.014 [TestNG] INFO  Resources.base - Driver is initialized
+16:54:29.184 [TestNG] INFO  Resources.base - Window is maximised
+16:54:35.398 [TestNG] INFO  Resources.base - Navigated to Url 
+16:54:35.409 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+16:54:36.425 [TestNG] INFO  Resources.base - Entered Username
+16:54:36.528 [TestNG] INFO  Resources.base - Entered Password
+16:54:36.608 [TestNG] INFO  Resources.base - Clicked on Login Button
+16:54:36.633 [TestNG] INFO  Resources.base - Initiating Method :' validateNewUser1 '
+16:54:38.760 [TestNG] INFO  Resources.base - Entered complete Profile Page
+16:54:39.039 [TestNG] INFO  Resources.base - First name has been entered
+16:54:39.210 [TestNG] INFO  Resources.base - Last name has been entered
+16:54:39.292 [TestNG] INFO  Resources.base - Clicked on female radio button
+16:54:39.328 [TestNG] INFO  Resources.base - Email field is non-editable
+16:54:40.702 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+16:54:40.931 [TestNG] INFO  Resources.base - For Calender date is choosen
+16:54:40.932 [TestNG] INFO  Resources.base - Selecting organisation at option number :11
+16:54:41.133 [TestNG] INFO  Resources.base - Organisation name clicked
+16:54:41.133 [TestNG] INFO  Resources.base - Selecting Job Function at option number :9
+16:54:42.107 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+16:54:45.414 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+16:54:46.428 [TestNG] INFO  Resources.base - Selecting city at option number :270
+16:54:49.776 [TestNG] INFO  Resources.base -  City as : ' Ibrahimpur ' is selected
+16:54:49.776 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+16:54:50.410 [TestNG] INFO  Resources.base -  Country code for India Selected 
+16:54:51.241 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 2551828175  '
+16:54:51.974 [TestNG] INFO  Resources.base - My Healine message entered
+16:54:54.702 [TestNG] INFO  Resources.base - toast Message Verified
+16:54:54.936 [TestNG] INFO  Resources.base - Tour Exited
+16:54:56.076 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+16:54:56.214 [TestNG] INFO  Resources.base - clicked on Logout Button
+16:54:56.219 [TestNG] INFO  Resources.base - Login Url matches after Logout 
+16:54:58.436 [TestNG] INFO  Resources.base - Test Case is successfully executed
+16:54:58.596 [TestNG] INFO  Resources.base - closing browser
+17:44:26.289 [TestNG] INFO  Resources.base - Driver is initialized
+17:44:26.469 [TestNG] INFO  Resources.base - Window is maximised
+17:44:34.223 [TestNG] INFO  Resources.base - Navigated to Url 
+17:44:34.231 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+17:44:34.435 [TestNG] INFO  Resources.base - Entered Username
+17:44:34.546 [TestNG] INFO  Resources.base - Entered Password
+17:44:34.634 [TestNG] INFO  Resources.base - Clicked on Login Button
+17:44:34.681 [TestNG] INFO  Resources.base - Initiating Method :' validateNewUser '
+17:44:36.901 [TestNG] INFO  Resources.base - clicked on checkbox
+17:44:37.508 [TestNG] INFO  Resources.base - Entered complete Profile Page
+17:44:38.194 [TestNG] INFO  Resources.base - First name has been entered
+17:44:38.362 [TestNG] INFO  Resources.base - Last name has been entered
+17:44:38.487 [TestNG] INFO  Resources.base - Clicked on female radio button
+17:44:38.538 [TestNG] INFO  Resources.base - Email field is non-editable
+17:44:39.950 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+17:44:40.194 [TestNG] INFO  Resources.base - For Calender date is choosen
+17:44:40.196 [TestNG] INFO  Resources.base - Selecting organisation at option number :16
+17:44:40.425 [TestNG] INFO  Resources.base - Organisation name clicked
+17:44:40.425 [TestNG] INFO  Resources.base - Selecting Job Function at option number :3
+17:44:41.353 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+17:44:42.654 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+17:44:43.664 [TestNG] INFO  Resources.base - Selecting city at option number :613
+17:44:47.055 [TestNG] INFO  Resources.base -  City as : ' Shergarh ' is selected
+17:44:47.055 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+17:44:47.633 [TestNG] INFO  Resources.base -  Country code for India Selected 
+17:44:48.335 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 3208836956  '
+17:44:49.075 [TestNG] INFO  Resources.base - My Healine message entered
+17:44:50.680 [TestNG] ERROR Resources.base - Error occured while CompleteProfile Page is loaded 
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="btn btn-action" type="submit" ng-disabled="user.$invalid" ng-click="updateUser(1)" disabled="disabled">...</button> is not clickable at point (168, 595). Other element would receive the click: <div class="form-group col-md-12 col-sm-12 col-xs-12 xs-text-center" id="saveBlock">...</div>
+  (Session info: chrome=92.0.4515.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'harshits-MacBook-Air.local', ip: 'fe80:0:0:0:854:8da6:493:31d8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/mf/5d0879117zv...}, goog:chromeOptions: {debuggerAddress: localhost:62167}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 34567d815742134abfe2dfc6e60b6cd0
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84) ~[selenium-remote-driver-3.141.59.jar:?]
+	at encollab.Dummycode.saveButton(Dummycode.java:73) ~[test-classes/:?]
+	at encollab.Dummycode.validateNewUser(Dummycode.java:306) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+17:44:50.964 [TestNG] INFO  Resources.base - closing browser
+17:59:09.756 [TestNG] INFO  Resources.base - Driver is initialized
+17:59:09.927 [TestNG] INFO  Resources.base - Window is maximised
+17:59:17.030 [TestNG] INFO  Resources.base - Navigated to Url 
+17:59:17.038 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+17:59:17.288 [TestNG] INFO  Resources.base - Entered Username
+17:59:17.387 [TestNG] INFO  Resources.base - Entered Password
+17:59:17.468 [TestNG] INFO  Resources.base - Clicked on Login Button
+17:59:17.514 [TestNG] INFO  Resources.base - Initiating Method :' validateNewUser '
+17:59:19.632 [TestNG] INFO  Resources.base - Entered complete Profile Page
+17:59:19.931 [TestNG] INFO  Resources.base - First name has been entered
+17:59:20.136 [TestNG] INFO  Resources.base - Last name has been entered
+17:59:20.241 [TestNG] INFO  Resources.base - Clicked on female radio button
+17:59:20.286 [TestNG] INFO  Resources.base - Email field is non-editable
+17:59:21.697 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+17:59:21.930 [TestNG] INFO  Resources.base - For Calender date is choosen
+17:59:21.931 [TestNG] INFO  Resources.base - Selecting organisation at option number :3
+17:59:22.166 [TestNG] INFO  Resources.base - Organisation name clicked
+17:59:22.167 [TestNG] INFO  Resources.base - Selecting Job Function at option number :11
+17:59:23.200 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+17:59:24.538 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+17:59:25.556 [TestNG] INFO  Resources.base - Selecting city at option number :479
+17:59:28.858 [TestNG] INFO  Resources.base -  City as : ' Naraini ' is selected
+17:59:28.858 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+17:59:29.458 [TestNG] INFO  Resources.base -  Country code for India Selected 
+17:59:30.169 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 1705883763  '
+17:59:30.886 [TestNG] INFO  Resources.base - My Healine message entered
+17:59:32.853 [TestNG] INFO  Resources.base - toast Message Verified
+17:59:33.183 [TestNG] INFO  Resources.base - Tour Exited
+17:59:34.292 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+17:59:34.436 [TestNG] INFO  Resources.base - clicked on Logout Button
+17:59:34.441 [TestNG] INFO  Resources.base - Login Url matches after Logout 
+17:59:36.667 [TestNG] INFO  Resources.base - Test Case is successfully executed
+17:59:36.819 [TestNG] INFO  Resources.base - closing browser
+18:11:16.950 [TestNG] INFO  Resources.base - Driver is initialized
+18:11:17.107 [TestNG] INFO  Resources.base - Window is maximised
+18:11:22.326 [TestNG] INFO  Resources.base - Navigated to Url 
+18:11:22.336 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+18:11:23.275 [TestNG] INFO  Resources.base - Entered Username
+18:11:23.392 [TestNG] INFO  Resources.base - Entered Password
+18:11:23.476 [TestNG] INFO  Resources.base - Clicked on Login Button
+18:11:25.199 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+18:11:25.325 [TestNG] INFO  Resources.base - Clicked on MyProfile button
+18:11:25.336 [TestNG] INFO  Resources.base - Fetching MyProfilePage
+18:11:25.379 [TestNG] INFO  Resources.base - Intiating Method :' updateContactInfo '
+18:11:25.390 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+18:11:27.770 [TestNG] INFO  Resources.base -  Country code for India Selected 
+18:11:30.992 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 6954630624  '
+18:11:32.965 [TestNG] INFO  Resources.base - toast Message Verified
+18:11:32.984 [TestNG] INFO  Resources.base - Intiating Method :' updateGender '
+18:11:33.073 [TestNG] INFO  Resources.base - Clicked on female radio button
+18:11:33.254 [TestNG] INFO  Resources.base - toast Message Verified
+18:11:33.940 [TestNG] INFO  Resources.base - Clicked on Male radio button
+18:11:34.093 [TestNG] INFO  Resources.base - toast Message Verified
+18:11:34.601 [TestNG] INFO  Resources.base - Intiating Method :' updateJobFunction '
+18:11:34.603 [TestNG] INFO  Resources.base - Selecting Job Function at option number :11
+18:11:35.259 [TestNG] INFO  Resources.base - toast Message Verified
+18:11:35.259 [TestNG] INFO  Resources.base -  Job Function name clicked
+18:11:35.766 [TestNG] INFO  Resources.base - Intiating Method :' updateLocation '
+18:11:36.612 [TestNG] INFO  Resources.base -  Country as : 'India ' is seleceted 
+18:11:37.905 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+18:11:38.921 [TestNG] INFO  Resources.base - Selecting city at option number :682
+18:11:40.207 [TestNG] INFO  Resources.base -  City as : ' Vijaigarh ' is selected
+18:11:41.147 [TestNG] INFO  Resources.base - toast Message Verified
+18:11:41.654 [TestNG] INFO  Resources.base - Intiating Method :' updateOrganization '
+18:11:41.654 [TestNG] INFO  Resources.base - Selecting organnisation at option number :0
+18:11:42.030 [TestNG] INFO  Resources.base - toast Message Verified
+18:11:42.031 [TestNG] INFO  Resources.base - Orgnisation name clicked
+18:11:42.543 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with user name of 90 charecters '
+18:11:42.543 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+18:11:44.137 [TestNG] INFO  Resources.base - First name has been entered
+18:11:44.693 [TestNG] INFO  Resources.base - Last name has been entered
+18:11:44.894 [TestNG] INFO  Resources.base - toast Message Verified
+18:11:44.894 [TestNG] INFO  Resources.base - Save Button has been clicked 
+18:11:44.899 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with user name of >90 charecters '
+18:11:44.899 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+18:11:46.521 [TestNG] INFO  Resources.base - First name has been entered as:HarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarry
+18:11:47.278 [TestNG] INFO  Resources.base - Last name has been entered as:SahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahani
+18:11:47.345 [TestNG] INFO  Resources.base - Save Button is disabled 
+18:11:47.976 [TestNG] INFO  Resources.base - toast Message Verified
+18:11:47.976 [TestNG] INFO  Resources.base - Save Button has been clicked 
+18:11:47.980 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with null charecters '
+18:11:47.981 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+18:11:49.098 [TestNG] INFO  Resources.base - First name has been entered as:
+18:11:49.211 [TestNG] INFO  Resources.base - Last name has been entered as:
+18:11:49.295 [TestNG] INFO  Resources.base - Save Button is disabled 
+18:11:49.800 [TestNG] INFO  Resources.base - toast Message Verified
+18:11:49.800 [TestNG] INFO  Resources.base - Save Button has been clicked 
+18:11:49.808 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with special case charecters charecters '
+18:11:49.808 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+18:11:50.972 [TestNG] INFO  Resources.base - First name has been entered as:@#$%^
+18:11:51.144 [TestNG] INFO  Resources.base - Last name has been entered as:@#$%^
+18:11:51.227 [TestNG] INFO  Resources.base - Save Button is disabled 
+18:11:51.228 [TestNG] INFO  Resources.base - FirstName and Last name do not support special charecters in respective fields
+18:11:51.697 [TestNG] INFO  Resources.base - toast Message Verified
+18:11:51.697 [TestNG] INFO  Resources.base - Save Button has been clicked 
+18:11:51.700 [TestNG] INFO  Resources.base - Intiating Method :' updateWelcomeMessage '
+18:11:54.076 [TestNG] INFO  Resources.base - toast Message Verified
+18:11:54.076 [TestNG] INFO  Resources.base - My Healine message entered
+18:11:55.014 [TestNG] INFO  Resources.base - toast Message Verified
+18:11:56.022 [TestNG] INFO  Resources.base - Intiating Method :' validateCalender '
+18:11:57.506 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+18:11:57.755 [TestNG] INFO  Resources.base - For Calender date is choosen
+18:11:57.867 [TestNG] INFO  Resources.base - toast Message Verified
+18:11:57.871 [TestNG] INFO  Resources.base - Intiating Method :' validateEmailField '
+18:11:57.948 [TestNG] INFO  Resources.base - Email field is non-editable
+18:11:58.123 [TestNG] INFO  Resources.base - closing browser
+18:13:28.525 [TestNG] INFO  Resources.base - Driver is initialized
+18:13:28.699 [TestNG] INFO  Resources.base - Window is maximised
+18:13:33.946 [TestNG] INFO  Resources.base - Navigated to Url 
+18:13:33.957 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+18:13:35.115 [TestNG] INFO  Resources.base - Entered Username
+18:13:35.246 [TestNG] INFO  Resources.base - Entered Password
+18:13:35.338 [TestNG] INFO  Resources.base - Clicked on Login Button
+18:13:37.199 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+18:13:37.349 [TestNG] INFO  Resources.base - Clicked on MyProfile button
+18:13:37.355 [TestNG] INFO  Resources.base - Fetching MyProfilePage
+18:13:37.394 [TestNG] INFO  Resources.base - Intiating Method :' updateContactInfo '
+18:13:37.403 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+18:13:39.740 [TestNG] INFO  Resources.base -  Country code for India Selected 
+18:13:42.903 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 7485957551  '
+18:13:44.921 [TestNG] INFO  Resources.base - toast Message Verified
+18:13:44.939 [TestNG] INFO  Resources.base - Intiating Method :' updateGender '
+18:13:45.024 [TestNG] INFO  Resources.base - Clicked on female radio button
+18:13:45.180 [TestNG] INFO  Resources.base - toast Message Verified
+18:13:45.929 [TestNG] INFO  Resources.base - Clicked on Male radio button
+18:13:46.072 [TestNG] INFO  Resources.base - toast Message Verified
+18:13:46.582 [TestNG] INFO  Resources.base - Intiating Method :' updateJobFunction '
+18:13:46.585 [TestNG] INFO  Resources.base - Selecting Job Function at option number :1
+18:13:47.702 [TestNG] INFO  Resources.base - Intiating Method :' updateLocation '
+18:13:49.381 [TestNG] INFO  Resources.base -  Country as : 'India ' is seleceted 
+18:13:50.714 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+18:13:51.729 [TestNG] INFO  Resources.base - Selecting city at option number :141
+18:13:53.132 [TestNG] INFO  Resources.base -  City as : ' Chak Imam Ali ' is selected
+18:13:54.133 [TestNG] INFO  Resources.base - toast Message Verified
+18:13:54.646 [TestNG] INFO  Resources.base - Intiating Method :' updateOrganization '
+18:13:54.646 [TestNG] INFO  Resources.base - Selecting organnisation at option number :7
+18:13:55.036 [TestNG] INFO  Resources.base - toast Message Verified
+18:13:55.036 [TestNG] INFO  Resources.base - Orgnisation name clicked
+18:13:55.555 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with user name of 90 charecters '
+18:13:55.555 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+18:13:57.131 [TestNG] INFO  Resources.base - First name has been entered
+18:13:57.724 [TestNG] INFO  Resources.base - Last name has been entered
+18:13:57.957 [TestNG] INFO  Resources.base - toast Message Verified
+18:13:57.957 [TestNG] INFO  Resources.base - Save Button has been clicked 
+18:13:57.960 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with user name of >90 charecters '
+18:13:57.960 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+18:13:59.593 [TestNG] INFO  Resources.base - First name has been entered as:HarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarry
+18:14:00.261 [TestNG] INFO  Resources.base - Last name has been entered as:SahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahani
+18:14:00.363 [TestNG] INFO  Resources.base - Save Button is disabled 
+18:14:00.932 [TestNG] INFO  Resources.base - toast Message Verified
+18:14:00.932 [TestNG] INFO  Resources.base - Save Button has been clicked 
+18:14:00.934 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with null charecters '
+18:14:00.935 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+18:14:02.057 [TestNG] INFO  Resources.base - First name has been entered as:
+18:14:02.164 [TestNG] INFO  Resources.base - Last name has been entered as:
+18:14:02.267 [TestNG] INFO  Resources.base - Save Button is disabled 
+18:14:02.690 [TestNG] INFO  Resources.base - toast Message Verified
+18:14:02.690 [TestNG] INFO  Resources.base - Save Button has been clicked 
+18:14:02.695 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with special case charecters charecters '
+18:14:02.696 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+18:14:03.873 [TestNG] INFO  Resources.base - First name has been entered as:@#$%^
+18:14:04.050 [TestNG] INFO  Resources.base - Last name has been entered as:@#$%^
+18:14:04.133 [TestNG] INFO  Resources.base - Save Button is disabled 
+18:14:04.134 [TestNG] INFO  Resources.base - FirstName and Last name do not support special charecters in respective fields
+18:14:04.604 [TestNG] INFO  Resources.base - toast Message Verified
+18:14:04.604 [TestNG] INFO  Resources.base - Save Button has been clicked 
+18:14:04.607 [TestNG] INFO  Resources.base - Intiating Method :' updateWelcomeMessage '
+18:14:06.981 [TestNG] INFO  Resources.base - toast Message Verified
+18:14:06.981 [TestNG] INFO  Resources.base - My Healine message entered
+18:14:08.099 [TestNG] INFO  Resources.base - toast Message Verified
+18:14:09.105 [TestNG] INFO  Resources.base - Intiating Method :' validateCalender '
+18:14:10.551 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+18:14:10.777 [TestNG] INFO  Resources.base - For Calender date is choosen
+18:14:10.882 [TestNG] INFO  Resources.base - toast Message Verified
+18:14:10.884 [TestNG] INFO  Resources.base - Intiating Method :' validateEmailField '
+18:14:10.955 [TestNG] INFO  Resources.base - Email field is non-editable
+18:14:11.292 [TestNG] INFO  Resources.base - closing browser
+19:35:28.876 [TestNG] INFO  Resources.base - Driver is initialized
+19:35:29.073 [TestNG] INFO  Resources.base - Window is maximised
+19:35:36.310 [TestNG] INFO  Resources.base - Navigated to Url 
+19:35:36.318 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+19:35:36.550 [TestNG] INFO  Resources.base - Entered Username
+19:35:36.708 [TestNG] INFO  Resources.base - Entered Password
+19:35:36.799 [TestNG] INFO  Resources.base - Clicked on Login Button
+19:35:38.527 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+19:35:38.706 [TestNG] INFO  Resources.base - Clicked on MyProfile button
+19:35:38.726 [TestNG] INFO  Resources.base - Fetching MyProfilePage
+19:35:38.766 [TestNG] INFO  Resources.base - Intiating Method :' updateContactInfo '
+19:35:38.777 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+19:35:41.107 [TestNG] INFO  Resources.base -  Country code for India Selected 
+19:35:44.356 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 6855558526  '
+19:35:46.455 [TestNG] INFO  Resources.base - toast Message Verified
+19:35:46.476 [TestNG] INFO  Resources.base - Intiating Method :' updateGender '
+19:35:46.604 [TestNG] INFO  Resources.base - Clicked on female radio button
+19:35:46.814 [TestNG] INFO  Resources.base - toast Message Verified
+19:35:47.537 [TestNG] INFO  Resources.base - Clicked on Male radio button
+19:35:47.735 [TestNG] INFO  Resources.base - toast Message Verified
+19:35:48.240 [TestNG] INFO  Resources.base - Intiating Method :' updateJobFunction '
+19:35:48.241 [TestNG] INFO  Resources.base - Selecting Job Function at option number :13
+19:35:48.915 [TestNG] INFO  Resources.base - toast Message Verified
+19:35:48.915 [TestNG] INFO  Resources.base -  Job Function name clicked
+19:35:49.436 [TestNG] INFO  Resources.base - Intiating Method :' updateLocation '
+19:35:50.423 [TestNG] INFO  Resources.base -  Country as : 'India ' is seleceted 
+19:35:51.756 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+19:35:52.775 [TestNG] INFO  Resources.base - Selecting city at option number :260
+19:35:54.296 [TestNG] INFO  Resources.base -  City as : ' Harduaganj ' is selected
+19:35:55.276 [TestNG] INFO  Resources.base - toast Message Verified
+19:35:55.783 [TestNG] INFO  Resources.base - Intiating Method :' updateOrganization '
+19:35:55.783 [TestNG] INFO  Resources.base - Selecting organnisation at option number :1
+19:35:56.210 [TestNG] INFO  Resources.base - toast Message Verified
+19:35:56.210 [TestNG] INFO  Resources.base - Orgnisation name clicked
+19:35:56.734 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with user name of 90 charecters '
+19:35:56.734 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+19:35:58.432 [TestNG] INFO  Resources.base - First name has been entered
+19:35:59.011 [TestNG] INFO  Resources.base - Last name has been entered
+19:35:59.241 [TestNG] INFO  Resources.base - toast Message Verified
+19:35:59.242 [TestNG] INFO  Resources.base - Save Button has been clicked 
+19:35:59.245 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with user name of >90 charecters '
+19:35:59.245 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+19:36:01.097 [TestNG] INFO  Resources.base - First name has been entered as:HarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarry
+19:36:01.753 [TestNG] INFO  Resources.base - Last name has been entered as:SahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahani
+19:36:01.925 [TestNG] INFO  Resources.base - Save Button is disabled 
+19:36:02.532 [TestNG] INFO  Resources.base - toast Message Verified
+19:36:02.532 [TestNG] INFO  Resources.base - Save Button has been clicked 
+19:36:02.535 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with null charecters '
+19:36:02.535 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+19:36:03.661 [TestNG] INFO  Resources.base - First name has been entered as:
+19:36:03.760 [TestNG] INFO  Resources.base - Last name has been entered as:
+19:36:03.862 [TestNG] INFO  Resources.base - Save Button is disabled 
+19:36:04.356 [TestNG] INFO  Resources.base - toast Message Verified
+19:36:04.356 [TestNG] INFO  Resources.base - Save Button has been clicked 
+19:36:04.359 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with special case charecters charecters '
+19:36:04.359 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+19:36:05.557 [TestNG] INFO  Resources.base - First name has been entered as:@#$%^
+19:36:05.769 [TestNG] INFO  Resources.base - Last name has been entered as:@#$%^
+19:36:05.863 [TestNG] INFO  Resources.base - Save Button is disabled 
+19:36:05.863 [TestNG] INFO  Resources.base - FirstName and Last name do not support special charecters in respective fields
+19:36:06.395 [TestNG] INFO  Resources.base - toast Message Verified
+19:36:06.395 [TestNG] INFO  Resources.base - Save Button has been clicked 
+19:36:06.398 [TestNG] INFO  Resources.base - Intiating Method :' updateWelcomeMessage '
+19:36:08.831 [TestNG] INFO  Resources.base - toast Message Verified
+19:36:08.832 [TestNG] INFO  Resources.base - My Healine message entered
+19:36:09.965 [TestNG] INFO  Resources.base - toast Message Verified
+19:36:10.967 [TestNG] INFO  Resources.base - Intiating Method :' validateCalender '
+19:36:12.439 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+19:36:12.665 [TestNG] INFO  Resources.base - For Calender date is choosen
+19:36:12.782 [TestNG] INFO  Resources.base - toast Message Verified
+19:36:12.784 [TestNG] INFO  Resources.base - Intiating Method :' validateEmailField '
+19:36:12.869 [TestNG] INFO  Resources.base - Email field is non-editable
+19:36:13.298 [TestNG] INFO  Resources.base - closing browser
+19:37:02.337 [TestNG] INFO  Resources.base - Driver is initialized
+19:37:02.553 [TestNG] INFO  Resources.base - Window is maximised
+19:37:09.282 [TestNG] INFO  Resources.base - Navigated to Url 
+19:37:09.289 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+19:37:09.548 [TestNG] INFO  Resources.base - Entered Username
+19:37:09.672 [TestNG] INFO  Resources.base - Entered Password
+19:37:09.777 [TestNG] INFO  Resources.base - Clicked on Login Button
+19:37:11.600 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+19:37:11.737 [TestNG] INFO  Resources.base - Clicked on MyProfile button
+19:37:11.754 [TestNG] INFO  Resources.base - Fetching MyProfilePage
+19:37:11.798 [TestNG] INFO  Resources.base - Intiating Method :' updateContactInfo '
+19:37:11.813 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+19:37:14.376 [TestNG] INFO  Resources.base -  Country code for India Selected 
+19:37:17.651 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 9647921510  '
+19:37:19.655 [TestNG] INFO  Resources.base - toast Message Verified
+19:37:19.677 [TestNG] INFO  Resources.base - Intiating Method :' updateGender '
+19:37:19.811 [TestNG] INFO  Resources.base - Clicked on female radio button
+19:37:20.084 [TestNG] INFO  Resources.base - toast Message Verified
+19:37:20.782 [TestNG] INFO  Resources.base - Clicked on Male radio button
+19:37:20.941 [TestNG] INFO  Resources.base - toast Message Verified
+19:37:21.463 [TestNG] INFO  Resources.base - Intiating Method :' updateJobFunction '
+19:37:21.485 [TestNG] INFO  Resources.base - Selecting Job Function at option number :1
+19:37:22.158 [TestNG] INFO  Resources.base - toast Message Verified
+19:37:22.160 [TestNG] INFO  Resources.base -  Job Function name clicked
+19:37:22.678 [TestNG] INFO  Resources.base - Intiating Method :' updateLocation '
+19:37:23.591 [TestNG] INFO  Resources.base -  Country as : 'India ' is seleceted 
+19:37:24.940 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+19:37:25.960 [TestNG] INFO  Resources.base - Selecting city at option number :357
+19:37:27.566 [TestNG] INFO  Resources.base -  City as : ' Khargupur ' is selected
+19:37:28.574 [TestNG] INFO  Resources.base - toast Message Verified
+19:37:29.080 [TestNG] INFO  Resources.base - Intiating Method :' updateOrganization '
+19:37:29.081 [TestNG] INFO  Resources.base - Selecting organnisation at option number :0
+19:37:29.506 [TestNG] INFO  Resources.base - toast Message Verified
+19:37:29.507 [TestNG] INFO  Resources.base - Orgnisation name clicked
+19:37:30.051 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with user name of 90 charecters '
+19:37:30.051 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+19:37:31.702 [TestNG] INFO  Resources.base - First name has been entered
+19:37:32.320 [TestNG] INFO  Resources.base - Last name has been entered
+19:37:32.497 [TestNG] INFO  Resources.base - toast Message Verified
+19:37:32.497 [TestNG] INFO  Resources.base - Save Button has been clicked 
+19:37:32.501 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with user name of >90 charecters '
+19:37:32.501 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+19:37:34.199 [TestNG] INFO  Resources.base - First name has been entered as:HarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarry
+19:37:34.921 [TestNG] INFO  Resources.base - Last name has been entered as:SahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahani
+19:37:34.995 [TestNG] INFO  Resources.base - Save Button is disabled 
+19:37:35.637 [TestNG] INFO  Resources.base - toast Message Verified
+19:37:35.637 [TestNG] INFO  Resources.base - Save Button has been clicked 
+19:37:35.640 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with null charecters '
+19:37:35.640 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+19:37:36.808 [TestNG] INFO  Resources.base - First name has been entered as:
+19:37:36.907 [TestNG] INFO  Resources.base - Last name has been entered as:
+19:37:37.038 [TestNG] INFO  Resources.base - Save Button is disabled 
+19:37:37.576 [TestNG] INFO  Resources.base - toast Message Verified
+19:37:37.576 [TestNG] INFO  Resources.base - Save Button has been clicked 
+19:37:37.581 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with special case charecters charecters '
+19:37:37.581 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+19:37:38.782 [TestNG] INFO  Resources.base - First name has been entered as:@#$%^
+19:37:38.969 [TestNG] INFO  Resources.base - Last name has been entered as:@#$%^
+19:37:39.063 [TestNG] INFO  Resources.base - Save Button is disabled 
+19:37:39.063 [TestNG] INFO  Resources.base - FirstName and Last name do not support special charecters in respective fields
+19:37:39.597 [TestNG] INFO  Resources.base - toast Message Verified
+19:37:39.597 [TestNG] INFO  Resources.base - Save Button has been clicked 
+19:37:39.603 [TestNG] INFO  Resources.base - Intiating Method :' updateWelcomeMessage '
+19:37:41.971 [TestNG] INFO  Resources.base - toast Message Verified
+19:37:41.972 [TestNG] INFO  Resources.base - My Healine message entered
+19:37:43.123 [TestNG] INFO  Resources.base - toast Message Verified
+19:37:44.133 [TestNG] INFO  Resources.base - Intiating Method :' validateCalender '
+19:37:45.669 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+19:37:45.883 [TestNG] INFO  Resources.base - For Calender date is choosen
+19:37:46.011 [TestNG] INFO  Resources.base - toast Message Verified
+19:37:46.015 [TestNG] INFO  Resources.base - Intiating Method :' validateEmailField '
+19:37:46.099 [TestNG] INFO  Resources.base - Email field is non-editable
+19:37:46.479 [TestNG] INFO  Resources.base - closing browser
+19:41:57.685 [TestNG] INFO  Resources.base - Driver is initialized
+19:41:57.867 [TestNG] INFO  Resources.base - Window is maximised
+19:42:04.244 [TestNG] INFO  Resources.base - Navigated to Url 
+19:42:04.256 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+19:42:04.498 [TestNG] INFO  Resources.base - Entered Username
+19:42:04.620 [TestNG] INFO  Resources.base - Entered Password
+19:42:04.711 [TestNG] INFO  Resources.base - Clicked on Login Button
+19:42:06.480 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+19:42:06.646 [TestNG] INFO  Resources.base - Clicked on MyProfile button
+19:42:06.665 [TestNG] INFO  Resources.base - Fetching MyProfilePage
+19:42:06.708 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with user name of 90 charecters '
+19:42:06.708 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+19:42:08.835 [TestNG] INFO  Resources.base - First name has been entered
+19:42:09.643 [TestNG] INFO  Resources.base - Last name has been entered
+19:42:10.782 [TestNG] INFO  Resources.base - toast Message Verified
+19:42:10.784 [TestNG] INFO  Resources.base - Save Button has been clicked 
+19:42:10.813 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with user name of >90 charecters '
+19:42:10.813 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+19:42:12.426 [TestNG] INFO  Resources.base - First name has been entered as:HarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarry
+19:42:12.982 [TestNG] INFO  Resources.base - Last name has been entered as:SahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahani
+19:42:13.182 [TestNG] INFO  Resources.base - Save Button is disabled 
+19:42:13.862 [TestNG] INFO  Resources.base - toast Message Verified
+19:42:13.862 [TestNG] INFO  Resources.base - Save Button has been clicked 
+19:42:13.866 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with null charecters '
+19:42:13.866 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+19:42:14.989 [TestNG] INFO  Resources.base - First name has been entered as:
+19:42:15.109 [TestNG] INFO  Resources.base - Last name has been entered as:
+19:42:15.222 [TestNG] INFO  Resources.base - Save Button is disabled 
+19:42:15.679 [TestNG] INFO  Resources.base - toast Message Verified
+19:42:15.679 [TestNG] INFO  Resources.base - Save Button has been clicked 
+19:42:15.682 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with special case charecters charecters '
+19:42:15.682 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+19:42:16.896 [TestNG] INFO  Resources.base - First name has been entered as:@#$%^
+19:42:17.102 [TestNG] INFO  Resources.base - Last name has been entered as:@#$%^
+19:42:17.213 [TestNG] INFO  Resources.base - Save Button is disabled 
+19:42:17.214 [TestNG] INFO  Resources.base - FirstName and Last name do not support special charecters in respective fields
+19:42:17.712 [TestNG] INFO  Resources.base - toast Message Verified
+19:42:17.713 [TestNG] INFO  Resources.base - Save Button has been clicked 
+19:42:17.715 [TestNG] INFO  Resources.base - Intiating Method :' updateGender '
+19:42:17.828 [TestNG] INFO  Resources.base - Clicked on female radio button
+19:42:18.017 [TestNG] INFO  Resources.base - toast Message Verified
+19:42:18.841 [TestNG] INFO  Resources.base - Clicked on Male radio button
+19:42:19.029 [TestNG] INFO  Resources.base - toast Message Verified
+19:42:19.577 [TestNG] INFO  Resources.base - Intiating Method :' validateCalender '
+19:42:21.284 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+19:42:21.497 [TestNG] INFO  Resources.base - For Calender date is choosen
+19:42:21.626 [TestNG] INFO  Resources.base - toast Message Verified
+19:42:21.629 [TestNG] INFO  Resources.base - Intiating Method :' validateEmailField '
+19:42:21.706 [TestNG] INFO  Resources.base - Email field is non-editable
+19:42:21.713 [TestNG] INFO  Resources.base - Intiating Method :' updateJobFunction '
+19:42:21.714 [TestNG] INFO  Resources.base - Selecting Job Function at option number :9
+19:42:22.712 [TestNG] INFO  Resources.base - toast Message Verified
+19:42:22.712 [TestNG] INFO  Resources.base -  Job Function name clicked
+19:42:23.224 [TestNG] INFO  Resources.base - Intiating Method :' updateOrganization '
+19:42:23.225 [TestNG] INFO  Resources.base - Selecting organnisation at option number :4
+19:42:24.119 [TestNG] INFO  Resources.base - toast Message Verified
+19:42:24.119 [TestNG] INFO  Resources.base - Orgnisation name clicked
+19:42:24.625 [TestNG] INFO  Resources.base - Intiating Method :' updateContactInfo '
+19:42:24.971 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+19:42:25.841 [TestNG] INFO  Resources.base -  Country code for India Selected 
+19:42:29.116 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 7333425559  '
+19:42:31.119 [TestNG] INFO  Resources.base - toast Message Verified
+19:42:31.123 [TestNG] INFO  Resources.base - Intiating Method :' updateLocation '
+19:42:31.846 [TestNG] INFO  Resources.base -  Country as : 'India ' is seleceted 
+19:42:33.213 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+19:42:34.234 [TestNG] INFO  Resources.base - Selecting city at option number :191
+19:42:35.639 [TestNG] INFO  Resources.base -  City as : ' Dudhinagar ' is selected
+19:42:36.580 [TestNG] INFO  Resources.base - toast Message Verified
+19:42:37.109 [TestNG] INFO  Resources.base - Intiating Method :' updateWelcomeMessage '
+19:42:39.476 [TestNG] INFO  Resources.base - toast Message Verified
+19:42:39.476 [TestNG] INFO  Resources.base - My Healine message entered
+19:42:40.511 [TestNG] INFO  Resources.base - toast Message Verified
+19:42:40.965 [TestNG] INFO  Resources.base - closing browser
+19:47:21.857 [TestNG] INFO  Resources.base - Driver is initialized
+19:47:22.077 [TestNG] INFO  Resources.base - Window is maximised
+19:47:27.770 [TestNG] INFO  Resources.base - Navigated to Url 
+19:47:28.023 [TestNG] INFO  Resources.base - Entered Username
+19:47:28.154 [TestNG] INFO  Resources.base - Entered Password
+19:47:28.249 [TestNG] INFO  Resources.base - Clicked on Login Button
+19:47:29.705 [TestNG] INFO  Resources.base - Initiating Method :' CreateConnectHubDraft '
+19:47:30.007 [TestNG] INFO  Resources.base - clicked on Connect Hub Button
+19:47:31.687 [TestNG] INFO  Resources.base - Clicked on create post button
+19:47:33.074 [TestNG] INFO  Resources.base - Post Headline Inserted
+19:47:33.838 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+19:47:35.262 [TestNG] INFO  Resources.base -  Post description is inserted 
+19:47:35.439 [TestNG] INFO  Resources.base - tag is inserted 
+19:47:38.637 [TestNG] INFO  Resources.base - Save Draft button clicked
+19:47:38.889 [TestNG] INFO  Resources.base - Post Description matched
+19:47:38.926 [TestNG] INFO  Resources.base - Post udate On data matched
+19:47:38.959 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.Dummycode.CreateConnectHubDraft(Dummycode.java:487) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+19:47:38.991 [TestNG] INFO  Resources.base - Initiating Method :' CreateLearningDraft '
+19:47:40.539 [TestNG] INFO  Resources.base - Post Headline Inserted
+19:47:40.952 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+19:47:42.345 [TestNG] INFO  Resources.base -  Post description is inserted 
+19:47:42.503 [TestNG] INFO  Resources.base - tag is inserted 
+19:47:45.704 [TestNG] INFO  Resources.base - Save Draft button clicked
+19:47:45.895 [TestNG] INFO  Resources.base - Post Description matched
+19:47:45.920 [TestNG] INFO  Resources.base - Post udate On data matched
+19:47:45.943 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.Dummycode.CreateLearningDraft(Dummycode.java:173) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+19:47:45.948 [TestNG] INFO  Resources.base - Initiating Method :' CreateConnectPostwithYoutubeLink '
+19:47:46.288 [TestNG] INFO  Resources.base - clicked on Connect Hub Button
+19:47:48.055 [TestNG] INFO  Resources.base - Clicked on create post button
+19:47:48.876 [TestNG] INFO  Resources.base - Post Headline Inserted
+19:47:49.377 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+19:47:51.024 [TestNG] INFO  Resources.base - choice for link  is :7
+19:47:53.762 [TestNG] INFO  Resources.base -  Post description is inserted 
+19:47:53.940 [TestNG] INFO  Resources.base - tag is inserted 
+19:47:56.160 [TestNG] INFO  Resources.base - Submit Button clicked 
+19:47:56.958 [TestNG] INFO  Resources.base - close dialog button clicked 
+19:47:58.797 [TestNG] INFO  Resources.base - Post Headline Matched
+19:47:58.859 [TestNG] INFO  Resources.base - Post description Matched
+19:47:58.893 [TestNG] INFO  Resources.base - Post Category Matched
+19:47:58.922 [TestNG] INFO  Resources.base - Post Updated On Date is matched 
+19:47:58.924 [TestNG] INFO  Resources.base - Initiating Method :' CreatelearningPostwithYoutubeLink '
+19:48:00.291 [TestNG] INFO  Resources.base - Post Headline Inserted
+19:48:00.773 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+19:48:02.411 [TestNG] INFO  Resources.base - choice for link  is :7
+19:48:02.770 [TestNG] INFO  Resources.base - Youtube Submit button clicked
+19:48:05.174 [TestNG] INFO  Resources.base -  Post description is inserted 
+19:48:05.318 [TestNG] INFO  Resources.base - tag is inserted 
+19:48:07.586 [TestNG] INFO  Resources.base - Submit Button clicked 
+19:48:08.391 [TestNG] INFO  Resources.base - close dialog button clicked 
+19:48:10.163 [TestNG] INFO  Resources.base - Post Headline Matched
+19:48:10.247 [TestNG] INFO  Resources.base - Post description Matched
+19:48:10.293 [TestNG] INFO  Resources.base - Post Category Matched
+19:48:10.326 [TestNG] INFO  Resources.base - Post Updated On Date is matched 
+19:48:10.329 [TestNG] INFO  Resources.base - Initiating Method :' EditDraft '
+19:48:10.348 [TestNG] INFO  Resources.base - User is on My space Page 
+19:48:10.964 [TestNG] INFO  Resources.base - First Post headline is : 2021/07/30 19:47:39 This is Content saved after creating the draft which is present is my spaces section of dev build..
+19:48:11.045 [TestNG] INFO  Resources.base - First Post Description is : 2021/07/30 19:47:41content changed for draft : this is a post description body, data entered here is
+19:48:11.076 [TestNG] INFO  Resources.base - First Post Updated on : 30 July 2021
+19:48:13.200 [TestNG] INFO  Resources.base - Post Headline Inserted
+19:48:13.564 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+19:48:15.492 [TestNG] INFO  Resources.base -  Post description is inserted 
+19:48:15.748 [TestNG] INFO  Resources.base - tag is inserted 
+19:48:17.918 [TestNG] INFO  Resources.base - Save Draft button clicked
+19:48:19.016 [TestNG] INFO  Resources.base - Save message verified
+19:48:19.094 [TestNG] INFO  Resources.base - Post creation date matched 
+19:48:19.120 [TestNG] INFO  Resources.base - Post description matched 
+19:48:19.143 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.Dummycode.EditDraft(Dummycode.java:866) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+19:48:19.146 [TestNG] INFO  Resources.base - Initiating Method :' DeclineDraft '
+19:48:19.159 [TestNG] INFO  Resources.base - User is on My space Page 
+19:48:21.208 [TestNG] INFO  Resources.base - closing browser
+19:51:53.951 [TestNG] INFO  Resources.base - Intiating Method :' loginPageTestCredentials : with correct user credentials '
+19:52:00.857 [TestNG] INFO  Resources.base - Driver is initialized
+19:52:00.857 [TestNG] INFO  Resources.base - Driver is initialized
+19:52:00.871 [TestNG] INFO  Resources.base - Driver is initialized
+19:52:00.879 [TestNG] INFO  Resources.base - Driver is initialized
+19:52:00.991 [TestNG] INFO  Resources.base - Driver is initialized
+19:52:01.192 [TestNG] INFO  Resources.base - Window is maximised
+19:52:01.222 [TestNG] INFO  Resources.base - Window is maximised
+19:52:01.222 [TestNG] INFO  Resources.base - Window is maximised
+19:52:01.632 [TestNG] INFO  Resources.base - Window is maximised
+19:52:01.659 [TestNG] INFO  Resources.base - Window is maximised
+19:52:22.371 [TestNG] INFO  Resources.base - Navigated to Url 
+19:52:22.491 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+19:52:22.509 [TestNG] INFO  Resources.base - Navigated to Url 
+19:52:22.738 [TestNG] INFO  Resources.base - Navigated to Url 
+19:52:22.899 [TestNG] INFO  Resources.base - Navigated to Url 
+19:52:22.902 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+19:52:22.915 [TestNG] INFO  Resources.base - Driver For Login Page is initialized
+19:52:22.915 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+19:52:23.256 [TestNG] INFO  Resources.base - Navigated to Url 
+19:52:23.372 [TestNG] INFO  Resources.base - Entered Username
+19:52:23.493 [TestNG] INFO  Resources.base - Entered Username
+19:52:23.665 [TestNG] INFO  Resources.base - Username entered as  automation
+19:52:23.697 [TestNG] INFO  Resources.base - Entered Username
+19:52:23.776 [TestNG] INFO  Resources.base - Entered Password
+19:52:23.796 [TestNG] INFO  Resources.base - Entered Password
+19:52:23.885 [TestNG] INFO  Resources.base - Entered Username
+19:52:23.939 [TestNG] INFO  Resources.base - password  entered as  automation
+19:52:23.986 [TestNG] INFO  Resources.base - Entered Password
+19:52:24.053 [TestNG] INFO  Resources.base - Clicked on Login Button
+19:52:24.060 [TestNG] INFO  Resources.base - Clicked on Login Button
+19:52:24.102 [TestNG] INFO  Resources.base - Entered Password
+19:52:24.129 [TestNG] INFO  Resources.base - Clicked on login
+19:52:24.155 [TestNG] INFO  Resources.base - Clicked on Login Button
+19:52:24.167 [TestNG] INFO  Resources.base - Initiating Method :' validateNewUser '
+19:52:24.204 [TestNG] INFO  Resources.base - Clicked on Login Button
+19:52:24.735 [TestNG] INFO  Resources.base - Navigated to correct url ie. https://dev-adityabirla.emcollab.com/#/hub
+19:52:25.538 [TestNG] INFO  Resources.base - Initiating Method :' PostApprove '
+19:52:25.687 [TestNG] INFO  Resources.base - Initiating Method :' CreateConnectHubDraft '
+19:52:26.002 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+19:52:26.206 [TestNG] INFO  Resources.base - Clicked on MyProfile button
+19:52:26.215 [TestNG] INFO  Resources.base - Fetching MyProfilePage
+19:52:26.220 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with user name of 90 charecters '
+19:52:26.220 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+19:52:26.452 [TestNG] INFO  Resources.base - clicked on checkbox
+19:52:26.928 [TestNG] INFO  Resources.base - Intiating Method :' loginPageTestCredentials: with correct UserName & wrong Password '
+19:52:27.155 [TestNG] INFO  Resources.base - Entered complete Profile Page
+19:52:27.258 [TestNG] INFO  Resources.base - clicked on Connect Hub Button
+19:52:29.077 [TestNG] INFO  Resources.base - Clicked on create post button
+19:52:29.738 [TestNG] INFO  Resources.base - Driver is initialized
+19:52:30.132 [TestNG] INFO  Resources.base - Window is maximised
+19:52:31.412 [TestNG] INFO  Resources.base - First name has been entered
+19:52:32.192 [TestNG] INFO  Resources.base - Last name has been entered
+19:52:32.447 [TestNG] INFO  Resources.base - Clicked on female radio button
+19:52:32.510 [TestNG] INFO  Resources.base - Email field is non-editable
+19:52:34.188 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+19:52:34.697 [TestNG] INFO  Resources.base - For Calender date is choosen
+19:52:34.699 [TestNG] INFO  Resources.base - Selecting organisation at option number :12
+19:52:35.594 [TestNG] INFO  Resources.base - Organisation name clicked
+19:52:35.594 [TestNG] INFO  Resources.base - Selecting Job Function at option number :10
+19:52:36.406 [TestNG] INFO  Resources.base - First name has been entered
+19:52:36.461 [TestNG] INFO  Resources.base - Post Headline Inserted
+19:52:38.131 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+19:52:39.802 [TestNG] INFO  Resources.base - Last name has been entered
+19:52:40.108 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+19:52:40.643 [TestNG] INFO  Resources.base -  Post description is inserted 
+19:52:41.441 [TestNG] INFO  Resources.base - tag is inserted 
+19:52:42.240 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+19:52:42.559 [TestNG] INFO  Resources.base - toast Message Verified
+19:52:42.560 [TestNG] INFO  Resources.base - Save Button has been clicked 
+19:52:42.564 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with user name of >90 charecters '
+19:52:42.565 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+19:52:43.257 [TestNG] INFO  Resources.base - Selecting city at option number :277
+19:52:43.946 [TestNG] INFO  Resources.base - Entered Username
+19:52:44.380 [TestNG] INFO  Resources.base - Entered Password
+19:52:44.832 [TestNG] INFO  Resources.base - Clicked on Login Button
+19:52:45.165 [TestNG] INFO  Resources.base - Save Draft button clicked
+19:52:46.792 [TestNG] INFO  Resources.base - First name has been entered as:HarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarry
+19:52:47.544 [TestNG] INFO  Resources.base - Post Description matched
+19:52:47.609 [TestNG] INFO  Resources.base - Post udate On data matched
+19:52:47.660 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.CreatePost.CreateConnectHubDraft(CreatePost.java:481) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]

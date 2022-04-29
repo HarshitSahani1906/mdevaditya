@@ -1,0 +1,769 @@
+13:55:06.379 [TestNG] INFO  Resources.base - Initiating Method :' CreateLearningDraft '
+13:55:09.404 [TestNG] INFO  Resources.base - Post Headline Inserted
+13:55:09.990 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+13:55:11.392 [TestNG] INFO  Resources.base -  Post description is inserted 
+13:55:11.542 [TestNG] INFO  Resources.base - tag is inserted 
+13:55:14.727 [TestNG] INFO  Resources.base - Save Draft button clicked
+13:55:15.226 [TestNG] INFO  Resources.base - Post Description matched
+13:55:15.257 [TestNG] INFO  Resources.base - Post udate On data matched
+13:55:15.291 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.Dummycode.CreateLearningDraft(Dummycode.java:167) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+13:55:15.295 [TestNG] INFO  Resources.base - Initiating Method :' CreateConnectPostwithYoutubeLink '
+13:55:15.689 [TestNG] INFO  Resources.base - clicked on Connect Hub Button
+13:55:17.420 [TestNG] INFO  Resources.base - Clicked on create post button
+13:55:18.147 [TestNG] INFO  Resources.base - Post Headline Inserted
+13:55:18.624 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+13:55:20.256 [TestNG] INFO  Resources.base - choice for link  is :4
+13:55:22.973 [TestNG] INFO  Resources.base -  Post description is inserted 
+13:55:23.098 [TestNG] INFO  Resources.base - tag is inserted 
+13:55:25.309 [TestNG] INFO  Resources.base - Submit Button clicked 
+13:55:26.135 [TestNG] INFO  Resources.base - close dialog button clicked 
+13:55:28.038 [TestNG] INFO  Resources.base - Post Headline Matched
+13:55:28.074 [TestNG] INFO  Resources.base - Post description Matched
+13:55:28.106 [TestNG] INFO  Resources.base - Post Category Matched
+13:55:28.137 [TestNG] INFO  Resources.base - Post Updated On Date is matched 
+13:55:28.142 [TestNG] INFO  Resources.base - Initiating Method :' CreatelearningPostwithYoutubeLink '
+13:55:29.289 [TestNG] INFO  Resources.base - Post Headline Inserted
+13:55:29.718 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+13:55:31.360 [TestNG] INFO  Resources.base - choice for link  is :13
+13:55:31.705 [TestNG] INFO  Resources.base - Youtube Submit button clicked
+13:55:34.029 [TestNG] INFO  Resources.base -  Post description is inserted 
+13:55:34.169 [TestNG] INFO  Resources.base - tag is inserted 
+13:55:36.374 [TestNG] INFO  Resources.base - Submit Button clicked 
+13:55:37.155 [TestNG] INFO  Resources.base - close dialog button clicked 
+13:55:38.932 [TestNG] INFO  Resources.base - Post Headline Matched
+13:55:39.005 [TestNG] INFO  Resources.base - Post description Matched
+13:55:39.042 [TestNG] INFO  Resources.base - Post Category Matched
+13:55:39.074 [TestNG] INFO  Resources.base - Post Updated On Date is matched 
+13:55:39.077 [TestNG] INFO  Resources.base - Initiating Method :' EditDraft '
+13:55:39.114 [TestNG] INFO  Resources.base - User is on My space Page 
+13:55:39.756 [TestNG] INFO  Resources.base - First Post headline is : 2021/07/29 13:55:08 This is Content saved after creating the draft which is present is my spaces section of dev build..
+13:55:39.829 [TestNG] INFO  Resources.base - First Post Description is : 2021/07/29 13:55:11content changed for draft : this is a post description body, data entered here is
+13:55:39.862 [TestNG] INFO  Resources.base - First Post Updated on : 29 July 2021
+13:55:41.888 [TestNG] INFO  Resources.base - Post Headline Inserted
+13:55:42.207 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+13:55:44.124 [TestNG] INFO  Resources.base -  Post description is inserted 
+13:55:44.303 [TestNG] INFO  Resources.base - tag is inserted 
+13:55:46.483 [TestNG] INFO  Resources.base - Save Draft button clicked
+13:55:47.561 [TestNG] INFO  Resources.base - Save message verified
+13:55:47.627 [TestNG] INFO  Resources.base - Post creation date matched 
+13:55:47.652 [TestNG] INFO  Resources.base - Post description matched 
+13:55:47.678 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.Dummycode.EditDraft(Dummycode.java:862) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+13:55:47.683 [TestNG] INFO  Resources.base - Initiating Method :' DeleteDraft '
+13:55:47.696 [TestNG] INFO  Resources.base - User is on My space Page 
+13:55:49.807 [TestNG] INFO  Resources.base - closing browser
+13:59:57.510 [TestNG] INFO  Resources.base - Driver is initialized
+13:59:57.679 [TestNG] INFO  Resources.base - Window is maximised
+14:00:03.249 [TestNG] INFO  Resources.base - Navigated to Url 
+14:00:03.472 [TestNG] INFO  Resources.base - Entered Username
+14:00:03.591 [TestNG] INFO  Resources.base - Entered Password
+14:00:03.676 [TestNG] INFO  Resources.base - Clicked on Login Button
+14:00:05.162 [TestNG] INFO  Resources.base - Initiating Method :' CreateConnectHubDraft '
+14:00:05.355 [TestNG] INFO  Resources.base - clicked on Connect Hub Button
+14:00:07.043 [TestNG] INFO  Resources.base - Clicked on create post button
+14:00:08.292 [TestNG] INFO  Resources.base - Post Headline Inserted
+14:00:08.882 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+14:00:10.288 [TestNG] INFO  Resources.base -  Post description is inserted 
+14:00:10.426 [TestNG] INFO  Resources.base - tag is inserted 
+14:00:13.622 [TestNG] INFO  Resources.base - Save Draft button clicked
+14:00:13.872 [TestNG] INFO  Resources.base - Post Description matched
+14:00:13.910 [TestNG] INFO  Resources.base - Post udate On data matched
+14:00:13.946 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.Dummycode.CreateConnectHubDraft(Dummycode.java:482) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+14:00:14.278 [TestNG] INFO  Resources.base - closing browser
+14:01:57.513 [TestNG] INFO  Resources.base - Driver is initialized
+14:01:57.664 [TestNG] INFO  Resources.base - Window is maximised
+14:02:03.396 [TestNG] INFO  Resources.base - Navigated to Url 
+14:02:03.638 [TestNG] INFO  Resources.base - Entered Username
+14:02:03.782 [TestNG] INFO  Resources.base - Entered Password
+14:02:03.891 [TestNG] INFO  Resources.base - Clicked on Login Button
+14:02:05.353 [TestNG] INFO  Resources.base - Initiating Method :' CreateConnectHubDraft '
+14:02:05.586 [TestNG] INFO  Resources.base - clicked on Connect Hub Button
+14:02:07.279 [TestNG] INFO  Resources.base - Clicked on create post button
+14:02:08.548 [TestNG] INFO  Resources.base - Post Headline Inserted
+14:02:09.163 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+14:02:10.543 [TestNG] INFO  Resources.base -  Post description is inserted 
+14:02:10.696 [TestNG] INFO  Resources.base - tag is inserted 
+14:02:13.888 [TestNG] INFO  Resources.base - Save Draft button clicked
+14:02:14.126 [TestNG] INFO  Resources.base - Post Description matched
+14:02:14.170 [TestNG] INFO  Resources.base - Post udate On data matched
+14:02:14.207 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.Dummycode.CreateConnectHubDraft(Dummycode.java:482) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+14:02:14.231 [TestNG] INFO  Resources.base - Initiating Method :' CreateConnectPostwithYoutubeLink '
+14:02:14.579 [TestNG] INFO  Resources.base - clicked on Connect Hub Button
+14:02:16.333 [TestNG] INFO  Resources.base - Clicked on create post button
+14:02:17.051 [TestNG] INFO  Resources.base - Post Headline Inserted
+14:02:17.521 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+14:02:19.167 [TestNG] INFO  Resources.base - choice for link  is :3
+14:02:21.872 [TestNG] INFO  Resources.base -  Post description is inserted 
+14:02:22.004 [TestNG] INFO  Resources.base - tag is inserted 
+14:02:24.232 [TestNG] INFO  Resources.base - Submit Button clicked 
+14:02:25.022 [TestNG] INFO  Resources.base - close dialog button clicked 
+14:02:26.928 [TestNG] INFO  Resources.base - Post Headline Matched
+14:02:26.963 [TestNG] INFO  Resources.base - Post description Matched
+14:02:26.991 [TestNG] INFO  Resources.base - Post Category Matched
+14:02:27.016 [TestNG] INFO  Resources.base - Post Updated On Date is matched 
+14:02:27.019 [TestNG] INFO  Resources.base - Initiating Method :' EditDraft '
+14:02:27.034 [TestNG] INFO  Resources.base - User is on My space Page 
+14:02:27.586 [TestNG] INFO  Resources.base - First Post headline is : 2021/07/29 14:02:07 This is Content saved after creating the draft which is present is my spaces section of dev build..
+14:02:27.689 [TestNG] INFO  Resources.base - First Post Description is : 2021/07/29 14:02:10 Content changed for draft : this is a post description body, data entered here i
+14:02:27.722 [TestNG] INFO  Resources.base - First Post Updated on : 29 July 2021
+14:02:29.808 [TestNG] INFO  Resources.base - Post Headline Inserted
+14:02:30.143 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+14:02:32.060 [TestNG] INFO  Resources.base -  Post description is inserted 
+14:02:32.273 [TestNG] INFO  Resources.base - tag is inserted 
+14:02:34.451 [TestNG] INFO  Resources.base - Save Draft button clicked
+14:02:35.716 [TestNG] INFO  Resources.base - Save message verified
+14:02:35.787 [TestNG] INFO  Resources.base - Post creation date matched 
+14:02:35.811 [TestNG] INFO  Resources.base - Post description matched 
+14:02:35.832 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.Dummycode.EditDraft(Dummycode.java:862) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+14:02:35.836 [TestNG] INFO  Resources.base - Initiating Method :' DeclineDraft '
+14:02:35.848 [TestNG] INFO  Resources.base - User is on My space Page 
+14:02:37.910 [TestNG] INFO  Resources.base - closing browser
+14:04:18.237 [TestNG] INFO  Resources.base - Driver is initialized
+14:04:18.396 [TestNG] INFO  Resources.base - Window is maximised
+14:04:23.854 [TestNG] INFO  Resources.base - Navigated to Url 
+14:04:24.062 [TestNG] INFO  Resources.base - Entered Username
+14:04:24.180 [TestNG] INFO  Resources.base - Entered Password
+14:04:24.271 [TestNG] INFO  Resources.base - Clicked on Login Button
+14:04:25.752 [TestNG] INFO  Resources.base - Initiating Method :' CreateConnectHubDraft '
+14:04:26.025 [TestNG] INFO  Resources.base - clicked on Connect Hub Button
+14:04:27.726 [TestNG] INFO  Resources.base - Clicked on create post button
+14:04:28.981 [TestNG] INFO  Resources.base - Post Headline Inserted
+14:04:29.590 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+14:04:31.033 [TestNG] INFO  Resources.base -  Post description is inserted 
+14:04:31.182 [TestNG] INFO  Resources.base - tag is inserted 
+14:04:34.387 [TestNG] INFO  Resources.base - Save Draft button clicked
+14:04:34.697 [TestNG] INFO  Resources.base - Post Description matched
+14:04:34.734 [TestNG] INFO  Resources.base - Post udate On data matched
+14:04:34.767 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.Dummycode.CreateConnectHubDraft(Dummycode.java:482) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+14:04:34.786 [TestNG] INFO  Resources.base - Initiating Method :' CreateLearningDraft '
+14:04:36.234 [TestNG] INFO  Resources.base - Post Headline Inserted
+14:04:36.668 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+14:04:38.006 [TestNG] INFO  Resources.base -  Post description is inserted 
+14:04:38.146 [TestNG] INFO  Resources.base - tag is inserted 
+14:04:41.333 [TestNG] INFO  Resources.base - Save Draft button clicked
+14:04:41.532 [TestNG] INFO  Resources.base - Post Description matched
+14:04:41.561 [TestNG] INFO  Resources.base - Post udate On data matched
+14:04:41.585 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.Dummycode.CreateLearningDraft(Dummycode.java:167) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+14:04:41.590 [TestNG] INFO  Resources.base - Initiating Method :' CreateConnectPostwithYoutubeLink '
+14:04:41.916 [TestNG] INFO  Resources.base - clicked on Connect Hub Button
+14:04:43.640 [TestNG] INFO  Resources.base - Clicked on create post button
+14:04:44.393 [TestNG] INFO  Resources.base - Post Headline Inserted
+14:04:44.826 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+14:04:46.478 [TestNG] INFO  Resources.base - choice for link  is :14
+14:04:49.159 [TestNG] INFO  Resources.base -  Post description is inserted 
+14:04:49.318 [TestNG] INFO  Resources.base - tag is inserted 
+14:04:51.528 [TestNG] INFO  Resources.base - Submit Button clicked 
+14:04:52.324 [TestNG] INFO  Resources.base - close dialog button clicked 
+14:04:54.244 [TestNG] INFO  Resources.base - Post Headline Matched
+14:04:54.274 [TestNG] INFO  Resources.base - Post description Matched
+14:04:54.300 [TestNG] INFO  Resources.base - Post Category Matched
+14:04:54.328 [TestNG] INFO  Resources.base - Post Updated On Date is matched 
+14:04:54.331 [TestNG] INFO  Resources.base - Initiating Method :' CreatelearningPostwithYoutubeLink '
+14:04:55.580 [TestNG] INFO  Resources.base - Post Headline Inserted
+14:04:55.999 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+14:04:57.631 [TestNG] INFO  Resources.base - choice for link  is :3
+14:04:57.975 [TestNG] INFO  Resources.base - Youtube Submit button clicked
+14:05:00.349 [TestNG] INFO  Resources.base -  Post description is inserted 
+14:05:00.497 [TestNG] INFO  Resources.base - tag is inserted 
+14:05:02.710 [TestNG] INFO  Resources.base - Submit Button clicked 
+14:05:03.490 [TestNG] INFO  Resources.base - close dialog button clicked 
+14:05:05.277 [TestNG] INFO  Resources.base - Post Headline Matched
+14:05:05.330 [TestNG] INFO  Resources.base - Post description Matched
+14:05:05.397 [TestNG] INFO  Resources.base - Post Category Matched
+14:05:05.427 [TestNG] INFO  Resources.base - Post Updated On Date is matched 
+14:05:05.431 [TestNG] INFO  Resources.base - Initiating Method :' EditDraft '
+14:05:05.444 [TestNG] INFO  Resources.base - User is on My space Page 
+14:05:05.999 [TestNG] INFO  Resources.base - First Post headline is : 2021/07/29 14:04:35 This is Content saved after creating the draft which is present is my spaces section of dev build..
+14:05:06.103 [TestNG] INFO  Resources.base - First Post Description is : 2021/07/29 14:04:37content changed for draft : this is a post description body, data entered here is
+14:05:06.136 [TestNG] INFO  Resources.base - First Post Updated on : 29 July 2021
+14:05:08.236 [TestNG] INFO  Resources.base - Post Headline Inserted
+14:05:08.568 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+14:05:10.501 [TestNG] INFO  Resources.base -  Post description is inserted 
+14:05:10.683 [TestNG] INFO  Resources.base - tag is inserted 
+14:05:12.859 [TestNG] INFO  Resources.base - Save Draft button clicked
+14:05:13.942 [TestNG] INFO  Resources.base - Save message verified
+14:05:14.015 [TestNG] INFO  Resources.base - Post creation date matched 
+14:05:14.040 [TestNG] INFO  Resources.base - Post description matched 
+14:05:14.061 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.Dummycode.EditDraft(Dummycode.java:862) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+14:05:14.065 [TestNG] INFO  Resources.base - Initiating Method :' DeclineDraft '
+14:05:14.080 [TestNG] INFO  Resources.base - User is on My space Page 
+14:05:16.059 [TestNG] INFO  Resources.base - closing browser
+14:06:30.247 [TestNG] INFO  Resources.base - Intiating Method :' loginPageTestCredentials : with correct user credentials '
+14:06:35.788 [TestNG] INFO  Resources.base - Driver is initialized
+14:06:35.789 [TestNG] INFO  Resources.base - Driver is initialized
+14:06:35.789 [TestNG] INFO  Resources.base - Driver is initialized
+14:06:35.832 [TestNG] INFO  Resources.base - Driver is initialized
+14:06:36.055 [TestNG] INFO  Resources.base - Window is maximised
+14:06:36.134 [TestNG] INFO  Resources.base - Driver is initialized
+14:06:36.185 [TestNG] INFO  Resources.base - Window is maximised
+14:06:36.408 [TestNG] INFO  Resources.base - Window is maximised
+14:06:36.773 [TestNG] INFO  Resources.base - Window is maximised
+14:06:36.773 [TestNG] INFO  Resources.base - Window is maximised
+14:06:52.374 [TestNG] INFO  Resources.base - Navigated to Url 
+14:06:53.128 [TestNG] INFO  Resources.base - Navigated to Url 
+14:06:53.138 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+14:06:53.460 [TestNG] INFO  Resources.base - Entered Username
+14:06:53.714 [TestNG] INFO  Resources.base - Entered Password
+14:06:54.098 [TestNG] INFO  Resources.base - Clicked on Login Button
+14:06:54.925 [TestNG] INFO  Resources.base - Navigated to Url 
+14:06:55.335 [TestNG] INFO  Resources.base - Entered Username
+14:06:55.573 [TestNG] INFO  Resources.base - Entered Password
+14:06:55.743 [TestNG] INFO  Resources.base - Navigated to Url 
+14:06:55.749 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+14:06:56.086 [TestNG] INFO  Resources.base - Navigated to Url 
+14:06:56.093 [TestNG] INFO  Resources.base - Driver For Login Page is initialized
+14:06:56.093 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+14:06:56.187 [TestNG] INFO  Resources.base - Clicked on Login Button
+14:06:56.226 [TestNG] INFO  Resources.base - Entered Username
+14:06:56.234 [TestNG] INFO  Resources.base - Entered Username
+14:06:56.425 [TestNG] INFO  Resources.base - Username entered as  automation
+14:06:56.509 [TestNG] INFO  Resources.base - Entered Password
+14:06:56.688 [TestNG] INFO  Resources.base - Entered Password
+14:06:56.940 [TestNG] INFO  Resources.base - password  entered as  automation
+14:06:56.945 [TestNG] INFO  Resources.base - Clicked on Login Button
+14:06:56.954 [TestNG] INFO  Resources.base - Initiating Method :' validateNewUser '
+14:06:57.127 [TestNG] INFO  Resources.base - Clicked on Login Button
+14:06:57.421 [TestNG] INFO  Resources.base - Clicked on login
+14:06:57.963 [TestNG] INFO  Resources.base - Initiating Method :' CreateLearningDraft '
+14:06:58.790 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+14:06:59.442 [TestNG] INFO  Resources.base - Clicked on MyProfile button
+14:06:59.961 [TestNG] INFO  Resources.base - Navigated to correct url ie. https://dev-adityabirla.emcollab.com/#/hub
+14:07:00.299 [TestNG] INFO  Resources.base - Initiating Method :' CreateConnectHubDraft '
+14:07:01.356 [TestNG] INFO  Resources.base - clicked on checkbox
+14:07:01.725 [TestNG] INFO  Resources.base - clicked on Agree button 
+14:07:01.726 [TestNG] INFO  Resources.base - Entered complete Profile Page
+14:07:02.087 [TestNG] INFO  Resources.base - Fetching MyProfilePage
+14:07:02.090 [TestNG] INFO  Resources.base - Intiating Method :' updateContactInfo '
+14:07:02.253 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+14:07:02.363 [TestNG] INFO  Resources.base - Intiating Method :' loginPageTestCredentials: with correct UserName & wrong Password '
+14:07:04.538 [TestNG] INFO  Resources.base - clicked on Connect Hub Button
+14:07:06.310 [TestNG] INFO  Resources.base - Driver is initialized
+14:07:06.635 [TestNG] INFO  Resources.base - Window is maximised
+14:07:06.958 [TestNG] INFO  Resources.base - Clicked on create post button
+14:07:07.770 [TestNG] INFO  Resources.base - First name has been entered
+14:07:08.500 [TestNG] INFO  Resources.base - Last name has been entered
+14:07:09.060 [TestNG] INFO  Resources.base - Clicked on female radio button
+14:07:10.168 [TestNG] INFO  Resources.base - Clicked on female radio button
+14:07:10.217 [TestNG] INFO  Resources.base - Email field is non-editable
+14:07:10.460 [TestNG] INFO  Resources.base -  Country code for India Selected 
+14:07:11.835 [TestNG] INFO  Resources.base - Post Headline Inserted
+14:07:12.058 [TestNG] INFO  Resources.base - Post Headline Inserted
+14:07:12.100 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+14:07:12.584 [TestNG] INFO  Resources.base - For Calender date is choosen
+14:07:12.585 [TestNG] INFO  Resources.base - Selecting organisation at option number :13
+14:07:13.158 [TestNG] INFO  Resources.base - Organisation name clicked
+14:07:13.158 [TestNG] INFO  Resources.base - Selecting Job Function at option number :6
+14:07:13.810 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+14:07:13.838 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+14:07:13.924 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 1522655657  '
+14:07:16.124 [TestNG] INFO  Resources.base -  Post description is inserted 
+14:07:16.285 [TestNG] INFO  Resources.base -  Post description is inserted 
+14:07:16.583 [TestNG] INFO  Resources.base - Navigated to Url 
+14:07:16.586 [TestNG] INFO  Resources.base - Driver For Login Page is initialized
+14:07:16.586 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+14:07:16.794 [TestNG] INFO  Resources.base - toast Message Verified
+14:07:16.798 [TestNG] INFO  Resources.base - Intiating Method :' updateGender '
+14:07:16.876 [TestNG] INFO  Resources.base - tag is inserted 
+14:07:16.934 [TestNG] INFO  Resources.base - Username entered as  automation
+14:07:17.050 [TestNG] INFO  Resources.base - tag is inserted 
+14:07:17.160 [TestNG] INFO  Resources.base - Clicked on female radio button
+14:07:17.278 [TestNG] INFO  Resources.base - password  entered as  1234567
+14:07:17.378 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+14:07:17.509 [TestNG] INFO  Resources.base - Clicked on login
+14:07:17.577 [TestNG] INFO  Resources.base - toast Message Verified
+14:07:18.326 [TestNG] INFO  Resources.base - Clicked on Male radio button
+14:07:18.731 [TestNG] INFO  Resources.base - toast Message Verified
+14:07:19.239 [TestNG] INFO  Resources.base - Intiating Method :' updateJobFunction '
+14:07:19.243 [TestNG] INFO  Resources.base - Selecting Job Function at option number :10
+14:07:20.013 [TestNG] INFO  Resources.base - Navigated to correct url ie. https://dev-adityabirla.emcollab.com/#
+14:07:20.013 [TestNG] INFO  Resources.base - Error Message matched 
+14:07:20.013 [TestNG] INFO  Resources.base - Toast message Verified
+14:07:20.414 [TestNG] INFO  Resources.base - Save Draft button clicked
+14:07:20.552 [TestNG] INFO  Resources.base - toast Message Verified
+14:07:20.553 [TestNG] INFO  Resources.base -  Job Function name clicked
+14:07:20.874 [TestNG] INFO  Resources.base - Save Draft button clicked
+14:07:20.911 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+14:07:21.058 [TestNG] INFO  Resources.base - Intiating Method :' updateLocation '
+14:07:21.923 [TestNG] INFO  Resources.base - Selecting city at option number :678
+14:07:22.255 [TestNG] INFO  Resources.base - Intiating Method :' loginPageTestCredentials: with wrong UserName & correct Password '
+14:07:22.972 [TestNG] INFO  Resources.base - Initiating Method :' CreatePostwithYoutubeLink '
+14:07:23.240 [TestNG] INFO  Resources.base - Post Description matched
+14:07:23.438 [TestNG] INFO  Resources.base - Post udate On data matched
+14:07:23.488 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.CreateConnectHubPost.CreateConnectHubDraft(CreateConnectHubPost.java:185) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+14:07:23.537 [TestNG] INFO  Resources.base - Initiating Method :' CreateConnectPostwithYoutubeLink '
+14:07:25.297 [TestNG] INFO  Resources.base - Driver is initialized
+14:07:25.530 [TestNG] INFO  Resources.base - clicked on Connect Hub Button
+14:07:25.595 [TestNG] INFO  Resources.base - Window is maximised
+14:07:27.185 [TestNG] INFO  Resources.base -  Country as : 'India ' is seleceted 
+14:07:27.703 [TestNG] INFO  Resources.base - Clicked on create post button
+14:07:29.731 [TestNG] INFO  Resources.base - Post Headline Inserted
+14:07:29.923 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+14:07:30.825 [TestNG] INFO  Resources.base - Post Headline Inserted
+14:07:30.932 [TestNG] INFO  Resources.base - Selecting city at option number :195
+14:07:31.071 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+14:07:31.454 [TestNG] INFO  Resources.base -  City as : ' Usawan ' is selected
+14:07:31.455 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+14:07:32.650 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+14:07:32.770 [TestNG] INFO  Resources.base - choice for link  is :5
+14:07:33.614 [TestNG] INFO  Resources.base - Youtube Submit button clicked
+14:07:34.005 [TestNG] INFO  Resources.base -  Country code for India Selected 
+14:07:34.393 [TestNG] INFO  Resources.base - choice for link  is :9
+14:07:35.194 [TestNG] INFO  Resources.base - Navigated to Url 
+14:07:35.197 [TestNG] INFO  Resources.base - Driver For Login Page is initialized
+14:07:35.198 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+14:07:35.487 [TestNG] INFO  Resources.base - Username entered as  hs001
+14:07:35.848 [TestNG] INFO  Resources.base - password  entered as  automation
+14:07:35.997 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 3521635122  '
+14:07:36.058 [TestNG] INFO  Resources.base - Clicked on login
+14:07:36.591 [TestNG] INFO  Resources.base -  Post description is inserted 
+14:07:37.146 [TestNG] INFO  Resources.base - Navigated to correct url ie. https://dev-adityabirla.emcollab.com/#
+14:07:37.146 [TestNG] INFO  Resources.base - Error Message matched 
+14:07:37.146 [TestNG] INFO  Resources.base - Toast message Verified
+14:07:37.203 [TestNG] INFO  Resources.base - tag is inserted 
+14:07:37.302 [TestNG] INFO  Resources.base - My Healine message entered
+14:07:37.718 [TestNG] INFO  Resources.base -  Post description is inserted 
+14:07:37.804 [TestNG] INFO  Resources.base -  City as : ' Erich ' is selected
+14:07:38.180 [TestNG] INFO  Resources.base - tag is inserted 
+14:07:39.318 [TestNG] INFO  Resources.base - Intiating Method :' loginPageTestCredentials: with wrong UserName & wrong Password '
+14:07:39.560 [TestNG] INFO  Resources.base - Submit Button clicked 
+14:07:39.646 [TestNG] INFO  Resources.base - toast Message Verified
+14:07:40.153 [TestNG] INFO  Resources.base - Intiating Method :' updateOrganization '
+14:07:40.154 [TestNG] INFO  Resources.base - Selecting organnisation at option number :8
+14:07:41.043 [TestNG] INFO  Resources.base - Submit Button clicked 
+14:07:41.806 [TestNG] INFO  Resources.base - close dialog button clicked 
+14:07:41.898 [TestNG] INFO  Resources.base - toast Message Verified
+14:07:41.898 [TestNG] INFO  Resources.base - Orgnisation name clicked
+14:07:42.288 [TestNG] INFO  Resources.base - Driver is initialized
+14:07:42.405 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with user name of 90 charecters '
+14:07:42.405 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+14:07:42.652 [TestNG] INFO  Resources.base - Window is maximised
+14:07:43.156 [TestNG] INFO  Resources.base - close dialog button clicked 
+14:07:45.208 [TestNG] INFO  Resources.base - toast Message Verified
+14:07:46.873 [TestNG] INFO  Resources.base - First name has been entered
+14:07:47.460 [TestNG] INFO  Resources.base - Tour Exited
+14:07:47.543 [TestNG] INFO  Resources.base - Post Headline Matched
+14:07:47.610 [TestNG] INFO  Resources.base - Post description Matched
+14:07:47.651 [TestNG] INFO  Resources.base - Post Category Matched
+14:07:47.724 [TestNG] INFO  Resources.base - Post Updated On Date is matched 
+14:07:48.221 [TestNG] INFO  Resources.base - Initiating Method :' EditDraft '
+14:07:48.249 [TestNG] INFO  Resources.base - User is on My space Page 
+14:07:48.308 [TestNG] INFO  Resources.base - closing browser
+14:07:48.624 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+14:07:48.940 [TestNG] INFO  Resources.base - clicked on Logout Button
+14:07:49.885 [TestNG] INFO  Resources.base - First Post headline is : 2021/07/29 14:07:09 This is Content saved after creating the draft which is present is my spaces section of dev build..
+14:07:49.913 [TestNG] INFO  Resources.base - First Post Description is : 2021/07/29 14:07:14 Content changed for draft : this is a post description body, data entered here i
+14:07:50.026 [TestNG] INFO  Resources.base - First Post Updated on : 29 July 2021
+14:07:51.313 [TestNG] INFO  Resources.base - Last name has been entered
+14:07:53.176 [TestNG] INFO  Resources.base - Driver is initialized
+14:07:53.402 [TestNG] INFO  Resources.base - Window is maximised
+14:07:53.760 [TestNG] INFO  Resources.base - toast Message Verified
+14:07:53.761 [TestNG] INFO  Resources.base - Save Button has been clicked 
+14:07:53.763 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with user name of >90 charecters '
+14:07:53.764 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+14:07:56.594 [TestNG] INFO  Resources.base - Post Headline Inserted
+14:07:56.643 [TestNG] INFO  Resources.base - First name has been entered as:HarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarry
+14:07:58.211 [TestNG] INFO  Resources.base - Login Url matches after Logout 
+14:07:58.570 [TestNG] INFO  Resources.base - closing browser
+14:07:58.852 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+14:08:00.697 [TestNG] INFO  Resources.base - Last name has been entered as:SahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahani
+14:08:01.763 [TestNG] INFO  Resources.base -  Post description is inserted 
+14:08:02.054 [TestNG] INFO  Resources.base - Save Button is disabled 
+14:08:02.588 [TestNG] INFO  Resources.base - tag is inserted 
+14:08:04.757 [TestNG] INFO  Resources.base - toast Message Verified
+14:08:04.759 [TestNG] INFO  Resources.base - Save Button has been clicked 
+14:08:04.761 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with null charecters '
+14:08:04.762 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+14:08:04.967 [TestNG] INFO  Resources.base - Save Draft button clicked
+14:08:05.924 [TestNG] INFO  Resources.base - First name has been entered as:
+14:08:06.076 [TestNG] INFO  Resources.base - Last name has been entered as:
+14:08:06.212 [TestNG] INFO  Resources.base - Save Button is disabled 
+14:08:06.300 [TestNG] INFO  Resources.base - Save message verified
+14:08:06.458 [TestNG] INFO  Resources.base - Post creation date matched 
+14:08:06.526 [TestNG] INFO  Resources.base - Post description matched 
+14:08:06.569 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.CreateLearningPost.EditDraft(CreateLearningPost.java:531) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+14:08:06.573 [TestNG] INFO  Resources.base - Initiating Method :' DeleteDraft '
+14:08:06.641 [TestNG] INFO  Resources.base - User is on My space Page 
+14:08:06.881 [TestNG] INFO  Resources.base - Navigated to Url 
+14:08:06.884 [TestNG] INFO  Resources.base - Driver For Login Page is initialized
+14:08:06.884 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+14:08:07.228 [TestNG] INFO  Resources.base - Username entered as  hs001
+14:08:07.457 [TestNG] INFO  Resources.base - Navigated to Url 
+14:08:07.565 [TestNG] INFO  Resources.base - password  entered as  1234567
+14:08:07.932 [TestNG] INFO  Resources.base - Entered Username
+14:08:07.974 [TestNG] INFO  Resources.base - Clicked on login
+14:08:08.165 [TestNG] INFO  Resources.base - Entered Password
+14:08:08.460 [TestNG] INFO  Resources.base - Clicked on Login Button
+14:08:08.824 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with special case charecters charecters '
+14:08:08.824 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+14:08:09.016 [TestNG] INFO  Resources.base - Navigated to correct url ie. https://dev-adityabirla.emcollab.com/#
+14:08:09.017 [TestNG] INFO  Resources.base - Error Message matched 
+14:08:09.017 [TestNG] INFO  Resources.base - Toast message Verified
+14:08:09.153 [TestNG] INFO  Resources.base - Initiating Method :' PostApprove '
+14:08:09.719 [TestNG] INFO  Resources.base - closing browser
+14:08:10.093 [TestNG] INFO  Resources.base - First name has been entered as:@#$%^
+14:08:10.375 [TestNG] INFO  Resources.base - Last name has been entered as:@#$%^
+14:08:10.586 [TestNG] INFO  Resources.base - Save Button is disabled 
+14:08:10.587 [TestNG] INFO  Resources.base - FirstName and Last name do not support special charecters in respective fields
+14:08:12.577 [TestNG] INFO  Resources.base - toast Message Verified
+14:08:12.577 [TestNG] INFO  Resources.base - Save Button has been clicked 
+14:08:12.581 [TestNG] INFO  Resources.base - Intiating Method :' updateWelcomeMessage '
+14:08:15.041 [TestNG] INFO  Resources.base - toast Message Verified
+14:08:15.041 [TestNG] INFO  Resources.base - My Healine message entered
+14:08:16.127 [TestNG] INFO  Resources.base - toast Message Verified
+14:08:17.133 [TestNG] INFO  Resources.base - Intiating Method :' validateCalender '
+14:08:18.975 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+14:08:19.183 [TestNG] INFO  Resources.base - For Calender date is choosen
+14:08:19.293 [TestNG] INFO  Resources.base - toast Message Verified
+14:08:19.296 [TestNG] INFO  Resources.base - Intiating Method :' validateEmailField '
+14:08:19.395 [TestNG] INFO  Resources.base - Email field is non-editable
+14:08:19.549 [TestNG] INFO  Resources.base - closing browser
+14:08:19.968 [TestNG] INFO  Resources.base - Entered Username
+14:08:20.073 [TestNG] INFO  Resources.base - Entered Password
+14:08:20.144 [TestNG] INFO  Resources.base - Clicked on Login Button
+14:08:21.739 [TestNG] INFO  Resources.base - Admin control button clicked 
+14:08:23.537 [TestNG] INFO  Resources.base - Automation User
+14:08:24.531 [TestNG] INFO  Resources.base - Post approve  message verified
+14:08:24.632 [TestNG] INFO  Resources.base - clicked on approved button 
+14:08:25.335 [TestNG] INFO  Resources.base - data matched after approving the post
+14:08:25.338 [TestNG] INFO  Resources.base - Initiating Method :' PostDecline '
+14:08:25.799 [TestNG] INFO  Resources.base - Admin control button clicked 
+14:08:26.680 [TestNG] INFO  Resources.base - Automation User
+14:08:29.667 [TestNG] INFO  Resources.base - Post approve  message verified
+14:08:32.321 [TestNG] INFO  Resources.base - Entered Username
+14:08:32.432 [TestNG] INFO  Resources.base - Entered Password
+14:08:32.511 [TestNG] INFO  Resources.base - Clicked on Login Button
+14:08:35.835 [TestNG] INFO  Resources.base - 2021/07/29 14:07:27 This is Content saved after creating the draft which is pres ...
+14:08:35.835 [TestNG] INFO  Resources.base - 124 : 2021/07/29 14:07:27 This is Content saved after creating the draft which is pres ...
+14:08:35.986 [TestNG] INFO  Resources.base - Post Headline Matched
+14:08:36.013 [TestNG] INFO  Resources.base - Post Category Matched
+14:08:36.040 [TestNG] INFO  Resources.base - Post Updated On Date is matched 
+14:08:36.707 [TestNG] INFO  Resources.base - Decline Message verified
+14:08:37.478 [TestNG] INFO  Resources.base - closing browser
+14:13:30.731 [TestNG] INFO  Resources.base - Driver is initialized
+14:13:30.915 [TestNG] INFO  Resources.base - Window is maximised
+14:13:36.693 [TestNG] INFO  Resources.base - Navigated to Url 
+14:13:36.883 [TestNG] INFO  Resources.base - Entered Username
+14:13:36.992 [TestNG] INFO  Resources.base - Entered Password
+14:13:37.070 [TestNG] INFO  Resources.base - Clicked on Login Button
+14:13:38.524 [TestNG] INFO  Resources.base - Initiating Method :' CreateConnectHubDraft '
+14:13:38.721 [TestNG] INFO  Resources.base - clicked on Connect Hub Button
+14:13:40.383 [TestNG] INFO  Resources.base - Clicked on create post button
+14:13:41.585 [TestNG] INFO  Resources.base - Post Headline Inserted
+14:13:42.186 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+14:13:43.546 [TestNG] INFO  Resources.base -  Post description is inserted 
+14:13:43.811 [TestNG] INFO  Resources.base - tag is inserted 
+14:13:47.064 [TestNG] INFO  Resources.base - Save Draft button clicked
+14:13:47.292 [TestNG] INFO  Resources.base - Post Description matched
+14:13:47.335 [TestNG] INFO  Resources.base - Post udate On data matched
+14:13:47.371 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.Dummycode.CreateConnectHubDraft(Dummycode.java:482) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+14:13:47.398 [TestNG] INFO  Resources.base - Initiating Method :' CreateLearningDraft '
+14:13:48.843 [TestNG] INFO  Resources.base - Post Headline Inserted
+14:13:49.219 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+14:13:50.582 [TestNG] INFO  Resources.base -  Post description is inserted 
+14:13:50.718 [TestNG] INFO  Resources.base - tag is inserted 
+14:13:53.902 [TestNG] INFO  Resources.base - Save Draft button clicked
+14:13:54.056 [TestNG] INFO  Resources.base - Post Description matched
+14:13:54.087 [TestNG] INFO  Resources.base - Post udate On data matched
+14:13:54.114 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.Dummycode.CreateLearningDraft(Dummycode.java:167) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+14:13:54.120 [TestNG] INFO  Resources.base - Initiating Method :' CreateConnectPostwithYoutubeLink '
+14:13:54.470 [TestNG] INFO  Resources.base - clicked on Connect Hub Button
+14:13:56.249 [TestNG] INFO  Resources.base - Clicked on create post button
+14:13:56.912 [TestNG] INFO  Resources.base - Post Headline Inserted
+14:13:57.369 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+14:13:59.015 [TestNG] INFO  Resources.base - choice for link  is :1
+14:14:01.709 [TestNG] INFO  Resources.base -  Post description is inserted 
+14:14:01.879 [TestNG] INFO  Resources.base - tag is inserted 
+14:14:04.094 [TestNG] INFO  Resources.base - Submit Button clicked 
+14:14:04.886 [TestNG] INFO  Resources.base - close dialog button clicked 
+14:14:06.792 [TestNG] INFO  Resources.base - Post Headline Matched
+14:14:06.823 [TestNG] INFO  Resources.base - Post description Matched
+14:14:06.853 [TestNG] INFO  Resources.base - Post Category Matched
+14:14:06.878 [TestNG] INFO  Resources.base - Post Updated On Date is matched 
+14:14:06.883 [TestNG] INFO  Resources.base - Initiating Method :' CreatelearningPostwithYoutubeLink '

@@ -1,0 +1,702 @@
+15:46:38.953 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+15:46:40.441 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+15:46:41.455 [TestNG] INFO  Resources.base - Selecting city at option number :305
+15:46:45.213 [TestNG] INFO  Resources.base -  City as : ' Jhusi Kohna ' is selected
+15:46:45.214 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+15:46:46.029 [TestNG] INFO  Resources.base -  Country code for India Selected 
+15:46:46.765 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 3867729712  '
+15:46:47.522 [TestNG] INFO  Resources.base - My Healine message entered
+15:46:49.647 [TestNG] INFO  Resources.base - toast Message Verified
+15:46:50.933 [TestNG] INFO  Resources.base - Tour Exited
+15:46:52.066 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+15:46:52.202 [TestNG] INFO  Resources.base - clicked on Logout Button
+15:46:52.210 [TestNG] INFO  Resources.base - Login Url matches after Logout 
+15:46:56.745 [TestNG] INFO  Resources.base - Entered Username
+15:46:56.841 [TestNG] INFO  Resources.base - Entered Password
+15:46:56.934 [TestNG] INFO  Resources.base - Clicked on Login Button
+15:46:58.640 [TestNG] INFO  Resources.base - clicked on checkbox
+15:46:59.237 [TestNG] INFO  Resources.base - Entered complete Profile Page
+15:47:00.354 [TestNG] INFO  Resources.base - First name has been entered
+15:47:00.482 [TestNG] INFO  Resources.base - Last name has been entered
+15:47:00.578 [TestNG] INFO  Resources.base - Clicked on female radio button
+15:47:00.607 [TestNG] INFO  Resources.base - Email field is non-editable
+15:47:06.749 [TestNG] ERROR Resources.base - Error occured while inserting DateOfBirth
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//td[@aria-label='May 2003']"}
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'harshits-MacBook-Air.local', ip: 'fe80:0:0:0:854:8da6:493:31d8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/mf/5d0879117zv...}, goog:chromeOptions: {debuggerAddress: localhost:50482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff0e66d5f3858f26500cef67427d7b34
+*** Element info: {Using=xpath, value=//td[@aria-label='May 2003']}
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353) ~[selenium-api-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at pageObjects.MyProfilePage.getDate(MyProfilePage.java:151) ~[classes/:?]
+	at encollab.Dummycode.validateNewUser(Dummycode.java:200) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+15:47:07.865 [TestNG] INFO  Resources.base - closing browser
+15:49:03.799 [TestNG] INFO  Resources.base - Intiating Method :' loginPageTestCredentials : with correct user credentials '
+15:49:13.413 [TestNG] INFO  Resources.base - Driver is initialized
+15:49:13.413 [TestNG] INFO  Resources.base - Driver is initialized
+15:49:13.499 [TestNG] INFO  Resources.base - Driver is initialized
+15:49:13.730 [TestNG] INFO  Resources.base - Driver is initialized
+15:49:13.827 [TestNG] INFO  Resources.base - Window is maximised
+15:49:13.839 [TestNG] INFO  Resources.base - Window is maximised
+15:49:13.959 [TestNG] INFO  Resources.base - Driver is initialized
+15:49:13.962 [TestNG] INFO  Resources.base - Window is maximised
+15:49:14.368 [TestNG] INFO  Resources.base - Window is maximised
+15:49:14.525 [TestNG] INFO  Resources.base - Window is maximised
+15:49:32.567 [TestNG] INFO  Resources.base - Navigated to Url 
+15:49:32.576 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+15:49:45.569 [TestNG] INFO  Resources.base - Navigated to Url 
+15:49:45.714 [TestNG] INFO  Resources.base - Navigated to Url 
+15:49:45.740 [TestNG] INFO  Resources.base - Driver For Login Page is initialized
+15:49:45.741 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+15:49:46.245 [TestNG] INFO  Resources.base - Navigated to Url 
+15:49:46.252 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+15:49:46.712 [TestNG] INFO  Resources.base - Entered Username
+15:49:46.732 [TestNG] INFO  Resources.base - Username entered as  automation
+15:49:46.766 [TestNG] INFO  Resources.base - Entered Username
+15:49:47.320 [TestNG] INFO  Resources.base - password  entered as  automation
+15:49:47.519 [TestNG] INFO  Resources.base - Entered Password
+15:49:47.623 [TestNG] INFO  Resources.base - Entered Password
+15:49:47.794 [TestNG] INFO  Resources.base - Clicked on Login Button
+15:49:47.839 [TestNG] INFO  Resources.base - Clicked on login
+15:49:47.926 [TestNG] INFO  Resources.base - Clicked on Login Button
+15:49:48.057 [TestNG] INFO  Resources.base - Navigated to Url 
+15:49:49.938 [TestNG] INFO  Resources.base - Entered Username
+15:49:50.510 [TestNG] INFO  Resources.base - Entered Username
+15:49:50.901 [TestNG] INFO  Resources.base - Entered Password
+15:49:51.079 [TestNG] INFO  Resources.base - Entered Password
+15:49:51.192 [TestNG] INFO  Resources.base - Clicked on Login Button
+15:49:51.336 [TestNG] INFO  Resources.base - Clicked on Login Button
+15:49:51.348 [TestNG] INFO  Resources.base - Initiating Method :' validateNewUser '
+15:49:51.633 [TestNG] INFO  Resources.base - Navigated to correct url ie. https://dev-adityabirla.emcollab.com/#/hub
+15:49:51.822 [TestNG] INFO  Resources.base - Initiating Method :' CreateConnectHubDraft '
+15:49:53.247 [TestNG] INFO  Resources.base - closing browser
+15:49:54.200 [TestNG] INFO  Resources.base - Intiating Method :' loginPageTestCredentials: with correct UserName & wrong Password '
+15:49:54.724 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+15:49:58.948 [TestNG] INFO  Resources.base - Entered complete Profile Page
+15:50:00.570 [TestNG] INFO  Resources.base - Driver is initialized
+15:50:00.857 [TestNG] INFO  Resources.base - Window is maximised
+15:50:01.251 [TestNG] INFO  Resources.base - First name has been entered
+15:50:01.784 [TestNG] INFO  Resources.base - Last name has been entered
+15:50:02.057 [TestNG] INFO  Resources.base - Clicked on female radio button
+15:50:02.259 [TestNG] INFO  Resources.base - Email field is non-editable
+15:50:03.565 [TestNG] INFO  Resources.base - Clicked on MyProfile button
+15:50:03.578 [TestNG] INFO  Resources.base - Fetching MyProfilePage
+15:50:03.583 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with user name of 90 charecters '
+15:50:03.583 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+15:50:04.525 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+15:50:05.546 [TestNG] INFO  Resources.base - For Calender date is choosen
+15:50:05.548 [TestNG] INFO  Resources.base - Selecting organisation at option number :14
+15:50:06.148 [TestNG] INFO  Resources.base - clicked on Connect Hub Button
+15:50:06.661 [TestNG] INFO  Resources.base - Organisation name clicked
+15:50:06.661 [TestNG] INFO  Resources.base - Selecting Job Function at option number :12
+15:50:07.915 [TestNG] INFO  Resources.base - Clicked on create post button
+15:50:10.677 [TestNG] INFO  Resources.base - First name has been entered
+15:50:11.307 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+15:50:11.832 [TestNG] INFO  Resources.base - Post Headline Inserted
+15:50:13.388 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+15:50:13.427 [TestNG] INFO  Resources.base - Last name has been entered
+15:50:14.407 [TestNG] INFO  Resources.base - Selecting city at option number :227
+15:50:14.575 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+15:50:15.418 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with user name of >90 charecters '
+15:50:15.419 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+15:50:17.535 [TestNG] INFO  Resources.base -  Post description is inserted 
+15:50:18.669 [TestNG] INFO  Resources.base - tag is inserted 
+15:50:19.759 [TestNG] INFO  Resources.base - First name has been entered as:HarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarry
+15:50:22.117 [TestNG] INFO  Resources.base - Save Draft button clicked
+15:50:22.118 [TestNG] INFO  Resources.base - Navigated to Url 
+15:50:22.123 [TestNG] INFO  Resources.base - Driver For Login Page is initialized
+15:50:22.123 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+15:50:22.928 [TestNG] INFO  Resources.base - Last name has been entered as:SahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahani
+15:50:23.848 [TestNG] INFO  Resources.base - Save Button is disabled 
+15:50:24.252 [TestNG] INFO  Resources.base - Post Description matched
+15:50:24.362 [TestNG] INFO  Resources.base - Post udate On data matched
+15:50:24.463 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.CreatePost.CreateConnectHubDraft(CreatePost.java:481) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+15:50:24.498 [TestNG] INFO  Resources.base - Initiating Method :' CreateLearningDraft '
+15:50:25.463 [TestNG] INFO  Resources.base -  City as : ' Ghatampur ' is selected
+15:50:25.463 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+15:50:26.481 [TestNG] INFO  Resources.base - Username entered as  automation
+15:50:26.982 [TestNG] INFO  Resources.base - password  entered as  1234567
+15:50:27.456 [TestNG] INFO  Resources.base - Clicked on login
+15:50:28.270 [TestNG] INFO  Resources.base - toast Message Verified
+15:50:28.271 [TestNG] INFO  Resources.base - Save Button has been clicked 
+15:50:28.275 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with null charecters '
+15:50:28.275 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+15:50:28.549 [TestNG] INFO  Resources.base - Navigated to correct url ie. https://dev-adityabirla.emcollab.com/#
+15:50:28.549 [TestNG] INFO  Resources.base - Error Message matched 
+15:50:28.549 [TestNG] INFO  Resources.base - Toast message Verified
+15:50:29.252 [TestNG] INFO  Resources.base -  Country code for India Selected 
+15:50:29.438 [TestNG] INFO  Resources.base - First name has been entered as:
+15:50:29.649 [TestNG] INFO  Resources.base - Last name has been entered as:
+15:50:29.770 [TestNG] INFO  Resources.base - Save Button is disabled 
+15:50:30.236 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 2891494022  '
+15:50:30.770 [TestNG] INFO  Resources.base - Intiating Method :' loginPageTestCredentials: with wrong UserName & correct Password '
+15:50:31.672 [TestNG] INFO  Resources.base - Post Headline Inserted
+15:50:32.554 [TestNG] INFO  Resources.base - My Healine message entered
+15:50:34.019 [TestNG] INFO  Resources.base - toast Message Verified
+15:50:34.019 [TestNG] INFO  Resources.base - Save Button has been clicked 
+15:50:34.023 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with special case charecters charecters '
+15:50:34.023 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+15:50:34.902 [TestNG] INFO  Resources.base - Driver is initialized
+15:50:35.123 [TestNG] INFO  Resources.base - Window is maximised
+15:50:35.549 [TestNG] INFO  Resources.base - First name has been entered as:@#$%^
+15:50:36.255 [TestNG] INFO  Resources.base - Last name has been entered as:@#$%^
+15:50:36.356 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+15:50:39.776 [TestNG] INFO  Resources.base - Intiating Method :' updateGender '
+15:50:39.936 [TestNG] INFO  Resources.base - Clicked on female radio button
+15:50:40.594 [TestNG] INFO  Resources.base -  Post description is inserted 
+15:50:42.567 [TestNG] INFO  Resources.base - Intiating Method :' validateCalender '
+15:50:43.208 [TestNG] INFO  Resources.base - tag is inserted 
+15:50:48.532 [TestNG] ERROR Resources.base - Error occured while CompleteProfile Page is loaded 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@ng-bind-html='message']"}
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'harshits-MacBook-Air.local', ip: 'fe80:0:0:0:854:8da6:493:31d8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/mf/5d0879117zv...}, goog:chromeOptions: {debuggerAddress: localhost:50557}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 07635391d6522f9cd01fadb5a7f8b6b4
+*** Element info: {Using=xpath, value=//div[@ng-bind-html='message']}
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353) ~[selenium-api-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at pageObjects.MyProfilePage.getToastMessage(MyProfilePage.java:239) ~[classes/:?]
+	at encollab.NewProfile.saveButton(NewProfile.java:66) ~[test-classes/:?]
+	at encollab.NewProfile.validateNewUser(NewProfile.java:295) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+15:50:49.328 [TestNG] INFO  Resources.base - Save Draft button clicked
+15:50:49.480 [TestNG] INFO  Resources.base - Intiating Method :' validateEmailField '
+15:50:49.557 [TestNG] INFO  Resources.base - Email field is non-editable
+15:50:49.566 [TestNG] INFO  Resources.base - Intiating Method :' updateJobFunction '
+15:50:49.566 [TestNG] INFO  Resources.base - Selecting Job Function at option number :5
+15:50:50.139 [TestNG] INFO  Resources.base - closing browser
+15:50:51.183 [TestNG] INFO  Resources.base - Intiating Method :' updateOrganization '
+15:50:51.183 [TestNG] INFO  Resources.base - Selecting organnisation at option number :2
+15:50:51.558 [TestNG] INFO  Resources.base - Post Description matched
+15:50:51.632 [TestNG] INFO  Resources.base - Post udate On data matched
+15:50:51.756 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.CreatePost.CreateLearningDraft(CreatePost.java:167) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+15:50:51.777 [TestNG] INFO  Resources.base - Initiating Method :' CreateConnectPostwithYoutubeLink '
+15:50:52.515 [TestNG] INFO  Resources.base - Intiating Method :' updateContactInfo '
+15:50:52.530 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+15:50:53.868 [TestNG] INFO  Resources.base - Intiating Method :' updateLocation '
+15:50:53.955 [TestNG] INFO  Resources.base - clicked on Connect Hub Button
+15:50:54.256 [TestNG] INFO  Resources.base - Navigated to Url 
+15:50:54.260 [TestNG] INFO  Resources.base - Driver For Login Page is initialized
+15:50:54.260 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+15:50:55.271 [TestNG] INFO  Resources.base - Intiating Method :' updateWelcomeMessage '
+15:50:55.786 [TestNG] INFO  Resources.base - Clicked on create post button
+15:50:56.118 [TestNG] INFO  Resources.base - Username entered as  hs001
+15:50:56.352 [TestNG] INFO  Resources.base - password  entered as  automation
+15:50:56.627 [TestNG] INFO  Resources.base - Clicked on login
+15:50:57.628 [TestNG] INFO  Resources.base - Navigated to correct url ie. https://dev-adityabirla.emcollab.com/#
+15:50:57.629 [TestNG] INFO  Resources.base - Error Message matched 
+15:50:57.629 [TestNG] INFO  Resources.base - Toast message Verified
+15:50:58.093 [TestNG] INFO  Resources.base - Post Headline Inserted
+15:50:58.730 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+15:51:00.010 [TestNG] INFO  Resources.base - closing browser
+15:51:00.391 [TestNG] INFO  Resources.base - Intiating Method :' loginPageTestCredentials: with wrong UserName & wrong Password '
+15:51:01.404 [TestNG] INFO  Resources.base - choice for link  is :3
+15:51:03.725 [TestNG] INFO  Resources.base - Driver is initialized
+15:51:03.930 [TestNG] INFO  Resources.base - Window is maximised
+15:51:05.748 [TestNG] INFO  Resources.base -  Post description is inserted 
+15:51:06.268 [TestNG] INFO  Resources.base - tag is inserted 
+15:51:07.019 [TestNG] INFO  Resources.base - Navigated to Url 
+15:51:07.023 [TestNG] INFO  Resources.base - Driver For Login Page is initialized
+15:51:07.023 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+15:51:07.457 [TestNG] INFO  Resources.base - Username entered as  hs001
+15:51:08.710 [TestNG] INFO  Resources.base - Submit Button clicked 
+15:51:09.992 [TestNG] INFO  Resources.base - close dialog button clicked 
+15:51:10.890 [TestNG] INFO  Resources.base - password  entered as  1234567
+15:51:11.101 [TestNG] INFO  Resources.base - Clicked on login
+15:51:12.117 [TestNG] INFO  Resources.base - Navigated to correct url ie. https://dev-adityabirla.emcollab.com/#
+15:51:12.117 [TestNG] INFO  Resources.base - Error Message matched 
+15:51:12.118 [TestNG] INFO  Resources.base - Toast message Verified
+15:51:12.337 [TestNG] INFO  Resources.base - Post Headline Matched
+15:51:12.372 [TestNG] INFO  Resources.base - Post description Matched
+15:51:12.418 [TestNG] INFO  Resources.base - Post Category Matched
+15:51:12.458 [TestNG] INFO  Resources.base - Post Updated On Date is matched 
+15:51:12.461 [TestNG] INFO  Resources.base - Initiating Method :' CreatelearningPostwithYoutubeLink '
+15:51:15.327 [TestNG] INFO  Resources.base - Post Headline Inserted
+15:51:15.884 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+15:51:17.566 [TestNG] INFO  Resources.base - choice for link  is :2
+15:51:17.973 [TestNG] INFO  Resources.base - Youtube Submit button clicked
+15:51:20.472 [TestNG] INFO  Resources.base -  Post description is inserted 
+15:51:20.708 [TestNG] INFO  Resources.base - tag is inserted 
+15:51:22.971 [TestNG] INFO  Resources.base - Submit Button clicked 
+15:51:23.857 [TestNG] INFO  Resources.base - close dialog button clicked 
+15:51:25.851 [TestNG] INFO  Resources.base - Post Headline Matched
+15:51:25.880 [TestNG] INFO  Resources.base - Post description Matched
+15:51:25.908 [TestNG] INFO  Resources.base - Post Category Matched
+15:51:25.932 [TestNG] INFO  Resources.base - Post Updated On Date is matched 
+15:51:25.935 [TestNG] INFO  Resources.base - Initiating Method :' EditDraft '
+15:51:25.950 [TestNG] INFO  Resources.base - User is on My space Page 
+15:51:26.871 [TestNG] INFO  Resources.base - First Post headline is : 2021/08/02 15:50:29 This is Content saved after creating the draft which is present is my spaces section of dev build..
+15:51:26.926 [TestNG] INFO  Resources.base - First Post Description is : 2021/08/02 15:50:37content changed for draft : this is a post description body, data entered here is
+15:51:26.974 [TestNG] INFO  Resources.base - First Post Updated on : 02 August 2021
+15:51:29.779 [TestNG] INFO  Resources.base - Post Headline Inserted
+15:51:30.305 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+15:51:32.336 [TestNG] INFO  Resources.base -  Post description is inserted 
+15:51:32.582 [TestNG] INFO  Resources.base - tag is inserted 
+15:51:34.848 [TestNG] INFO  Resources.base - Save Draft button clicked
+15:51:36.093 [TestNG] INFO  Resources.base - Save message verified
+15:51:36.176 [TestNG] INFO  Resources.base - Post creation date matched 
+15:51:36.221 [TestNG] INFO  Resources.base - Post description matched 
+15:51:36.275 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.CreatePost.EditDraft(CreatePost.java:860) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+15:51:36.279 [TestNG] INFO  Resources.base - Initiating Method :' DeclineDraft '
+15:51:36.304 [TestNG] INFO  Resources.base - User is on My space Page 
+15:51:38.470 [TestNG] INFO  Resources.base - closing browser
+15:53:43.348 [TestNG] INFO  Resources.base - Intiating Method :' loginPageTestCredentials : with correct user credentials '
+15:53:51.552 [TestNG] INFO  Resources.base - Driver is initialized
+15:53:51.553 [TestNG] INFO  Resources.base - Driver is initialized
+15:53:51.553 [TestNG] INFO  Resources.base - Driver is initialized
+15:53:51.739 [TestNG] INFO  Resources.base - Driver is initialized
+15:53:51.848 [TestNG] INFO  Resources.base - Driver is initialized
+15:53:51.905 [TestNG] INFO  Resources.base - Window is maximised
+15:53:51.967 [TestNG] INFO  Resources.base - Window is maximised
+15:53:52.146 [TestNG] INFO  Resources.base - Window is maximised
+15:53:52.265 [TestNG] INFO  Resources.base - Window is maximised
+15:53:52.303 [TestNG] INFO  Resources.base - Window is maximised
+15:54:14.647 [TestNG] INFO  Resources.base - Navigated to Url 
+15:54:14.658 [TestNG] INFO  Resources.base - Driver For Login Page is initialized
+15:54:14.669 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+15:54:15.408 [TestNG] INFO  Resources.base - Navigated to Url 
+15:54:18.382 [TestNG] INFO  Resources.base - Navigated to Url 
+15:54:18.847 [TestNG] INFO  Resources.base - Entered Username
+15:54:19.359 [TestNG] INFO  Resources.base - Entered Password
+15:54:19.657 [TestNG] INFO  Resources.base - Entered Username
+15:54:19.671 [TestNG] INFO  Resources.base - Navigated to Url 
+15:54:19.680 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+15:54:19.815 [TestNG] INFO  Resources.base - Username entered as  automation
+15:54:20.024 [TestNG] INFO  Resources.base - Clicked on Login Button
+15:54:20.525 [TestNG] INFO  Resources.base - Entered Password
+15:54:20.578 [TestNG] INFO  Resources.base - Entered Username
+15:54:20.703 [TestNG] INFO  Resources.base - password  entered as  automation
+15:54:21.026 [TestNG] INFO  Resources.base - Clicked on login
+15:54:21.192 [TestNG] INFO  Resources.base - Clicked on Login Button
+15:54:21.280 [TestNG] INFO  Resources.base - Entered Password
+15:54:21.980 [TestNG] INFO  Resources.base - Clicked on Login Button
+15:54:21.988 [TestNG] INFO  Resources.base - Initiating Method :' validateNewUser '
+15:54:24.657 [TestNG] INFO  Resources.base - Initiating Method :' CreateConnectHubDraft '
+15:54:24.819 [TestNG] INFO  Resources.base - Navigated to correct url ie. https://dev-adityabirla.emcollab.com/#/hub
+15:54:27.525 [TestNG] INFO  Resources.base - Intiating Method :' loginPageTestCredentials: with correct UserName & wrong Password '
+15:54:32.423 [TestNG] INFO  Resources.base - clicked on Connect Hub Button
+15:54:33.063 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+15:54:33.757 [TestNG] INFO  Resources.base - Driver is initialized
+15:54:34.023 [TestNG] INFO  Resources.base - clicked on Logout Button
+15:54:34.037 [TestNG] INFO  Resources.base - Login Url matches after Logout 
+15:54:34.096 [TestNG] INFO  Resources.base - Window is maximised
+15:54:35.891 [TestNG] INFO  Resources.base - Clicked on create post button
+15:54:38.000 [TestNG] INFO  Resources.base - closing browser
+15:54:42.449 [TestNG] INFO  Resources.base - Post Headline Inserted
+15:54:43.445 [TestNG] INFO  Resources.base - Entered Username
+15:54:43.664 [TestNG] INFO  Resources.base - Entered Password
+15:54:43.957 [TestNG] INFO  Resources.base - Clicked on Login Button
+15:54:44.351 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+15:54:46.057 [TestNG] INFO  Resources.base - clicked on checkbox
+15:54:47.940 [TestNG] INFO  Resources.base -  Post description is inserted 
+15:54:48.727 [TestNG] INFO  Resources.base - tag is inserted 
+15:54:49.295 [TestNG] INFO  Resources.base - Entered complete Profile Page
+15:54:51.796 [TestNG] INFO  Resources.base - First name has been entered
+15:54:52.538 [TestNG] INFO  Resources.base - Save Draft button clicked
+15:54:52.978 [TestNG] INFO  Resources.base - Last name has been entered
+15:54:53.373 [TestNG] INFO  Resources.base - Clicked on female radio button
+15:54:53.582 [TestNG] INFO  Resources.base - Email field is non-editable
+15:54:55.201 [TestNG] INFO  Resources.base - Navigated to Url 
+15:54:55.206 [TestNG] INFO  Resources.base - Driver For MyProfile Page is initialized
+15:54:55.811 [TestNG] INFO  Resources.base - Post Description matched
+15:54:55.865 [TestNG] INFO  Resources.base - Post udate On data matched
+15:54:55.906 [TestNG] INFO  Resources.base - For Calender Year and Month are choosen
+15:54:55.994 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.CreatePost.CreateConnectHubDraft(CreatePost.java:481) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+15:54:56.045 [TestNG] INFO  Resources.base - Initiating Method :' CreateLearningDraft '
+15:54:56.497 [TestNG] INFO  Resources.base - For Calender date is choosen
+15:54:56.497 [TestNG] INFO  Resources.base - Selecting organisation at option number :0
+15:54:57.677 [TestNG] INFO  Resources.base - Organisation name clicked
+15:54:57.677 [TestNG] INFO  Resources.base - Selecting Job Function at option number :4
+15:54:59.618 [TestNG] INFO  Resources.base - Entered Username
+15:55:00.107 [TestNG] INFO  Resources.base - Entered Password
+15:55:00.304 [TestNG] INFO  Resources.base - Clicked on Login Button
+15:55:03.180 [TestNG] INFO  Resources.base -  Country as : 'India ' is selected 
+15:55:03.208 [TestNG] INFO  Resources.base - Post Headline Inserted
+15:55:04.142 [TestNG] INFO  Resources.base - Navigated to Url 
+15:55:04.148 [TestNG] INFO  Resources.base - Driver For Login Page is initialized
+15:55:04.148 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+15:55:04.610 [TestNG] INFO  Resources.base - Username entered as  automation
+15:55:05.114 [TestNG] INFO  Resources.base - password  entered as  1234567
+15:55:05.239 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+15:55:05.383 [TestNG] INFO  Resources.base - Clicked on login
+15:55:05.461 [TestNG] INFO  Resources.base -  'Uttar Pradesh' as a state is selected
+15:55:06.048 [TestNG] INFO  Resources.base - clicked on MyProfile Logo
+15:55:06.564 [TestNG] INFO  Resources.base - Selecting city at option number :623
+15:55:06.931 [TestNG] INFO  Resources.base - Navigated to correct url ie. https://dev-adityabirla.emcollab.com/#
+15:55:06.931 [TestNG] INFO  Resources.base - Error Message matched 
+15:55:06.932 [TestNG] INFO  Resources.base - Toast message Verified
+15:55:07.666 [TestNG] INFO  Resources.base - Clicked on MyProfile button
+15:55:07.746 [TestNG] INFO  Resources.base - Fetching MyProfilePage
+15:55:07.750 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with user name of 90 charecters '
+15:55:07.750 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+15:55:07.849 [TestNG] INFO  Resources.base -  Post description is inserted 
+15:55:08.359 [TestNG] INFO  Resources.base - tag is inserted 
+15:55:09.108 [TestNG] INFO  Resources.base - Intiating Method :' loginPageTestCredentials: with wrong UserName & correct Password '
+15:55:11.985 [TestNG] INFO  Resources.base - Save Draft button clicked
+15:55:12.385 [TestNG] INFO  Resources.base - Driver is initialized
+15:55:12.658 [TestNG] INFO  Resources.base - Window is maximised
+15:55:13.712 [TestNG] INFO  Resources.base - Post Description matched
+15:55:13.767 [TestNG] INFO  Resources.base - Post udate On data matched
+15:55:13.849 [TestNG] ERROR Resources.base - Error occured while fetching content of draft
+java.lang.StringIndexOutOfBoundsException: begin 0, end 120, length 119
+	at java.lang.String.checkBoundsBeginEnd(String.java:3734) ~[?:?]
+	at java.lang.String.substring(String.java:1903) ~[?:?]
+	at encollab.CreatePost.CreateLearningDraft(CreatePost.java:167) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+15:55:13.860 [TestNG] INFO  Resources.base - Initiating Method :' CreateConnectPostwithYoutubeLink '
+15:55:15.666 [TestNG] INFO  Resources.base - First name has been entered
+15:55:16.348 [TestNG] INFO  Resources.base - clicked on Connect Hub Button
+15:55:18.768 [TestNG] INFO  Resources.base - Clicked on create post button
+15:55:19.087 [TestNG] INFO  Resources.base - Last name has been entered
+15:55:19.257 [TestNG] INFO  Resources.base -  City as : ' Siddharthnagar ' is selected
+15:55:19.257 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+15:55:21.000 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with user name of >90 charecters '
+15:55:21.002 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+15:55:22.860 [TestNG] INFO  Resources.base - Post Headline Inserted
+15:55:24.108 [TestNG] INFO  Resources.base -  Country code for India Selected 
+15:55:24.861 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+15:55:24.891 [TestNG] INFO  Resources.base - Navigated to Url 
+15:55:24.900 [TestNG] INFO  Resources.base - Driver For Login Page is initialized
+15:55:24.900 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+15:55:24.981 [TestNG] INFO  Resources.base - First name has been entered as:HarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarryHarry
+15:55:25.208 [TestNG] INFO  Resources.base - Mobile Number is Updated as: ' 5808609991  '
+15:55:26.611 [TestNG] INFO  Resources.base - choice for link  is :11
+15:55:27.006 [TestNG] INFO  Resources.base - My Healine message entered
+15:55:28.792 [TestNG] INFO  Resources.base - Username entered as  hs001
+15:55:29.135 [TestNG] INFO  Resources.base - password  entered as  automation
+15:55:29.336 [TestNG] INFO  Resources.base - Clicked on login
+15:55:29.710 [TestNG] INFO  Resources.base - Last name has been entered as:SahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahaniSahani
+15:55:29.913 [TestNG] INFO  Resources.base - Save Button is disabled 
+15:55:30.401 [TestNG] INFO  Resources.base - Navigated to correct url ie. https://dev-adityabirla.emcollab.com/#
+15:55:30.402 [TestNG] INFO  Resources.base - Error Message matched 
+15:55:30.402 [TestNG] INFO  Resources.base - Toast message Verified
+15:55:31.238 [TestNG] INFO  Resources.base - toast Message Verified
+15:55:31.866 [TestNG] INFO  Resources.base -  Post description is inserted 
+15:55:33.391 [TestNG] INFO  Resources.base - Intiating Method :' loginPageTestCredentials: with wrong UserName & wrong Password '
+15:55:37.706 [TestNG] INFO  Resources.base - toast Message Verified
+15:55:37.708 [TestNG] INFO  Resources.base - Save Button has been clicked 
+15:55:37.713 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with null charecters '
+15:55:37.714 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+15:55:39.066 [TestNG] INFO  Resources.base - tag is inserted 
+15:55:39.147 [TestNG] INFO  Resources.base - First name has been entered as:
+15:55:39.333 [TestNG] INFO  Resources.base - Driver is initialized
+15:55:39.508 [TestNG] INFO  Resources.base - Last name has been entered as:
+15:55:39.567 [TestNG] INFO  Resources.base - Window is maximised
+15:55:42.786 [TestNG] INFO  Resources.base - Submit Button clicked 
+15:55:43.984 [TestNG] INFO  Resources.base - close dialog button clicked 
+15:55:44.172 [TestNG] INFO  Resources.base - Intiating Method :' updateUsername with special case charecters charecters '
+15:55:44.172 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+15:55:45.364 [TestNG] INFO  Resources.base - First name has been entered as:@#$%^
+15:55:45.399 [TestNG] ERROR Resources.base - Error occured while CompleteProfile Page is loaded 
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (664, 716)
+  (Session info: chrome=92.0.4515.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'harshits-MacBook-Air.local', ip: 'fe80:0:0:0:854:8da6:493:31d8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/mf/5d0879117zv...}, goog:chromeOptions: {debuggerAddress: localhost:50858}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4eb49c3761f5189c68a6867ab1147603
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84) ~[selenium-remote-driver-3.141.59.jar:?]
+	at encollab.NewProfile.validateNewUser(NewProfile.java:299) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+15:55:48.533 [TestNG] INFO  Resources.base - Last name has been entered as:@#$%^
+15:55:48.678 [TestNG] INFO  Resources.base - Save Button is disabled 
+15:55:48.684 [TestNG] INFO  Resources.base - FirstName and Last name do not support special charecters in respective fields
+15:55:51.270 [TestNG] INFO  Resources.base - toast Message Verified
+15:55:51.272 [TestNG] INFO  Resources.base - Save Button has been clicked 
+15:55:51.280 [TestNG] INFO  Resources.base - Intiating Method :' updateGender '
+15:55:51.670 [TestNG] INFO  Resources.base - Clicked on female radio button
+15:55:51.904 [TestNG] INFO  Resources.base - toast Message Verified
+15:55:52.825 [TestNG] ERROR Resources.base - confirmation modal didn't showed Up
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on MAC (535ef351990572d99965dcf81401ded0)] -> xpath: //div[@id='pending_row0']/div[2]/h6] (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'harshits-MacBook-Air.local', ip: 'fe80:0:0:0:854:8da6:493:31d8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/mf/5d0879117zv...}, goog:chromeOptions: {debuggerAddress: localhost:50852}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 535ef351990572d99965dcf81401ded0
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272) ~[selenium-support-3.141.59.jar:?]
+	at encollab.CreatePost.CreateConnectPostwithYoutubeLink(CreatePost.java:640) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37) [testng-6.8.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368) [testng-6.8.jar:?]
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64) [testng-6.8.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+15:55:57.204 [TestNG] INFO  Resources.base - Clicked on Male radio button
+15:55:57.437 [TestNG] INFO  Resources.base - toast Message Verified
+15:55:57.590 [TestNG] INFO  Resources.base - Initiating Method :' CreatelearningPostwithYoutubeLink '
+15:55:57.902 [TestNG] INFO  Resources.base - Navigated to Url 
+15:55:57.908 [TestNG] INFO  Resources.base - Driver For Login Page is initialized
+15:55:57.910 [TestNG] INFO  Resources.base - Dataset choice has been fetched
+15:55:57.941 [TestNG] INFO  Resources.base - Intiating Method :' validateCalender '
+15:55:58.723 [TestNG] INFO  Resources.base - Username entered as  hs001
+15:55:58.995 [TestNG] INFO  Resources.base - password  entered as  1234567
+15:55:59.297 [TestNG] INFO  Resources.base - Clicked on login
+15:56:00.761 [TestNG] INFO  Resources.base - Navigated to correct url ie. https://dev-adityabirla.emcollab.com/#
+15:56:00.761 [TestNG] INFO  Resources.base - Error Message matched 
+15:56:00.761 [TestNG] INFO  Resources.base - Toast message Verified
+15:56:01.281 [TestNG] INFO  Resources.base - Post Headline Inserted
+15:56:01.883 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+15:56:03.672 [TestNG] INFO  Resources.base - choice for link  is :3
+15:56:04.252 [TestNG] INFO  Resources.base - Youtube Submit button clicked
+15:56:07.763 [TestNG] INFO  Resources.base - Intiating Method :' validateEmailField '
+15:56:07.858 [TestNG] INFO  Resources.base - Email field is non-editable
+15:56:07.861 [TestNG] INFO  Resources.base - Intiating Method :' updateJobFunction '
+15:56:07.862 [TestNG] INFO  Resources.base - Selecting Job Function at option number :8
+15:56:08.258 [TestNG] INFO  Resources.base -  Post description is inserted 
+15:56:10.717 [TestNG] INFO  Resources.base - Intiating Method :' updateOrganization '
+15:56:10.717 [TestNG] INFO  Resources.base - Selecting organnisation at option number :4
+15:56:10.871 [TestNG] INFO  Resources.base - tag is inserted 
+15:56:13.726 [TestNG] INFO  Resources.base - Submit Button clicked 
+15:56:14.037 [TestNG] INFO  Resources.base - Intiating Method :' updateContactInfo '
+15:56:14.056 [TestNG] INFO  Resources.base - Selecting country code at option number :98
+15:56:15.506 [TestNG] INFO  Resources.base - Intiating Method :' updateLocation '
+15:56:15.756 [TestNG] INFO  Resources.base - closing browser
+15:56:15.914 [TestNG] INFO  Resources.base - close dialog button clicked 
+15:56:16.954 [TestNG] INFO  Resources.base - Intiating Method :' updateWelcomeMessage '
+15:56:18.789 [TestNG] INFO  Resources.base - Post Headline Matched
+15:56:18.880 [TestNG] INFO  Resources.base - Post description Matched
+15:56:18.914 [TestNG] INFO  Resources.base - Post Category Matched
+15:56:18.950 [TestNG] INFO  Resources.base - Post Updated On Date is matched 
+15:56:18.953 [TestNG] INFO  Resources.base - Initiating Method :' EditDraft '
+15:56:18.963 [TestNG] INFO  Resources.base - User is on My space Page 
+15:56:20.306 [TestNG] INFO  Resources.base - First Post headline is : 2021/08/02 15:55:00 This is Content saved after creating the draft which is present is my spaces section of dev build..
+15:56:20.348 [TestNG] INFO  Resources.base - First Post Description is : 2021/08/02 15:55:06content changed for draft : this is a post description body, data entered here is
+15:56:20.458 [TestNG] INFO  Resources.base - First Post Updated on : 02 August 2021
+15:56:21.840 [TestNG] INFO  Resources.base - closing browser
+15:56:23.685 [TestNG] INFO  Resources.base - Post Headline Inserted
+15:56:24.249 [TestNG] INFO  Resources.base - Sub  Headline Inserted
+15:56:26.247 [TestNG] INFO  Resources.base -  Post description is inserted 
+15:56:26.465 [TestNG] INFO  Resources.base - tag is inserted 
